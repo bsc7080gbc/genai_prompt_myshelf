@@ -9,7 +9,7 @@ Ziggy simplifies data management and automation using GitHub workflows. It handl
 
 ## Getting Started
 1. **Read the Docs**:
-   - Read `Project_MyShelf.docx` or `Project_MyShelf.pdf`.
+   - Read `Project_MyShelf.md`.
 2. **Once setups are completed**:
    - Stage `data.json` in your private repo
    - From within your private Custom GPT, retrieve and update `data.json` as needed:
