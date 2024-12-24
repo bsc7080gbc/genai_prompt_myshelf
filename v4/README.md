@@ -47,7 +47,8 @@ Improved long-term memory barrier by using GitHub repository, ensuring read/writ
 ## Links
 - [Repository](https://github.com/bsc7080gbc/genai_prompt_myshelf)
 - [Project Board](https://github.com/users/bsc7080gbc/projects/1)
-- [Short Video Demo](https://drive.google.com/file/d/10l9scfqsa1pOdL_T76dOz_NmJxbZpfbo/view?usp=drive_link)
+- [Short Video Demo (older but still a good walk through)](https://drive.google.com/file/d/10l9scfqsa1pOdL_T76dOz_NmJxbZpfbo/view?usp=drive_link)
+- [Action Plan Demo](https://drive.google.com/file/d/14wF28FchBIZ2Zv0MxqtR8SeMTxDVN9xO/view?usp=drivesdk)
 - [Prior Versions](https://github.com/bsc7080gbc/genai_prompt_myshelf/tree/main/archive)
 
 ## Feedback
