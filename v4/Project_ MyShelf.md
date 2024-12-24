@@ -26,18 +26,20 @@ Ziggy’s architecture ensures reliability, scalability, and ease of use, making
 
 Create a private repository called “MyShelf”. It is critical that the repository be a private repo given that you will be housing your personal information potentially. The structure of the repository is as follows:
 
-MyShelf /  
-|----- .github/   \# FOLDER \- Configuration and workflows directory  
-|-------- workflows  
-|------------ syncdata.yml         \# Copies updates/data.json to root path  
-|------------ archivedata.yml      \# Create archive of updates/data.json  
-|------------ purgedata.yml        \# Purges updates/data.json \*\* see note  
-|------------ rootdata\_updated.yml \# Create archive of root data.json \*\* see note  
-|----- archive/                    \# FOLDER \- Archive directory for old files  
-|----- backup/                     \# FOLDER \- Optional \- store iterations of dev changes  
-|----- context/                    \# FOLDER \- Context Session files \- experimental  
-|----- updates/                    \# FOLDER \- Inbound folder for data.json  
-|----- data.json                   \# FILE   \- Main data file
+```
+MyShelf /
+|----- .github/   # FOLDER - Configuration and workflows directory
+|-------- workflows
+|------------ syncdata.yml         # Copies updates/data.json to root path
+|------------ archivedata.yml      # Create archive of updates/data.json
+|------------ purgedata.yml        # Purges updates/data.json ** see note
+|------------ rootdata_updated.yml # Create archive of root data.json ** see note
+|----- archive/                    # FOLDER - Archive directory for old files
+|----- backup/                     # FOLDER - Optional - store iterations of dev changes
+|----- context/                    # FOLDER - Context Session files - experimental
+|----- updates/                    # FOLDER - Inbound folder for data.json
+|----- data.json                   # FILE   - Main data file
+```
 
 #### **NOTES**
 
@@ -70,7 +72,9 @@ Next note your client id. Generate a client secret \- put that some place safe. 
 
 Use the webhook.site to collect your code, and then run the the following API to get your access token. Store the Access Token in the private repository action secret called MYSHELF. Your workflows will need this.
 
-curl \-X POST https://github.com/login/oauth/access\_token \-d "client\_id=\[CLIENT\_ID\]" \-d "client\_secret=\[CLIENT\_SECRET\]" \-d "code=\[CODE FROM WEBHOOK.SITE\]" \-H "Accept: application/json"
+```
+curl -X POST https://github.com/login/oauth/access_token -d "client_id=[CLIENT_ID]" -d "client_secret=[CLIENT_SECRET]" -d "code=[CODE FROM WEBHOOK.SITE]" -H "Accept: application/json"
+```
 
 You should get a response back that contains your access token that you will use.
 
@@ -1347,11 +1351,11 @@ Other actions are certainly possible.
 
 Here's an example of a `curl` command to trigger an IFTTT webhook event:
 
-curl \-X POST https://maker.ifttt.com/trigger/{event\_name}/with/key/{your\_ifttt\_key} \\
-
-     \-H "Content-Type: application/json" \\
-
-     \-d '{"value1":"example\_value1","value2":"example\_value2","value3":"example\_value3"}'
+```
+curl -X POST https://maker.ifttt.com/trigger/{event_name}/with/key/{your_ifttt_key} \
+     -H "Content-Type: application/json" \
+     -d '{"value1":"example_value1","value2":"example_value2","value3":"example_value3"}'
+```
 
 In this example:
 
@@ -1376,43 +1380,28 @@ Adding gamification features like a point system, progress badges, and levels is
      * Define point categories, badge types, and level thresholds in `core.json`.
 
 Example:  
+```
  {
-
   "Gamification": {
-
     "Points": {
-
       "TaskCompletion": 10,
-
       "MilestoneAchievement": 50,
-
       "StreakBonus": 100
-
     },
-
     "Badges": {
-
       "Starter": "Earned 100 points",
-
       "Achiever": "Completed 50 tasks",
-
       "StreakMaster": "Maintained a streak for 30 days"
-
     },
-
     "Levels": {
-
       "Level1": "0-999 points",
-
       "Level2": "1000-4999 points",
-
       "Level3": "5000+ points"
-
     }
-
   }
-
 }
+
+```
 
 *   
 2. **Knowledge (For Enriched Responses)**
@@ -1460,19 +1449,16 @@ Each task completion awards 10 points. Notify users of milestones.
    * Build a simple points and badge tracker tied to user activities (stored in `data.json` or a similar dynamic storage).
 
 Example:  
- {
 
+```
+{
   "UserProgress": {
-
     "Points": 1250,
-
     "Badges": \["Starter", "Achiever"\],
-
     "Streak": 15
-
   }
-
 }
+```
 
 2. **Gamification Logic**:
 
