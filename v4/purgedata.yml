@@ -1,0 +1,97 @@
+name: purgedata
+
+on:
+  workflow_run:
+    workflows:
+      - archivedata
+    types:
+      - completed
+  workflow_dispatch: # Enable manual triggering
+
+permissions:
+  contents: write
+  issues: write  # Required for creating GitHub Issues on failure
+
+jobs:
+  delete-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository with full history
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch full repository history to avoid issues with shallow clones
+
+      # Step 2: Set up Git with PAT
+      - name: Set up Git with PAT
+        run: |
+          git config user.name "Ziggy[bot]"
+          git config user.email "ziggy@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Delete the specified file
+      - name: Delete specific file
+        run: |
+          FILE_PATH="updates/data.json"
+          echo "Attempting to delete file: $FILE_PATH..." >> purgedata-error-log.txt
+          if [ -f "$FILE_PATH" ]; then
+            git rm "$FILE_PATH" >> purgedata-error-log.txt 2>&1 || { 
+              echo "Error removing file: $FILE_PATH" >> purgedata-error-log.txt; 
+              exit 1; 
+            }
+            git commit -m "Remove $FILE_PATH" >> purgedata-error-log.txt 2>&1 || {
+              echo "Error committing file removal: $FILE_PATH" >> purgedata-error-log.txt;
+              exit 1;
+            }
+          else
+            echo "File does not exist: $FILE_PATH" >> purgedata-error-log.txt
+            exit 0 # Prevents failure if the file doesn't exist
+          fi
+
+      # Step 4: Cleanup old files in the updates folder
+      - name: Cleanup Updates Path
+        run: |
+          UPDATES_PATH="updates/"
+          echo "Cleaning up files in updates path: $UPDATES_PATH..." >> purgedata-error-log.txt
+          if [ -d "$UPDATES_PATH" ]; then
+            FILE_COUNT=$(find "$UPDATES_PATH" -type f -mtime +30 | wc -l)
+            if ! find "$UPDATES_PATH" -type f -mtime +30 -exec rm -f {} \;; then
+              echo "Error: Failed to clean up files in updates path." >> purgedata-error-log.txt
+              exit 1
+            fi
+            echo "Updates path cleanup completed. Removed $FILE_COUNT files older than 30 days from $UPDATES_PATH." >> purgedata-error-log.txt
+          else
+            echo "Updates path $UPDATES_PATH does not exist. Skipping cleanup." >> purgedata-error-log.txt
+          fi
+
+      # Step 5: Push changes to the repository
+      - name: Push Changes
+        run: |
+          echo "Attempting to push changes to main branch..." >> purgedata-error-log.txt
+          if ! git push origin main >> purgedata-error-log.txt 2>&1; then
+            echo "Failed to push changes to main branch. Check repository permissions or conflicts." >> purgedata-error-log.txt
+            exit 1
+          fi
+
+      # Step 6: Confirm file deletion
+      - name: Confirm file deletion
+        run: |
+          FILE_PATH="updates/data.json"
+          echo "Checking if file $FILE_PATH has been deleted..." >> purgedata-error-log.txt
+          git fetch origin main >> purgedata-error-log.txt 2>&1
+          if git ls-tree --name-only origin/main | grep -q "$FILE_PATH"; then
+            echo "File deletion failed: $FILE_PATH still exists in the main branch." >> purgedata-error-log.txt
+            exit 1
+          else
+            echo "File successfully deleted: $FILE_PATH" >> purgedata-error-log.txt
+          fi
+
+      # Step 7: Notify via GitHub Issues on failure
+      - name: Notify via GitHub Issues
+        if: failure()  # Executes only if any of the previous steps fail
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Purge Data Failure
+          content-filepath: ./purgedata-error-log.txt
+          labels: bug
