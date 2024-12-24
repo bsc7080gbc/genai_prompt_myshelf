@@ -15,6 +15,8 @@ Ziggy simplifies data management and automation using GitHub workflows. It handl
    - From within your private Custom GPT, retrieve and update `data.json` as needed:
      ```
      retrieve data.json from remote root path=data.json
+     ```
+     ```
      add "quantum computer" to groceries list. publish to remote. path=updates/data.json
      ```
 
