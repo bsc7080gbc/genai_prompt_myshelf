@@ -16,7 +16,7 @@ What other enhancements can you think of? Would there be a way to have a "Remind
 
 generate a advanced prompt that I can use within ChatGPT to accomplish this game using ChatGPT only. You may leverage any available internal tools that you have available. You may also retrieve information from websites as you are not restricted to your training alone.
 
-...at which point it generated a prompt which is prompt.v0 - later after working with it more, it evolve to v1 > v2 > v3.
+...at which point it generated a prompt which is prompt.v0 - later after working with it more, it evolve to v1 > v2 > v3...BIG SUCCESS !! Version 4. CHECK IT OUT! HUGE!
 
 note: one good improvement would be solve storage of the JSON files in v3. Github repo? DB?Basically some place where you could have read/write access. This would solve long term memory.
 
