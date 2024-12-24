@@ -1,0 +1,67 @@
+name: syncdata
+
+on:
+  push:
+    paths:
+      - 'updates/data.json'
+  workflow_dispatch: # Enable manual triggering
+
+permissions:
+  contents: write
+  issues: write  # Required for creating issues in case of failure
+
+jobs:
+  syncdata:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.MYSHELF }}
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Ziggy[bot]"
+          git config user.email "ziggy@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Update the root data.json file
+      - name: Update data.json
+        run: |
+          if [ ! -f "updates/data.json" ]; then
+            echo "Error: updates/data.json not found. Cannot update data.json." > syncdata-error-log.txt
+            exit 1
+          fi
+          cp "updates/data.json" data.json
+          echo "Updated data.json from updates/data.json." >> syncdata-error-log.txt
+
+      # Step 4: Commit and Push Changes to the Main Branch
+      - name: Commit and Push Changes
+        run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          if ! git add data.json; then
+            echo "Error adding data.json to git." > syncdata-error-log.txt
+            exit 1
+          fi
+          if ! git commit -m "Sync data.json to main branch on $TIMESTAMP"; then
+            echo "Error committing changes for data.json." > syncdata-error-log.txt
+            exit 1
+          fi
+          if ! git push origin main; then
+            echo "Push failed. Check repository permissions or branch protection rules." > syncdata-error-log.txt
+            exit 1
+          fi
+          echo "Successfully pushed data.json to the main branch." >> syncdata-error-log.txt
+
+      # Step 5: Notify via GitHub Issues on Failure
+      - name: Notify via GitHub Issues
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Data Sync Failure
+          content-filepath: ./syncdata-error-log.txt
+          labels: bug

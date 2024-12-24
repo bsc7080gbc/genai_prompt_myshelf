@@ -1,0 +1,90 @@
+ name: rootdata_updated
+
+on:
+  workflow_dispatch: # Enable manual triggering
+
+jobs:
+  archive_and_backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository with full history
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch full repository history for proper file handling
+          token: ${{ secrets.MYSHELF }}
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Lyra[bot]"
+          git config user.email "lyra@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Pre-Update Backup of data.json
+      - name: Backup Current data.json
+        run: |
+          if [ -f data.json ]; then
+            mkdir -p archive
+            TIMESTAMP=$(date -u +"%Y-%m-%dT%H.%M.%S")
+            ARCHIVE_FILE="archive/data.json.$TIMESTAMP"
+            cp data.json "$ARCHIVE_FILE"
+            echo "Archived current data.json as $ARCHIVE_FILE before update." >> rootdata-error-log.txt
+          else
+            echo "Error: Root data.json file not found for pre-update backup." >> rootdata-error-log.txt
+            exit 1
+          fi
+
+      # Step 4: Cleanup old backups in the archive folder
+      - name: Cleanup Old Backups
+        run: |
+          echo "Cleaning up archive files older than 30 days..." >> rootdata-error-log.txt
+          FILE_COUNT=$(find archive -type f -mtime +30 | wc -l)
+          if ! find archive -type f -mtime +30 -exec rm -f {} \;; then
+            echo "Error: Failed to clean up archive files." >> rootdata-error-log.txt
+            exit 1
+          fi
+          echo "Cleanup completed. Removed $FILE_COUNT files older than 30 days." >> rootdata-error-log.txt
+
+      # Step 5: Cleanup old files in the context folder
+      - name: Cleanup Context Path
+        run: |
+          CONTEXT_PATH="context/"
+          echo "Cleaning up files in context path: $CONTEXT_PATH..." >> rootdata-error-log.txt
+          if [ -d "$CONTEXT_PATH" ]; then
+            FILE_COUNT=$(find "$CONTEXT_PATH" -type f -mtime +30 | wc -l)
+            if ! find "$CONTEXT_PATH" -type f -mtime +30 -exec rm -f {} \;; then
+              echo "Error: Failed to clean up context files." >> rootdata-error-log.txt
+              exit 1
+            fi
+            echo "Context cleanup completed. Removed $FILE_COUNT files older than 30 days." >> rootdata-error-log.txt
+          else
+            echo "Context path $CONTEXT_PATH does not exist. Skipping cleanup." >> rootdata-error-log.txt
+          fi
+
+      # Step 6: Commit and Push Changes
+      - name: Commit and Push Changes
+        run: |
+          if ! git add archive/ context/; then
+            echo "Error adding files to git." >> rootdata-error-log.txt
+            exit 1
+          fi
+          if ! git commit -m "Backup: Archived root data.json and cleaned up old files"; then
+            echo "Error committing changes to git." >> rootdata-error-log.txt
+            exit 1
+          fi
+          if ! git push origin main; then
+            echo "Error pushing changes to main branch. Check repository permissions." >> rootdata-error-log.txt
+            exit 1
+          fi
+          echo "Successfully committed and pushed changes." >> rootdata-error-log.txt
+
+      # Step 7: Notify via GitHub Issues if any step fails
+      - name: Notify via GitHub Issues
+        if: failure()  # Executes only if any of the previous steps fail
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Root Data Update Failure
+          content-filepath: ./rootdata-error-log.txt
+          labels: bug
