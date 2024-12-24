@@ -9,7 +9,7 @@ In short, think "Jarvis" ...but on a budget.
 
 # Ziggy: Data Automation System
 
-Ziggy simplifies data management and automation using GitHub workflows. It handles tasks like syncing, archiving, and cleanup while maintaining flexibility for custom workflows. Powered by a private GPT setup, it ensures reliability without databases or middleware.
+Ziggy simplifies data management and automation using GitHub workflows. It handles tasks like syncing, archiving, and cleanup while maintaining flexibility for custom workflows. Powered by your Custom GPT setup, it ensures reliability without databases or middleware.
 
 ## Features
 - **Voice-Activated Interaction**: Engage with MyShelf using voice commands - courtesty of ChatGPT.
