@@ -32,7 +32,7 @@ Improved long-term memory barrier by using GitHub repository, ensuring read/writ
 
 ## Getting Started
 1. **Read the Docs**:
-   - Read `Project_MyShelf.md`.
+   - Read [Project_MyShelf.md](https://github.com/bsc7080gbc/genai_prompt_myshelf/blob/bsc7080gbc-patch-1/v4/Project_%20MyShelf.md)
 2. **Once setups are completed**:
    - Stage `data.json` in your private repo
    - From within your private Custom GPT, retrieve and update `data.json` as needed:
