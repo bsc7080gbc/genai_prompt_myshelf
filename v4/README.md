@@ -19,6 +19,7 @@ Ziggy simplifies data management and automation using GitHub workflows. It handl
      ```
      add "quantum computer" to groceries list. publish to remote. path=updates/data.json
      ```
+   - Add reminders, add new 'boxes' for organization. Experiment. 
 
 ## Links
 - [Repository](https://github.com/bsc7080gbc/genai_prompt_myshelf)
