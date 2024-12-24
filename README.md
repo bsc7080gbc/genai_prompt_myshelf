@@ -23,8 +23,7 @@ In short, think "Jarvis" ...but on a budget.
 Improved long-term memory barrier by using GitHub repository, ensuring read/write access and data persistence.
 
 ## Getting Started
-To start using MyShelf:
-1. Read the manual
+To start using MyShelf - start with review information on version 4 [here](https://github.com/bsc7080gbc/genai_prompt_myshelf/blob/bsc7080gbc-patch-1/v4/README.md)
 
 ## Feedback
 Your feedback is invaluable to us. Please submit any feedback, issues, or feature requests through the GitHub issues page or contact us directly.
