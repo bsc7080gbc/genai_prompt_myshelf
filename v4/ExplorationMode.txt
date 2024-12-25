@@ -21,8 +21,8 @@ Exploration Mode sparks curiosity and encourages users to learn and discover new
 
 ### Example Use Case
 - **Scenario**: You want to unwind by learning something unique.
-- Ask: "Lyra, tell me a fascinating fact about ancient Egypt."
-- Lyra responds with a captivating tidbit or resource.
+- Ask: "Tell me a fascinating fact about ancient Egypt."
+- Responds with a captivating tidbit or resource.
 
 ### Notes and Best Practices
 - Exploration Mode pairs well with Learning Mode for structured discovery.
