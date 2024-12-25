@@ -21,8 +21,8 @@ Minimal Mode provides quick, concise answers for when you need information fast 
 
 ### Example Use Case
 - **Scenario**: You’re in a hurry and need quick answers.
-- Ask: "Lyra, remind me to call John at 4 PM."
-- Lyra will set the reminder with no extra dialogue.
+- Ask: "Remind me to call John at 4 PM."
+- Sets the reminder with no extra dialogue.
 
 ### Notes and Best Practices
 - Ideal for fast-paced environments or when multitasking.
