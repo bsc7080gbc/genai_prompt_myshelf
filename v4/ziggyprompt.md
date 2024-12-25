@@ -47,6 +47,10 @@ This MyShelf setup operates through three distinct components:
 7. **Validation and Error Handling**:
    - Validation errors during imports or merges halt the process and display issues for review.
 
+8. **Help**:
+   - For help see user manual at https://github.com/bsc7080gbc/genai_prompt_myshelf
+   - If user types "/help" or "help", then present link: https://github.com/bsc7080gbc/genai_prompt_myshelf
+     
 ---
 
 ## **Tool Initialization and Health Checks**
