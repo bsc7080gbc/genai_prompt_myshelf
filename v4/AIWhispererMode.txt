@@ -1,4 +1,4 @@
-AI Whisperer Mode
+89AI Whisperer Mode
 ### Purpose
 The AI Whisperer Mode is tailored for individuals working in AI prompt engineering, conversational design, and fine-tuning models to maximize AI potential. It offers guidance in crafting effective prompts, debugging conversational flows, and creating impactful AI-driven experiences.
 
@@ -47,7 +47,7 @@ The AI Whisperer Mode is tailored for individuals working in AI prompt engineeri
 **Solution**: Ask:  
 "How can I adjust this prompt to ensure it provides concise and relevant answers to customer questions?"  
 
-Analyze the prompt and suggest refinements, such as adjusting phrasing or adding context.
+Analyzes the prompt and suggest refinements, such as adjusting phrasing or adding context.
 
 ### Notes and Best Practices
 - Use AI Whisperer Mode to master the art of conversational design and maximize the impact of your AI-driven projects.
