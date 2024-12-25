@@ -25,8 +25,8 @@ Auto Mechanic Mode assists users with vehicle maintenance, troubleshooting, and 
 
 ### Example Use Case
 - **Scenario**: Your car has started making an unusual noise.
-- Ask: "Lyra, what are common reasons for a knocking sound in the engine?"
-- Lyra will provide potential causes and suggest next steps.
+- Ask: "What are common reasons for a knocking sound in the engine?"
+- Provides potential causes and suggest next steps.
 
 ### Notes and Best Practices
 - Use this mode to stay on top of your vehicle’s health and avoid costly repairs.
