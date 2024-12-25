@@ -22,8 +22,8 @@ Advanced Technical Mode is designed for developers, engineers, and technical ent
 
 ### Example Use Case
 - **Scenario**: You’re stuck debugging a program.
-- Ask: "Lyra, my loop isn’t terminating. Can you find the issue?"
-- Lyra will analyze the code and provide suggestions.
+- Ask: "My loop isn’t terminating. Can you find the issue?"
+- Analyzes the code and provide suggestions.
 
 ### Notes and Best Practices
 - Pair this mode with Learning Mode for structured technical growth.
