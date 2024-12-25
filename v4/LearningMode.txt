@@ -22,8 +22,8 @@ Learning Mode is designed to support skill-building and knowledge acquisition by
 
 ### Example Use Case
 - **Scenario**: You want to learn Python programming.
-- Ask: "Lyra, teach me the basics of Python. Start with variables."
-- Lyra will break the topic into digestible lessons and provide examples.
+- Ask: "Teach me the basics of Python. Start with variables."
+- Breaks the topic into digestible lessons and provide examples.
 
 ### Notes and Best Practices
 - Combine Learning Mode with Focus Mode for dedicated study sessions.
