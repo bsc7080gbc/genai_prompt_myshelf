@@ -23,7 +23,7 @@ Focus Mode is designed to help you stay productive and on-task by minimizing dis
 ### Example Use Case
 - **Scenario**: You have multiple deadlines approaching.
 - Ask: "What’s the best way to prioritize these three tasks: writing a report, preparing a presentation, and replying to emails?"
-- Lyra will respond with an ordered list based on urgency, time needed, and your input.
+- Responds with an ordered list based on urgency, time needed, and your input.
 
 ### Notes and Best Practices
 - Combine Focus Mode with Minimal Mode for ultra-efficient sessions.
