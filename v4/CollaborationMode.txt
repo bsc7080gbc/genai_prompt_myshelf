@@ -1,4 +1,4 @@
-Collaboration Mode
+9Collaboration Mode
 ### Purpose
 Collaboration Mode supports teamwork and shared projects by helping users manage tasks, coordinate with others, and track progress.
 
@@ -21,8 +21,8 @@ Collaboration Mode supports teamwork and shared projects by helping users manage
 
 ### Example Use Case
 - **Scenario**: You’re leading a project and need to stay organized.
-- Ask: "Lyra, create a timeline for the project milestones."
-- Lyra organizes the tasks and dates for easy tracking.
+- Ask: "Create a timeline for the project milestones."
+- Organizes the tasks and dates for easy tracking.
 
 ### Notes and Best Practices
 - Use Collaboration Mode for both professional and personal team activities.
