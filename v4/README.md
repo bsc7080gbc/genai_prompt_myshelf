@@ -6,6 +6,10 @@ MyShelf is a dynamic GenAI utility designed to enhance personal organization. It
 In short, think "Jarvis" ...but on a budget.
 
 ---
+**Read the Docs**:
+   - [![User Manual](https://img.shields.io/badge/user%20manual-8A2BE2)](https://github.com/bsc7080gbc/genai_prompt_myshelf/wiki)
+     - This manual provides instructions, feature overviews, and breakdowns of how this all works to help you get the most out of "MyShelf".
+---
 
 # Ziggy: Data Automation System
 
@@ -29,9 +33,3 @@ Ziggy simplifies data management and automation using GitHub workflows. It handl
 
 ## Storage Solution
 Improved long-term memory barrier by using GitHub repository, ensuring read/write access and data persistence.
-
-## Getting Started
-
-**Read the Docs**:
-   - [![User Manual](https://img.shields.io/badge/user%20manual-8A2BE2)](https://github.com/bsc7080gbc/genai_prompt_myshelf/wiki)
-     - This manual provides instructions, feature overviews, and breakdowns of how this all works to help you get the most out of "MyShelf".
