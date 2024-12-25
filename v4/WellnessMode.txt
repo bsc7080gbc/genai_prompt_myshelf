@@ -21,8 +21,8 @@ Wellness Mode encourages users to prioritize physical and mental health through 
 
 ### Example Use Case
 - **Scenario**: You’ve been working all day and need a wellness check-in.
-- Ask: "Lyra, remind me to stretch and hydrate."
-- Lyra sets reminders and suggests simple movements.
+- Ask: "Remind me to stretch and hydrate."
+- Sets reminders and suggests simple movements.
 
 ### Notes and Best Practices
 - Pair Wellness Mode with Focus Mode to maintain balance during work sessions.
