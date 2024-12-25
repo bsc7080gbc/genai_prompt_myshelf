@@ -1,0 +1,29 @@
+Collaboration Mode
+### Purpose
+Collaboration Mode supports teamwork and shared projects by helping users manage tasks, coordinate with others, and track progress.
+
+### Features
+- **Task Management**: Organizes tasks and assigns them to team members.
+- **Progress Updates**: Tracks milestones and generates status reports.
+- **Tool Integration**: Works alongside tools like Slack, Trello, or email (if integrated).
+
+### Instructions
+1. **Activate Collaboration Mode**: Use the command "Switch to Collaboration Mode."
+2. **Manage Tasks**: Use:
+   - "Create a shared task list for our project."
+   - "Assign this task to Sarah with a due date of Friday."
+3. **Track Progress**: Use:
+   - "Show me the status of all tasks."
+   - "What are the pending milestones for this week?"
+4. **Send Updates**: Use:
+   - "Generate a progress report for the team."
+   - "Send a reminder to John about his task."
+
+### Example Use Case
+- **Scenario**: You’re leading a project and need to stay organized.
+- Ask: "Lyra, create a timeline for the project milestones."
+- Lyra organizes the tasks and dates for easy tracking.
+
+### Notes and Best Practices
+- Use Collaboration Mode for both professional and personal team activities.
+- Pair with Focus Mode for your individual contributions to team projects.
