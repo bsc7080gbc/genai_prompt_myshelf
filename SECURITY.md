@@ -18,7 +18,7 @@ The following table lists the versions of MyShelf currently supported with secur
 If you discover a security vulnerability in MyShelf, please follow these steps:
 
 1. **Contact Us**: Report the issue via:
-   - Discussion forum [Security Notifications](https://github.com/bsc7080gbc/genai_prompt_myshelf/discussions/categories/security-notifications)
+   - Repository [Security Advisory Report](https://github.com/bsc7080gbc/genai_prompt_myshelf/security/advisories)
    
 2. **Provide Details**:
    - A detailed description of the issue.
