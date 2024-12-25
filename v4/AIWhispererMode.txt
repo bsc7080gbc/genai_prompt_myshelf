@@ -45,8 +45,9 @@ The AI Whisperer Mode is tailored for individuals working in AI prompt engineeri
 #### Scenario: Refining a Prompt for Customer Support
 **Problem**: Your AI frequently gives irrelevant responses to customer queries.  
 **Solution**: Ask:  
-"Lyra, how can I adjust this prompt to ensure it provides concise and relevant answers to customer questions?"  
-Lyra will analyze the prompt and suggest refinements, such as adjusting phrasing or adding context.
+"How can I adjust this prompt to ensure it provides concise and relevant answers to customer questions?"  
+
+Analyze the prompt and suggest refinements, such as adjusting phrasing or adding context.
 
 ### Notes and Best Practices
 - Use AI Whisperer Mode to master the art of conversational design and maximize the impact of your AI-driven projects.
