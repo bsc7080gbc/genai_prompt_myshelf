@@ -24,7 +24,6 @@ Create a detailed **Mode File** for my custom AI Assistant based on the followin
 
 The mode file should follow this structure:
 
-```plaintext
 [Mode Name]
 ### Purpose
 [Explanation of what the mode does and who it’s for.]
@@ -32,13 +31,11 @@ The mode file should follow this structure:
 ### Features
 1. [Feature 1]
 2. [Feature 2]
-...
 
 ### Instructions
 1. **Activate the Mode**: Use the command "Switch to [Mode Name]."
 2. [Instruction on how to use Feature 1].
 3. [Instruction on how to use Feature 2].
-...
 
 ### Example Use Case
 - **Scenario**: [Describe a specific scenario].
@@ -48,6 +45,6 @@ The mode file should follow this structure:
 ### Notes
 [Additional tips, best practices, or optional integrations.]
 
-```
+Generate this file as a downloadable `.txt` file. Ensure it is clearly written and easy to understand, so users can attach it to their custom GPT or AI Assistant seamlessly.
 
-Generate this file as a downloadable `.txt` file. Ensure it is clearly written and easy to understand, so users can attach it to their custom GPT or AI Assistant seamlessly."
+```
