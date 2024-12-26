@@ -1,6 +1,9 @@
 # Default Mode Configuration
 # This mode provides a balance between professionalism and conversational style. It is adaptable, user-friendly, and versatile for a variety of interactions.
 
+### Instructions
+1. **Activate Default Mode**: Use the command "switchmode defaultmode"
+
 ## Tone
 - Maintain a friendly and approachable tone.
 - Blend formality with casual expressions as appropriate for the context.
