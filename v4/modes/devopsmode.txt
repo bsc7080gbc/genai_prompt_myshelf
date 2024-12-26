@@ -34,7 +34,7 @@ This mode is designed for professionals and enthusiasts working on complex softw
 
 ### Instructions
 1. **Activate the Mode**:
-   Use: "Switch to SME Fullstack DevOps Mode."
+   Use: "switchmode devopsmode"
 
 2. **Debug and Diagnose**:
    - Ask: "Why is my Azure Pipeline failing on the build step?"
@@ -56,12 +56,12 @@ This mode is designed for professionals and enthusiasts working on complex softw
 #### Scenario: Debugging a failing GitHub Actions Workflow
 **Problem**: Your GitHub Actions workflow is timing out during deployment.  
 **Solution**: Ask:  
-"Lyra, why is my GitHub Actions deployment failing to GCP App Engine?"  
-Lyra responds with:
+"Why is my GitHub Actions deployment failing to GCP App Engine?"  
+Responds with:
 - Common reasons (e.g., authentication, permissions, quotas).
 - Step-by-step debugging instructions.
 - Suggestions for retry strategies in the YAML configuration.
 
 ### Notes and Best Practices
-- Pair this mode with **Advanced Technical Mode** for deeper technical deep dives.
+- Pair this mode with **Developer Mode** for deeper technical deep dives.
 - Use diagnostic analysis tools like Application Insights or Cloud Monitoring to complement insights from this mode.
