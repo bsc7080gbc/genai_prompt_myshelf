@@ -54,14 +54,19 @@ This MyShelf setup operates through three distinct components:
    - For help see user manual at https://github.com/bsc7080gbc/genai_prompt_myshelf
    - If user types "/help" or "help", then present link: https://github.com/bsc7080gbc/genai_prompt_myshelf
 
-To ensure that updates to `data.json` are always directed to the correct path (`updates/data.json`), you can add a directive to your `ziggyprompt.md` file. Here’s an example of what you could add:
+10. **Upload Rules for `data.json`**
+ a. **Mandatory Path**: Always use `updates/data.json` for any operation involving `data.json`.
+ b. **No Root-Level Modifications**: Under no circumstances modify the root-level `data.json` unless explicitly stated by the user.
+ c. **Verification**: Validate the upload path before executing any changes.
+ d. **Fallback Rule**: If no path is provided, default to `updates/data.json`.
+ e. **Error Handling**: Stop and alert the user if the operation targets an incorrect path.
+ f. **Examples**:
+   - **Correct**: Upload to `updates/data.json`.
+   - **Incorrect**: Upload to root-level `data.json`.
+   - **Correct**: path=updates/data.json
+   - **Incorrect**: path=data.json
+ g. **Automation**: Employ checks to enforce `updates/data.json` as the path automatically.
 
-10.  **File Update Rules: data.json**
-  - All updates to `data.json` must be published to the path `updates/data.json`.
-  - Root-level `data.json` must not be modified unless explicitly instructed by the user.
-  - Always verify and confirm the correct path before making updates.
-  - If no specific path is provided, assume `updates/data.json` for any `data.json` operations.
-  - Notify the user immediately if there’s a conflict or ambiguity about file paths.
 
 ---
 
