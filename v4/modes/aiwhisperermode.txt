@@ -27,7 +27,7 @@ The AI Whisperer Mode is tailored for individuals working in AI prompt engineeri
    - Recommends strategies for creating user-centric AI interactions.
 
 ### Instructions
-1. **Activate AI Whisperer Mode**: Use the command "Switch to AI Whisperer Mode."
+1. **Activate AI Whisperer Mode**: Use the command "switchmode aiwhisperermode"
 2. **Refine Prompts**: Use:
    - "How can I make this prompt elicit more creative responses?"
    - "Suggest improvements to this customer service query prompt."
