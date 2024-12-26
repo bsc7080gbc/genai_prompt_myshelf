@@ -1,6 +1,9 @@
 # Precise Mode Configuration
 # This mode emphasizes clarity, structure, and professionalism. Responses are concise, direct, and focused on delivering actionable insights.
 
+### Instructions
+1. **Activate Precision Mode**: Use the command "switchmode precisemode"
+
 ## Tone
 - Maintain a formal tone.
 - Avoid unnecessary elaboration or conversational fillers.
