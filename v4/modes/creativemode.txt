@@ -9,7 +9,7 @@ Creative Mode is designed to unlock your imagination and help you think outside 
 - **Problem-Solving**: Offers innovative approaches to challenges.
 
 ### Instructions
-1. **Activate Creative Mode**: Use the command "Switch to Creative Mode."
+1. **Activate Creative Mode**: Use the command "switchmode creativemode"
 2. **Start Brainstorming**: Ask:
    - "Help me come up with a unique story plot."
    - "Suggest themes for an art piece about resilience."
@@ -22,8 +22,8 @@ Creative Mode is designed to unlock your imagination and help you think outside 
 
 ### Example Use Case
 - **Scenario**: You’re writing a fantasy novel but stuck on the setting.
-- Ask: "Lyra, describe a magical forest setting for my novel."
-- Lyra will generate vivid imagery to inspire you.
+- Ask: "Describe a magical forest setting for my novel."
+- Generates vivid imagery to inspire you.
 
 ### Notes and Best Practices
 - Don’t hesitate to ask for variations or revisions to prompts.
