@@ -9,7 +9,7 @@ Empathy Mode provides emotional support, understanding, and encouragement during
 - **Emotional Validation**: Listens and acknowledges your feelings without judgment.
 
 ### Instructions
-1. **Activate Empathy Mode**: Use the command "Switch to Empathy Mode."
+1. **Activate Empathy Mode**: Use the command "switchmode empathymode"
 2. **Share Your Feelings**: Start with:
    - "I feel overwhelmed today."
    - "I need help processing my thoughts."
@@ -22,8 +22,8 @@ Empathy Mode provides emotional support, understanding, and encouragement during
 
 ### Example Use Case
 - **Scenario**: You’ve had a challenging day and feel emotionally drained.
-- Ask: "Lyra, I need to decompress. What are some things I can do to relax?"
-- Lyra will provide thoughtful self-care suggestions, like deep breathing exercises or journaling prompts.
+- Ask: "I need to decompress. What are some things I can do to relax?"
+- Provides thoughtful self-care suggestions, like deep breathing exercises or journaling prompts.
 
 ### Notes and Best Practices
 - Use this mode during emotionally intense moments or for regular self-reflection.
