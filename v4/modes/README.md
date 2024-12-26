@@ -38,101 +38,101 @@ Each mode is a customizable configuration that adapts the assistant's behavior, 
 ### List of Modes
 
 #### 1. aiwhisperermode.txt
- - Summary: Focuses on prompt engineering, debugging conversational flows, and optimizing AI solutions.
- - Good Pairing: Pair with devopsmode.txt for technical projects involving AI integration.
+ - **Summary**: Focuses on prompt engineering, debugging conversational flows, and optimizing AI solutions.
+ - **Good Pairing**: Pair with devopsmode.txt for technical projects involving AI integration.
 
 #### 2. automechanicmode.txt
- - Summary: Assists with vehicle maintenance, troubleshooting, and repair tracking.
- - Good Pairing: Pair with reflectionmode.txt for tracking and planning long-term car care.
+ - **Summary**: Assists with vehicle maintenance, troubleshooting, and repair tracking.
+ - **Good Pairing**: Pair with reflectionmode.txt for tracking and planning long-term car care.
 
-#### 3. cookingmode.txt
- - Summary: Provides recipes, cooking tips, and meal planning guidance.
- - Good Pairing: Pair with wellnessmode.txt for balanced meal suggestions.
+#### 3. carlsaganmode.txt
+ - **Summary**: Explores the cosmos, humanity, and the interconnectedness of life with poetic wonder and scientific insight.
+ - **Good Pairing**: Pair with learnmode.txt for structured exploration of science and philosophy.
 
-#### 4. creativemode.txt
- - Summary: Enhances brainstorming, storytelling, and problem-solving.
- - Good Pairing: Pair with playfulmode.txt to inject humor and inspiration into creative projects.
+#### 4. cookingmode.txt
+ - **Summary**: Provides recipes, cooking tips, and meal planning guidance.
+ - **Good Pairing**: Pair with wellnessmode.txt for balanced meal suggestions.
 
-#### 5. defaultmode.txt
- - Summary: A general-purpose mode for standard AI interactions.
- - Good Pairing: Works standalone but supports all modes.
+#### 5. cornholiomode.txt
+ - **Summary**: Adopts personality the likes of Beavis & Butthead.
+ - **Good Pairing**: Pair with anything for some added humor or go it alone.
 
-#### 6. devmode.txt
- - Summary: A technical mode for debugging and testing new features.
- - Good Pairing: Pair with focusmode.txt to stay on task during development.
+#### 6. creativemode.txt
+ - **Summary**: Enhances brainstorming, storytelling, and problem-solving.
+ - **Good Pairing**: Pair with playfulmode.txt to inject humor and inspiration into creative projects.
 
-#### 7. devopsmode.txt
- - Summary: Guides CI/CD pipelines, cloud solutions, and infrastructure optimization.
- - Good Pairing: Pair with aiwhisperermode.txt for AI-related DevOps workflows.
+#### 7. defaultmode.txt
+ - **Summary**: A general-purpose mode for standard AI interactions.
+ - **Good Pairing**: Works standalone but supports all modes.
 
-#### 8. diymode.txt
- - Summary: Provides step-by-step instructions for home improvement and repairs.
- - Good Pairing: Pair with focusmode.txt for organized project execution.
+#### 8. devmode.txt
+ - **Summary**: A technical mode for debugging and testing new features.
+ - **Good Pairing**: Pair with focusmode.txt to stay on task during development.
 
-#### 9. empathymode.txt
- - Summary: Offers emotional support and mindfulness practices.
- - Good Pairing: Pair with reflectionmode.txt for deeper introspection.
+#### 9. devopsmode.txt
+ - **Summary**: Guides CI/CD pipelines, cloud solutions, and infrastructure optimization.
+ - **Good Pairing**: Pair with aiwhisperermode.txt for AI-related DevOps workflows.
 
-#### 10. eventplannermode.txt
- - Summary: Simplifies event planning, including task tracking and budgeting.
- - Good Pairing: Pair with devopsmode.txt for complex event logistics.
+#### 10. diymode.txt
+ - **Summary**: Provides step-by-step instructions for home improvement and repairs.
+ - **Good Pairing**: Pair with focusmode.txt for organized project execution.
 
-#### 11. explorermode.txt
- - Summary: Sparks curiosity with fun facts, random discoveries, and hobby ideas.
- - Good Pairing: Pair with learnmode.txt for structured exploration.
+#### 11. eli5mode.txt
+ - **Summary**: Explain Like I'm Five.
+ - **Good Pairing**: Could go with a lot of things.
 
-#### 12. focusmode.txt
- - Summary: Boosts productivity with streamlined responses and task prioritization.
- - Good Pairing: Pair with minimalmode.txt for distraction-free workflows.
+#### 12. empathymode.txt
+ - **Summary**: Offers emotional support and mindfulness practices.
+ - **Good Pairing**: Pair with reflectionmode.txt for deeper introspection.
 
-#### 13. interviewmode.txt
- - Summary: Prepares users for interviews with mock sessions and feedback.
- - Good Pairing: Pair with reflectionmode.txt for evaluating progress.
+#### 13. eventplannermode.txt
+ - **Summary**: Simplifies event planning, including task tracking and budgeting.
+ - **Good Pairing**: Pair with devopsmode.txt for complex event logistics.
 
-#### 14. learnmode.txt
- - Summary: Facilitates learning with progress tracking and structured lessons.
- - Good Pairing: Pair with focusmode.txt for dedicated study sessions.
+#### 14. explorermode.txt
+ - **Summary**: Sparks curiosity with fun facts, random discoveries, and hobby ideas.
+ - **Good Pairing**: Pair with learnmode.txt for structured exploration.
 
-#### 15. minimalmode.txt
- - Summary: Provides concise, no-frills answers for quick queries.
- - Good Pairing: Pair with focusmode.txt to maximize efficiency.
+#### 15. focusmode.txt
+ - **Summary**: Boosts productivity with streamlined responses and task prioritization.
+ - **Good Pairing**: Pair with minimalmode.txt for distraction-free workflows.
 
-#### 16. playfulmode.txt
- - Summary: Adds humor and lighthearted interaction.
- - Good Pairing: Pair with creativemode.txt for fun brainstorming sessions.
+#### 16. interviewmode.txt
+ - **Summary**: Prepares users for interviews with mock sessions and feedback.
+ - **Good Pairing**: Pair with reflectionmode.txt for evaluating progress.
 
-#### 17. precisemode.txt
- - Summary: Delivers exact answers and focused guidance.
- - Good Pairing: Pair with learnmode.txt for in-depth understanding of concepts.
+#### 17. learnmode.txt
+ - **Summary**: Facilitates learning with progress tracking and structured lessons.
+ - **Good Pairing**: Pair with focusmode.txt for dedicated study sessions.
 
-#### 18. reflectionmode.txt
- - Summary: Encourages introspection with journaling and gratitude exercises.
- - Good Pairing: Pair with empathymode.txt for emotional depth.
+#### 18. michenermode.txt
+ - **Summary**: Immerses users in rich, character-driven storytelling that weaves historical and cultural narratives.
+ - **Good Pairing**: Pair with creativemode.txt for collaborative world-building and narrative development.
 
-#### 19. studymode.txt
- - Summary: Supports study sessions with timers and flashcards.
- - Good Pairing: Pair with learnmode.txt for comprehensive skill-building.
+#### 19. minimalmode.txt
+ - **Summary**: Provides concise, no-frills answers for quick queries.
+ - **Good Pairing**: Pair with focusmode.txt to maximize efficiency.
 
-#### 20. travelmode.txt
- - Summary: Assists with trip planning, budgeting, and itinerary creation.
- - Good Pairing: Pair with explorermode.txt for discovering unique destinations.
+#### 20. playfulmode.txt
+ - **Summary**: Adds humor and lighthearted interaction.
+ - **Good Pairing**: Pair with creativemode.txt for fun brainstorming sessions.
 
-#### 21. wellnessmode.txt
- - Summary: Promotes physical and mental health with reminders and exercises.
- - Good Pairing: Pair with cookingmode.txt for holistic health management.
+#### 21. precisemode.txt
+ - **Summary**: Delivers exact answers and focused guidance.
+ - **Good Pairing**: Pair with learnmode.txt for in-depth understanding of concepts.
 
-#### 22. cornholiomode.txt
- - Summary: Adopts personality the likes of Beavis & Butthead
- - Good Pairing: Pair with anything for some added humor or go it alone.
+#### 22. reflectionmode.txt
+ - **Summary**: Encourages introspection with journaling and gratitude exercises.
+ - **Good Pairing**: Pair with empathymode.txt for emotional depth.
 
-#### 23. carlsaganmode.txt  
-- Summary: Explores the cosmos, humanity, and the interconnectedness of life with poetic wonder and scientific insight.  
-- Good Pairing: Pair with learnmode.txt for structured exploration of science and philosophy.  
+#### 23. studymode.txt
+ - **Summary**: Supports study sessions with timers and flashcards.
+ - **Good Pairing**: Pair with learnmode.txt for comprehensive skill-building.
 
-#### 24. michenermode.txt  
-- Summary: Immerses users in rich, character-driven storytelling that weaves historical and cultural narratives.  
-- Good Pairing: Pair with creativemode.txt for collaborative world-building and narrative development.  
+#### 24. travelmode.txt
+ - **Summary**: Assists with trip planning, budgeting, and itinerary creation.
+ - **Good Pairing**: Pair with explorermode.txt for discovering unique destinations.
 
-#### 25. eli5mode.txt  
-- Summary: Explain Like I'm Five
-- Good Pairing: Could go with a lot of things
+#### 25. wellnessmode.txt
+ - **Summary**: Promotes physical and mental health with reminders and exercises.
+ - **Good Pairing**: Pair with cookingmode.txt for holistic health management.
