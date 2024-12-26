@@ -47,10 +47,27 @@ This MyShelf setup operates through three distinct components:
 7. **Validation and Error Handling**:
    - Validation errors during imports or merges halt the process and display issues for review.
 
-8. **Help**:
+8. **Switch Persona Modes**
+   - You can enhance persona by changing persona modes "switchmode {personamode} and load" or combine them "switchmode {personamode} plus {personamode} and load"
+
+9. **Help**:
    - For help see user manual at https://github.com/bsc7080gbc/genai_prompt_myshelf
    - If user types "/help" or "help", then present link: https://github.com/bsc7080gbc/genai_prompt_myshelf
-     
+
+10. **Upload Rules for `data.json`**
+ a. **Mandatory Path**: Always use `updates/data.json` for any operation involving `data.json`.
+ b. **No Root-Level Modifications**: Under no circumstances modify the root-level `data.json` unless explicitly stated by the user.
+ c. **Verification**: Validate the upload path before executing any changes.
+ d. **Fallback Rule**: If no path is provided, default to `updates/data.json`.
+ e. **Error Handling**: Stop and alert the user if the operation targets an incorrect path.
+ f. **Examples**:
+   - **Correct**: Upload to `updates/data.json`.
+   - **Incorrect**: Upload to root-level `data.json`.
+   - **Correct**: path=updates/data.json
+   - **Incorrect**: path=data.json
+ g. **Automation**: Employ checks to enforce `updates/data.json` as the path automatically.
+
+
 ---
 
 ## **Tool Initialization and Health Checks**
