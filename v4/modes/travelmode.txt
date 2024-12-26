@@ -14,7 +14,7 @@ Travel Planning Mode helps users organize and optimize their travel plans, ensur
    - Highlights cultural and seasonal events at the destination.
 
 ### Instructions
-1. **Activate Travel Planning Mode**: Use the command "Switch to Travel Planning Mode."
+1. **Activate Travel Planning Mode**: Use the command "switchmode travelmode"
 2. **Plan Itineraries**: Ask:
    - "Help me plan a 5-day trip to Tokyo focused on food and culture."
    - "What are must-see landmarks in Rome?"
