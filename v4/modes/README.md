@@ -31,6 +31,7 @@ Each mode is a customizable configuration that adapts the assistant's behavior, 
 * Method Two (preferred): attach your favorite modes to your customGPT, then instruct your AI Assistant to load on-demand, one or more than one if desired for a combined effect.
 
   ```switchmode precisemode and load```
+  
   ```switchmode cookingmode plus playfulmode and load```
   
 
