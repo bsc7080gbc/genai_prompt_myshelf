@@ -23,10 +23,18 @@ Each mode addresses a unique set of needs, including:
 * Health and Wellness: Promote balance through fitness, relaxation, and healthy habits.
 * Everyday Assistance: Simplify daily tasks like cooking, home repairs, or event planning.
 
+## How It Works
+
+Each mode is a customizable configuration that adapts the assistant's behavior, tools, and tone to specific needs. Users can switch modes seamlessly to align with their goals or context.
+
+* Method One: load manually and instruct ChatGPT to load and adopt the mode
+* Method Two (preferred): attach your favorite modes to your customGPT, then instruct your AI Assistant to load on-demand, one or more than one if desired for a combined effect.
+
+  ```switchmode precisemode and load```
+  ```switchmode cookingmode plus playfulmode and load```
+  
 
 ### List of Modes
-
-Here is the corrected summary with all filenames in lowercase:
 
 #### 1. aiwhisperermode.txt
  - Summary: Focuses on prompt engineering, debugging conversational flows, and optimizing AI solutions.
@@ -113,15 +121,7 @@ Here is the corrected summary with all filenames in lowercase:
  - Good Pairing: Pair with cookingmode.txt for holistic health management.
 
 
-## How It Works
 
-Each mode is a customizable configuration that adapts the assistant's behavior, tools, and tone to specific needs. Users can switch modes seamlessly to align with their goals or context.
-
-* Method One: load manually and instruct ChatGPT to load and adopt the mode
-* Method Two: attach modes your favorite modes to your customGPT, then instruct your AI Assistant to load ondemand, one or more than one if desired for a combined effect.
-
-  ```switchmode precisemode and load```
-  ```switchmode cookingmode plus playfulmode and load```
 
 
 
