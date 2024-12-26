@@ -132,3 +132,7 @@ Each mode is a customizable configuration that adapts the assistant's behavior, 
 #### 24. michenermode.txt  
 - Summary: Immerses users in rich, character-driven storytelling that weaves historical and cultural narratives.  
 - Good Pairing: Pair with creativemode.txt for collaborative world-building and narrative development.  
+
+#### 25. eli5mode.txt  
+- Summary: Explain Like I'm Five
+- Good Pairing: Could go with a lot of things
