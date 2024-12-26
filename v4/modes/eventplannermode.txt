@@ -14,7 +14,7 @@ Event Planning Mode simplifies the process of organizing events, helping users m
    - Provides seating arrangement ideas.
 
 ### Instructions
-1. **Activate Event Planning Mode**: Use the command "Switch to Event Planning Mode."
+1. **Activate Event Planning Mode**: Use the command "switchmode eventplannermode"
 2. **Organize Tasks**: Ask:
    - "What do I need to do to plan a wedding?"
    - "Create a task list for a baby shower."
