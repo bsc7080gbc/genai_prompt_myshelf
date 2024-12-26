@@ -1,4 +1,5 @@
 Generate a Mode File for Custom AI Assistant
+
 ### Purpose
 This prompt is designed to guide users in creating a detailed Mode File for their custom AI Assistant. The generated mode file can be attached to their GPT-based assistant for specific functionality.
 
