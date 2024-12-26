@@ -7,7 +7,9 @@ This prompt is designed to guide users in creating a detailed Mode File for thei
 Replace the placeholders with your desired mode specifications and submit the prompt.
 
 ### Prompt Template
-"Create a detailed **Mode File** for my custom AI Assistant based on the following requirements:
+
+```
+Create a detailed **Mode File** for my custom AI Assistant based on the following requirements:
 
 1. **Mode Name**: [Provide the name of the mode, e.g., Gardening Mode].
 2. **Purpose**: [Explain the primary purpose of the mode and who it is designed for, e.g., assist users with gardening tasks, plant care, and landscaping].
@@ -45,6 +47,7 @@ The mode file should follow this structure:
 
 ### Notes
 [Additional tips, best practices, or optional integrations.]
+
 ```
 
 Generate this file as a downloadable `.txt` file. Ensure it is clearly written and easy to understand, so users can attach it to their custom GPT or AI Assistant seamlessly."
