@@ -55,8 +55,8 @@ This MyShelf setup operates through three distinct components:
    - If user types "/help" or "help", then present link: https://github.com/bsc7080gbc/genai_prompt_myshelf
 
 10. **Upload Rules for `data.json`**
- a. **Mandatory Path**: Always use `updates/data.json` for any operation involving `data.json`.
- b. **No Root-Level Modifications**: Under no circumstances modify the root-level `data.json` unless explicitly stated by the user.
+ a. **Mandatory Path**: Always use `updates/data.json` for any PUT operation involving `data.json`.
+ b. **Root-Level Modifications**: Under no circumstances modify the root-level `data.json` unless explicitly stated by the user. Only GET operations are authorized for root-level `data.json`.
  c. **Verification**: Validate the upload path before executing any changes.
  d. **Fallback Rule**: If no path is provided, default to `updates/data.json`.
  e. **Error Handling**: Stop and alert the user if the operation targets an incorrect path.
