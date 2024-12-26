@@ -28,183 +28,89 @@ Each mode addresses a unique set of needs, including:
 
 Here is the corrected summary with all filenames in lowercase:
 
-
----
-
-1. aiwhisperermode.txt
-
-Summary: Focuses on prompt engineering, debugging conversational flows, and optimizing AI solutions.
-
-Good Pairing: Pair with devopsmode.txt for technical projects involving AI integration.
-
-
-
-2. automechanicmode.txt
-
-Summary: Assists with vehicle maintenance, troubleshooting, and repair tracking.
-
-Good Pairing: Pair with reflectionmode.txt for tracking and planning long-term car care.
-
-
-
-3. cookingmode.txt
-
-Summary: Provides recipes, cooking tips, and meal planning guidance.
-
-Good Pairing: Pair with wellnessmode.txt for balanced meal suggestions.
-
-
-
-4. creativemode.txt
-
-Summary: Enhances brainstorming, storytelling, and problem-solving.
-
-Good Pairing: Pair with playfulmode.txt to inject humor and inspiration into creative projects.
-
-
-
-5. defaultmode.txt
-
-Summary: A general-purpose mode for standard AI interactions.
-
-Good Pairing: Works standalone but supports all modes.
-
-
-
-6. devmode.txt
-
-Summary: A technical mode for debugging and testing new features.
-
-Good Pairing: Pair with focusmode.txt to stay on task during development.
-
-
-
-7. devopsmode.txt
-
-Summary: Guides CI/CD pipelines, cloud solutions, and infrastructure optimization.
-
-Good Pairing: Pair with aiwhisperermode.txt for AI-related DevOps workflows.
-
-
-
-8. diymode.txt
-
-Summary: Provides step-by-step instructions for home improvement and repairs.
-
-Good Pairing: Pair with focusmode.txt for organized project execution.
-
-
-
-9. empathymode.txt
-
-Summary: Offers emotional support and mindfulness practices.
-
-Good Pairing: Pair with reflectionmode.txt for deeper introspection.
-
-
-
-10. eventplannermode.txt
-
-Summary: Simplifies event planning, including task tracking and budgeting.
-
-Good Pairing: Pair with devopsmode.txt for complex event logistics.
-
-
-
-11. explorermode.txt
-
-Summary: Sparks curiosity with fun facts, random discoveries, and hobby ideas.
-
-Good Pairing: Pair with learnmode.txt for structured exploration.
-
-
-
-12. focusmode.txt
-
-Summary: Boosts productivity with streamlined responses and task prioritization.
-
-Good Pairing: Pair with minimalmode.txt for distraction-free workflows.
-
-
-
-13. interviewmode.txt
-
-Summary: Prepares users for interviews with mock sessions and feedback.
-
-Good Pairing: Pair with reflectionmode.txt for evaluating progress.
-
-
-
-14. learnmode.txt
-
-Summary: Facilitates learning with progress tracking and structured lessons.
-
-Good Pairing: Pair with focusmode.txt for dedicated study sessions.
-
-
-
-15. minimalmode.txt
-
-Summary: Provides concise, no-frills answers for quick queries.
-
-Good Pairing: Pair with focusmode.txt to maximize efficiency.
-
-
-
-16. playfulmode.txt
-
-Summary: Adds humor and lighthearted interaction.
-
-Good Pairing: Pair with creativemode.txt for fun brainstorming sessions.
-
-
-
-17. precisemode.txt
-
-Summary: Delivers exact answers and focused guidance.
-
-Good Pairing: Pair with learnmode.txt for in-depth understanding of concepts.
-
-
-
-18. reflectionmode.txt
-
-Summary: Encourages introspection with journaling and gratitude exercises.
-
-Good Pairing: Pair with empathymode.txt for emotional depth.
-
-
-
-19. studymode.txt
-
-Summary: Supports study sessions with timers and flashcards.
-
-Good Pairing: Pair with learnmode.txt for comprehensive skill-building.
-
-
-
-20. travelmode.txt
-
-Summary: Assists with trip planning, budgeting, and itinerary creation.
-
-Good Pairing: Pair with explorermode.txt for discovering unique destinations.
-
-
-
-21. wellnessmode.txt
-
-Summary: Promotes physical and mental health with reminders and exercises.
-
-Good Pairing: Pair with cookingmode.txt for holistic health management.
-
-
-
-
-
----
-
-Let me know if you'd like any changes or additions!
-
+#### 1. aiwhisperermode.txt
+ - Summary: Focuses on prompt engineering, debugging conversational flows, and optimizing AI solutions.
+ - Good Pairing: Pair with devopsmode.txt for technical projects involving AI integration.
+
+#### 2. automechanicmode.txt
+ - Summary: Assists with vehicle maintenance, troubleshooting, and repair tracking.
+ - Good Pairing: Pair with reflectionmode.txt for tracking and planning long-term car care.
+
+#### 3. cookingmode.txt
+ - Summary: Provides recipes, cooking tips, and meal planning guidance.
+ - Good Pairing: Pair with wellnessmode.txt for balanced meal suggestions.
+
+#### 4. creativemode.txt
+ - Summary: Enhances brainstorming, storytelling, and problem-solving.
+ - Good Pairing: Pair with playfulmode.txt to inject humor and inspiration into creative projects.
+
+#### 5. defaultmode.txt
+ - Summary: A general-purpose mode for standard AI interactions.
+ - Good Pairing: Works standalone but supports all modes.
+
+#### 6. devmode.txt
+ - Summary: A technical mode for debugging and testing new features.
+ - Good Pairing: Pair with focusmode.txt to stay on task during development.
+
+#### 7. devopsmode.txt
+ - Summary: Guides CI/CD pipelines, cloud solutions, and infrastructure optimization.
+ - Good Pairing: Pair with aiwhisperermode.txt for AI-related DevOps workflows.
+
+#### 8. diymode.txt
+ - Summary: Provides step-by-step instructions for home improvement and repairs.
+ - Good Pairing: Pair with focusmode.txt for organized project execution.
+
+#### 9. empathymode.txt
+ - Summary: Offers emotional support and mindfulness practices.
+ - Good Pairing: Pair with reflectionmode.txt for deeper introspection.
+
+#### 10. eventplannermode.txt
+ - Summary: Simplifies event planning, including task tracking and budgeting.
+ - Good Pairing: Pair with devopsmode.txt for complex event logistics.
+
+#### 11. explorermode.txt
+ - Summary: Sparks curiosity with fun facts, random discoveries, and hobby ideas.
+ - Good Pairing: Pair with learnmode.txt for structured exploration.
+
+#### 12. focusmode.txt
+ - Summary: Boosts productivity with streamlined responses and task prioritization.
+ - Good Pairing: Pair with minimalmode.txt for distraction-free workflows.
+
+#### 13. interviewmode.txt
+ - Summary: Prepares users for interviews with mock sessions and feedback.
+ - Good Pairing: Pair with reflectionmode.txt for evaluating progress.
+
+#### 14. learnmode.txt
+ - Summary: Facilitates learning with progress tracking and structured lessons.
+ - Good Pairing: Pair with focusmode.txt for dedicated study sessions.
+
+#### 15. minimalmode.txt
+ - Summary: Provides concise, no-frills answers for quick queries.
+ - Good Pairing: Pair with focusmode.txt to maximize efficiency.
+
+#### 16. playfulmode.txt
+ - Summary: Adds humor and lighthearted interaction.
+ - Good Pairing: Pair with creativemode.txt for fun brainstorming sessions.
+
+#### 17. precisemode.txt
+ - Summary: Delivers exact answers and focused guidance.
+ - Good Pairing: Pair with learnmode.txt for in-depth understanding of concepts.
+
+#### 18. reflectionmode.txt
+ - Summary: Encourages introspection with journaling and gratitude exercises.
+ - Good Pairing: Pair with empathymode.txt for emotional depth.
+
+#### 19. studymode.txt
+ - Summary: Supports study sessions with timers and flashcards.
+ - Good Pairing: Pair with learnmode.txt for comprehensive skill-building.
+
+#### 20. travelmode.txt
+ - Summary: Assists with trip planning, budgeting, and itinerary creation.
+ - Good Pairing: Pair with explorermode.txt for discovering unique destinations.
+
+#### 21. wellnessmode.txt
+ - Summary: Promotes physical and mental health with reminders and exercises.
+ - Good Pairing: Pair with cookingmode.txt for holistic health management.
 
 
 ## How It Works
