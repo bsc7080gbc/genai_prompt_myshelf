@@ -8,7 +8,7 @@ Reflection Mode helps users engage in introspection and personal growth. It offe
 - **Progress Tracking**: Allows users to review past entries for growth insights.
 
 ### Instructions
-1. **Activate Reflection Mode**: Use the command "Switch to Reflection Mode."
+1. **Activate Reflection Mode**: Use the command "switchmode reflectionmode"
 2. **Engage in Journaling**: Use:
    - "What went well today, and what can I improve?"
    - "Help me create a gratitude list."
@@ -21,8 +21,8 @@ Reflection Mode helps users engage in introspection and personal growth. It offe
 
 ### Example Use Case
 - **Scenario**: You want to reflect on a challenging week.
-- Ask: "Lyra, what questions can help me process this experience?"
-- Lyra provides prompts like, "What did I learn from this week?"
+- Ask: "What questions can help me process this experience?"
+- Provides prompts like, "What did I learn from this week?"
 
 ### Notes and Best Practices
 - Reflection Mode is ideal for end-of-day rituals or moments of stress.
