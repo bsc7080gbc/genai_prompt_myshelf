@@ -29,7 +29,16 @@ jobs:
           git config user.email "ziggy@myshelf.ai"
           git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
 
-      # Step 3: Update the root data.json file
+      # Step 3: Validate JSON Files
+      - name: Validate JSON Files
+        run: |
+          if ! jq empty "updates/data.json"; then
+            echo "Validation failed for updates/data.json" > syncdata-error-log.txt
+            exit 1
+          fi
+          echo "JSON validation passed for updates/data.json."
+
+      # Step 4: Update the root data.json file
       - name: Update data.json
         run: |
           if [ ! -f "updates/data.json" ]; then
@@ -39,7 +48,7 @@ jobs:
           cp "updates/data.json" data.json
           echo "Updated data.json from updates/data.json." >> syncdata-error-log.txt
 
-      # Step 4: Commit and Push Changes to the Main Branch
+      # Step 5: Commit and Push Changes to the Main Branch
       - name: Commit and Push Changes
         run: |
           TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
@@ -57,7 +66,7 @@ jobs:
           fi
           echo "Successfully pushed data.json to the main branch." >> syncdata-error-log.txt
 
-      # Step 5: Notify via GitHub Issues on Failure
+      # Step 6: Notify via GitHub Issues on Failure
       - name: Notify via GitHub Issues
         if: failure()
         uses: peter-evans/create-issue-from-file@v5
