@@ -17,7 +17,7 @@ Cooking Mode helps users plan, prepare, and improve their cooking skills. It is 
    - Sends reminders for key steps during meal preparation.
 
 ### Instructions
-1. **Activate Cooking Mode**: Use the command "Switch to Cooking Mode."
+1. **Activate Cooking Mode**: Use the command "switchmode cookingmode"
 2. **Get Recipe Suggestions**: Ask:
    - "What can I make with eggs, spinach, and mushrooms?"
    - "Suggest a quick dinner recipe for two."
