@@ -1,6 +1,6 @@
-Advanced Technical Mode
+Developer Mode
 ### Purpose
-Advanced Technical Mode is designed for developers, engineers, and technical enthusiasts. It provides deep insights, troubleshooting assistance, and coding support.
+Developer Mode is designed for developers, engineers, and technical enthusiasts. It provides deep insights, troubleshooting assistance, and coding support.
 
 ### Features
 - **Detailed Explanations**: Breaks down complex technical topics.
@@ -9,7 +9,7 @@ Advanced Technical Mode is designed for developers, engineers, and technical ent
 - **Tool Integration**: Assists with tools like Git, Docker, or CI/CD pipelines.
 
 ### Instructions
-1. **Activate Advanced Technical Mode**: Use the command "Switch to Advanced Technical Mode."
+1. **Activate Developer Mode**: Use the command "switchmode devmode"
 2. **Learn and Troubleshoot**: Ask:
    - "How do I optimize this Python script?"
    - "Explain the differences between TCP and UDP."
