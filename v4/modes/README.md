@@ -121,9 +121,14 @@ Each mode is a customizable configuration that adapts the assistant's behavior, 
  - Summary: Promotes physical and mental health with reminders and exercises.
  - Good Pairing: Pair with cookingmode.txt for holistic health management.
 
+#### 22. cornholiomode.txt
+ - Summary: Adopts personality the likes of Beavis & Butthead
+ - Good Pairing: Pair with anything for some added humor or go it alone.
 
+#### 23. carlsaganmode.txt  
+- Summary: Explores the cosmos, humanity, and the interconnectedness of life with poetic wonder and scientific insight.  
+- Good Pairing: Pair with learnmode.txt for structured exploration of science and philosophy.  
 
-
-
-
-
+#### 24. michenermode.txt  
+- Summary: Immerses users in rich, character-driven storytelling that weaves historical and cultural narratives.  
+- Good Pairing: Pair with creativemode.txt for collaborative world-building and narrative development.  
