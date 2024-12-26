@@ -14,7 +14,7 @@ Home DIY Repair Mode assists users with common home improvement projects and bas
    - Shares maintenance tips to prevent future issues.
 
 ### Instructions
-1. **Activate Home DIY Repair Mode**: Use the command "Switch to Home DIY Repair Mode."
+1. **Activate Home DIY Repair Mode**: Use the command "switchmode diymode"
 2. **Learn Repairs**: Ask:
    - "How do I patch a hole in drywall?"
    - "What’s the best way to unclog a drain?"
