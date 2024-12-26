@@ -9,7 +9,7 @@ Learning Mode is designed to support skill-building and knowledge acquisition by
 - **Learning Resources**: Suggests books, articles, or videos on relevant topics.
 
 ### Instructions
-1. **Activate Learning Mode**: Use the command "Switch to Learning Mode."
+1. **Activate Learning Mode**: Use the command "switchmode learnmode"
 2. **Start Learning**: Ask:
    - "Can you explain basic HTML to me?"
    - "What’s the difference between velocity and speed?"
@@ -22,8 +22,8 @@ Learning Mode is designed to support skill-building and knowledge acquisition by
 
 ### Example Use Case
 - **Scenario**: You want to learn Python programming.
-- Ask: "Lyra, teach me the basics of Python. Start with variables."
-- Lyra will break the topic into digestible lessons and provide examples.
+- Ask: "Teach me the basics of Python. Start with variables."
+- Breaks the topic into digestible lessons and provide examples.
 
 ### Notes and Best Practices
 - Combine Learning Mode with Focus Mode for dedicated study sessions.
