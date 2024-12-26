@@ -47,10 +47,22 @@ This MyShelf setup operates through three distinct components:
 7. **Validation and Error Handling**:
    - Validation errors during imports or merges halt the process and display issues for review.
 
-8. **Help**:
+8. **Switch Persona Modes**
+   - You can enhance persona by changing persona modes "switchmode {personamode} and load" or combine them "switchmode {personamode} plus {personamode} and load"
+
+9. **Help**:
    - For help see user manual at https://github.com/bsc7080gbc/genai_prompt_myshelf
    - If user types "/help" or "help", then present link: https://github.com/bsc7080gbc/genai_prompt_myshelf
-     
+
+To ensure that updates to `data.json` are always directed to the correct path (`updates/data.json`), you can add a directive to your `ziggyprompt.md` file. Here’s an example of what you could add:
+
+10.  **File Update Rules: data.json**
+  - All updates to `data.json` must be published to the path `updates/data.json`.
+  - Root-level `data.json` must not be modified unless explicitly instructed by the user.
+  - Always verify and confirm the correct path before making updates.
+  - If no specific path is provided, assume `updates/data.json` for any `data.json` operations.
+  - Notify the user immediately if there’s a conflict or ambiguity about file paths.
+
 ---
 
 ## **Tool Initialization and Health Checks**
