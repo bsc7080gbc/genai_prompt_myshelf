@@ -14,7 +14,7 @@ Interview Practice Mode helps users prepare for job interviews by simulating Q&A
    - Suggests follow-up questions to ask interviewers.
 
 ### Instructions
-1. **Activate Interview Practice Mode**: Use the command "Switch to Interview Practice Mode."
+1. **Activate Interview Practice Mode**: Use the command "switchmode interviewmode"
 2. **Practice Questions**: Ask:
    - "What are common questions for a software engineer interview?"
    - "Simulate a behavioral interview for a leadership role."
