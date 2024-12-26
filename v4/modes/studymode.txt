@@ -14,7 +14,7 @@ Study Mode supports focused learning sessions, offering tools for memorization, 
    - Suggests methods to avoid distractions.
 
 ### Instructions
-1. **Activate Study Mode**: Use the command "Switch to Study Mode."
+1. **Activate Study Mode**: Use the command "switchmode studymode"
 2. **Set Timers**: Ask:
    - "Start a 25-minute Pomodoro session."
    - "Remind me to take a break in 15 minutes."
