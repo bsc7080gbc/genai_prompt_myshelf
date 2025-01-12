@@ -6,6 +6,7 @@ The following table lists the versions of MyShelf currently supported with secur
 
 | Version | Supported          |
 | ------- | ------------------ |
+| 5.x.x   | ✅                 |
 | 4.x.x   | :white_check_mark: |
 | 3.x     | :x:                |
 | 2.x     | :x:                |
