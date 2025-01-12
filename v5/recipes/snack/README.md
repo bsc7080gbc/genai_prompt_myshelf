@@ -1,1 +1,1 @@
-snack folder
+snack recipes
