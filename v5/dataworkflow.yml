@@ -1,0 +1,144 @@
+---
+name: Data Workflow
+
+on:
+  push:
+    paths:
+      - 'updates/data.json'
+  workflow_dispatch: # Enable manual trigger
+
+permissions:
+  contents: write
+  issues: write # Required for notifications via GitHub issues
+
+env:
+  DRYRUN: ${{ vars.DRYRUN }}
+  CLEANUP_PERIOD: ${{ vars.CLEANUP_PERIOD }}
+
+jobs:
+  data_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Lyra[bot]"
+          git config user.email "lyra@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Validate JSON File
+      - name: Validate JSON File
+        run: |
+          python validate_json.py || {
+            echo "JSON validation failed. Exiting." > notification-log.txt
+            exit 1
+          }
+
+      # Step 4: Apply Template
+      - name: Apply Template
+        run: |
+          python apply_template.py || {
+            echo "Template application failed. Check logs for details." >> notification-log.txt
+            exit 1
+          }
+
+      # Step 5: Copy and Archive Data
+      - name: Copy and Archive Data
+        run: |
+          if [ "$DRYRUN" = "false" ]; then
+            echo "Copying updates/data.json to root directory..."
+            cp updates/data.json ./data.json || { echo "Failed to copy updates/data.json"; exit 1; }
+
+            echo "Creating archive directory..."
+            mkdir -p archive
+
+            TIMESTAMP=$(date -u +"%Y-%m-%dT%H.%M.%S")
+            ARCHIVE_FILE="archive/data.json.$TIMESTAMP"
+            echo "Archiving updates/data.json to $ARCHIVE_FILE..."
+            cp updates/data.json "$ARCHIVE_FILE" || { echo "Failed to archive updates/data.json"; exit 1; }
+
+            echo "Files successfully archived."
+          else
+            echo "Dry Run mode enabled. Skipping copy and archive."
+          fi
+
+      # Step 6: Commit and Push Changes
+      - name: Commit and Push Changes
+        run: |
+          if [ "$DRYRUN" = "false" ]; then
+            echo "Staging updated files..."
+            git add data.json archive/ || echo "Failed to stage files."
+
+            echo "Committing changes..."
+            git commit -m "Sync data.json and archive updates on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+
+            echo "Pushing changes to remote repository..."
+            git push origin main || echo "No changes to push."
+          else
+            echo "Dry Run mode enabled. Skipping commit and push."
+          fi
+
+      # Step 7: Debug Archive State
+      - name: Debug Archive State
+        run: |
+          echo "Listing archive directory contents..."
+          ls -l archive || echo "No files in archive."
+
+      # Step 8: Cleanup, Remove Updates, and Commit Changes
+      - name: Purge Old Data, Remove Updates, and Clean Changes
+        run: |
+          echo "Starting cleanup process..."
+
+          # Run the cleanup script, including removal of 'updates/data.json'
+          python cleanup_purge.py || {
+            echo "Cleanup process failed. Exiting workflow." >> notification-log.txt
+            exit 1
+          }
+
+          # Stage all changes, including deletions
+          echo "Staging changes..."
+          git add -A archive/ updates/data.json || echo "Failed to stage changes."
+
+          # Commit deletions
+          echo "Committing cleanup changes..."
+          git commit -m "Cleanup old archive files and remove updates/data.json on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+
+          # Push changes to the repository
+          echo "Pushing changes to remote repository..."
+          git push origin main || echo "No changes to push."
+        env:
+          DRYRUN: ${{ vars.DRYRUN }}
+          CLEANUP_PERIOD: ${{ vars.CLEANUP_PERIOD }}
+
+      # Step 9: Notify via GitHub Issues
+      - name: Notify via GitHub Issues
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "${{ github.workflow }} - ${{ github.event_name }} Result: ${{ job.status }}"
+          content-filepath: ./notification-log.txt
+          labels: ${{ job.status == 'success' && 'success' || 'failure' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.MYSHELF }}
+
+      # Step 10: Generate Notification Log
+      - name: Generate Notification Log
+        run: |
+          if [ ! -f ./notification-log.txt ]; then
+            echo "Workflow result: unknown failure" > ./notification-log.txt
+          fi
+          echo "Final log updated with workflow details."
+
+      # Step 11: Debug Workflow State
+      - name: Debug Workflow State
+        run: |
+          echo "Git status:"
+          git status
+          echo ".gitignore contents:"
+          cat .gitignore || echo "No .gitignore found."
