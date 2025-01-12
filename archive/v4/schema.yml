@@ -1,0 +1,209 @@
+openapi: 3.1.0
+info:
+  title: GitHub Repository Contents API
+  description: Generic API interactions to retrieve, update, upload, delete files, and manage workflows in the MyShelf repository on the main branch.
+  version: 2.0.0
+servers:
+  - url: https://api.github.com
+    description: GitHub API
+paths:
+  /repos/{owner}/MyShelf/contents/{path}:
+    get:
+      operationId: getFile
+      summary: Retrieve a file from the repository.
+      description: Fetches the contents of a file in the repository on the main branch by specifying the path and filename.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The full path to the file in the repository, including the filename (e.g., `data.json`,
+            `updates/data.json`, or `context/context.session.001.20241216.032228.md`).
+          schema:
+            type: string
+        - name: Accept
+          in: header
+          required: true
+          description: Accept header specifying the API version.
+          schema:
+            type: string
+            enum:
+              - application/vnd.github+json
+      responses:
+        "200":
+          description: The contents of the specified file.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  type:
+                    type: string
+                  encoding:
+                    type: string
+                  size:
+                    type: integer
+                  content:
+                    type: string
+                  sha:
+                    type: string
+    put:
+      operationId: uploadOrUpdateFile
+      summary: Upload or update a file in the repository.
+      description: Uploads a new file or updates an existing file in the repository by specifying the path and filename.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The full path to the file in the repository, including the filename (e.g., `data.json`,
+            `updates/data.json`, or `context/context.session.001.20241216.032228.md`).
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: Commit message for the file upload or update.
+                committer:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string
+                content:
+                  type: string
+                  description: The new content of the file, base64 encoded.
+                sha:
+                  type: string
+                  description: The SHA of the existing file for updates. Omit if uploading a new file.
+      responses:
+        "201":
+          description: The uploaded or updated file metadata.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  content:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      path:
+                        type: string
+                  commit:
+                    type: object
+                    properties:
+                      sha:
+                        type: string
+                      message:
+                        type: string
+                      author:
+                        type: object
+                        properties:
+                          name:
+                            type: string
+                          email:
+                            type: string
+                          date:
+                            type: string
+                            format: date-time
+    delete:
+      operationId: deleteFile
+      summary: Delete a file from the repository.
+      description: Deletes a file in the repository on the main branch by specifying the path and filename.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The full path to the file in the repository, including the filename (e.g., `data.json`,
+            `updates/data.json`, or `context/context.session.001.20241216.032228.md`).
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: Commit message for the file deletion.
+                committer:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string
+                sha:
+                  type: string
+                  description: The SHA of the file to delete.
+      responses:
+        "200":
+          description: File successfully deleted.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  commit:
+                    type: object
+                    properties:
+                      sha:
+                        type: string
+                      message:
+                        type: string
+                      author:
+                        type: object
+                        properties:
+                          name:
+                            type: string
+                          email:
+                            type: string
+                          date:
+                            type: string
+                            format: date-time
+  /repos/{owner}/MyShelf/actions/workflows/{workflow_id}/dispatches:
+    post:
+      operationId: triggerWorkflowDispatch
+      summary: Trigger a GitHub Actions workflow dispatch event.
+      description: Triggers a specific workflow dispatch event by specifying the repository owner, repository name, workflow file, and a ref (e.g., branch name or commit SHA).
+      parameters:
+        - name: owner
+          in: path
+          required: true
+          description: The owner of the repository.
+          schema:
+            type: string
+        - name: repo
+          in: path
+          required: true
+          description: The name of the repository.
+          schema:
+            type: string
+        - name: workflow_id
+          in: path
+          required: true
+          description: The ID or file name of the workflow to be triggered.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                ref:
+                  type: string
+                  description: The git reference (branch or commit SHA) to run the workflow on.
+      responses:
+        "204":
+          description: The workflow dispatch event was successfully triggered.
