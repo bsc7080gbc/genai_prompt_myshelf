@@ -1,0 +1,305 @@
+openapi: 3.1.0
+info:
+  title: GitHub Repository and Workflow API
+  description: Comprehensive API for managing repositories, contents, and workflows in GitHub.
+  version: 2.0.0
+servers:
+  - url: https://api.github.com/repos/bsc7080gbc/MyShelf
+    description: GitHub API with default owner and repository
+paths:
+  /actions/workflows:
+    get:
+      operationId: listWorkflows
+      summary: List workflows
+      description: Retrieves a list of workflows in the specified repository.
+      responses:
+        "200":
+          description: A list of workflows in the repository.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total_count:
+                    type: integer
+                  workflows:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        name:
+                          type: string
+                        path:
+                          type: string
+
+  /actions/workflows/{workflow_id}:
+    get:
+      operationId: getWorkflow
+      summary: Get a workflow
+      description: Retrieves metadata about a specific workflow.
+      parameters:
+        - name: workflow_id
+          in: path
+          required: true
+          description: The ID of the workflow.
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Workflow metadata.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  path:
+                    type: string
+
+    put:
+      operationId: enableWorkflow
+      summary: Enable a workflow
+      description: Enables a specific workflow.
+      parameters:
+        - name: workflow_id
+          in: path
+          required: true
+          description: The ID of the workflow.
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Workflow successfully enabled.
+
+    put:
+      operationId: disableWorkflow
+      summary: Disable a workflow
+      description: Disables a specific workflow.
+      parameters:
+        - name: workflow_id
+          in: path
+          required: true
+          description: The ID of the workflow.
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Workflow successfully disabled.
+
+    post:
+      operationId: dispatchWorkflow
+      summary: Dispatch a workflow
+      description: Dispatches a specific workflow manually with a given ref and optional inputs.
+      parameters:
+        - name: workflow_id
+          in: path
+          required: true
+          description: The ID of the workflow.
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                ref:
+                  type: string
+                  description: The branch or tag ref to run the workflow.
+                inputs:
+                  type: object
+                  description: Input parameters for the workflow.
+      responses:
+        "204":
+          description: Workflow successfully dispatched.
+
+  /actions/runs:
+    get:
+      operationId: listWorkflowRuns
+      summary: List workflow runs
+      description: Retrieves a list of workflow runs for workflows in the repository.
+      responses:
+        "200":
+          description: A list of workflow runs.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total_count:
+                    type: integer
+                  workflow_runs:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        name:
+                          type: string
+                        run_number:
+                          type: integer
+
+  /actions/runs/{run_id}/logs:
+    get:
+      operationId: downloadWorkflowLogs
+      summary: Download workflow logs
+      description: Downloads logs for a specific workflow run.
+      parameters:
+        - name: run_id
+          in: path
+          required: true
+          description: The ID of the workflow run.
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: The workflow logs.
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+
+  /contents/{path}:
+    get:
+      operationId: getRepoContent
+      summary: Get repository content
+      description: Retrieves the contents of a file or directory in a repository.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The file or directory path in the repository.
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Repository content retrieved successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  path:
+                    type: string
+                  sha:
+                    type: string
+                  size:
+                    type: integer
+                  content:
+                    type: string
+
+    put:
+      operationId: createOrUpdateRepoContent
+      summary: Create or update repository content
+      description: Creates or updates a file in the repository.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The file path in the repository.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: Commit message for the operation.
+                committer:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string
+                content:
+                  type: string
+                  description: Base64-encoded file content.
+                sha:
+                  type: string
+                  description: The SHA of the file being updated, if applicable.
+      responses:
+        "201":
+          description: File created or updated successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  content:
+                    type: object
+                    properties:
+                      name:
+                        type: string
+                      path:
+                        type: string
+                      sha:
+                        type: string
+                  commit:
+                    type: object
+                    properties:
+                      sha:
+                        type: string
+                      message:
+                        type: string
+
+    delete:
+      operationId: deleteRepoContent
+      summary: Delete repository content
+      description: Deletes a file in the repository.
+      parameters:
+        - name: path
+          in: path
+          required: true
+          description: The file path in the repository.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+                  description: Commit message for the deletion.
+                committer:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    email:
+                      type: string
+                sha:
+                  type: string
+                  description: The SHA of the file to delete.
+      responses:
+        "200":
+          description: File deleted successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  commit:
+                    type: object
+                    properties:
+                      sha:
+                        type: string
+                      message:
+                        type: string
