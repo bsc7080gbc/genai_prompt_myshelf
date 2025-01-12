@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-The following table lists the versions of MyShelf currently supported with security updates. Users are encouraged to use the stable release to ensure the highest level of security.
+The following table lists the versions of MyShelf currently supported with security updates. Users are encouraged to use a stable release to ensure the highest level of security.
 
 | Version | Supported          |
 | ------- | ------------------ |
