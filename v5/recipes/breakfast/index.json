@@ -1,0 +1,8 @@
+{
+  "Pancakes": {
+    "file": "pancakes.md",
+    "keywords": ["flour", "milk", "eggs", "maple syrup"],
+    "prep_time": "15 minutes",
+    "difficulty": "Medium"
+  }
+}
