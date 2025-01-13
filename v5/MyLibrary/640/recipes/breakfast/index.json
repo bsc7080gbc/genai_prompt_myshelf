@@ -1,30 +1,30 @@
 {
-  "recipes": [
-    {
-      "name": "Pancakes",
-      "path": "MyLibrary/640/recipes/breakfast/fluffy_pancakes.md",
-      "keywords": [
-        "floury",
-        "butter",
-        "lemon",
-        "economy"
-      ],
-      "prep_time": "15 minuets",
-      "cooking_time": "10 minutes",
-      "difficulty": "Medium"
-    },
-    {
-      "name": "Gluten-Free Pancakes",
-      "path": "MyLibrary/640/recipes/breakfast/gluten_free_pancakes.md",
-      "keywords": [
-        "gluten-free",
-        "fluffy",
-        "lemon",
-        "refreshing"
-      ],
-      "prep_time": "10 minutes",
-      "cooking_time": "20 minutes",
-      "difficulty": "Easy"
-    }
-  ]
+    "recipes": [
+        {
+            "name": "Pancakes",
+            "path": "MyLibrary/640/recipes/breakfast/fluffy_pancakes.md",
+            "keywords": [
+                "floury",
+                "butter",
+                "lemon",
+                "economy"
+            ],
+            "prep_time": "15 minuets",
+            "cooking_time": "10 minutes",
+            "difficulty": "Medium"
+        },
+        {
+            "name": "Gluten-Free Pancakes",
+            "path": "MyLibrary/640/recipes/breakfast/gluten_free_pancakes.md",
+            "keywords": [
+                "gluten-free",
+                "fluffy",
+                "lemon",
+                "refreshing"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        }
+    ]
 }
