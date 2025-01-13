@@ -1,0 +1,29 @@
+{
+  "MyLibrary": [
+    {
+      "name": "150",
+      "index": "MyLibary/150/index.json",
+      "keywords": [
+        "personas",
+        "psychology"
+      ]
+    },
+    {
+      "name": "640",
+      "index": "MyLibrary/640/index.json",
+      "keywords": [
+        "food",
+        "drink",
+        "recipes"
+      ]
+    },
+    {
+      "name": "990",
+      "index": "MyLibrary/990/index.json",
+      "keywords": [
+        "others",
+        "journal"
+      ]
+    }
+  ]
+}

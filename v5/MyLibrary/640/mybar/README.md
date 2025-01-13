@@ -1,0 +1,1 @@
+Inventory of your bar

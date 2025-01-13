@@ -1,0 +1,26 @@
+{
+  "640": [
+    {
+      "name": "Recipes",
+      "index": "MyLibrary/640/recipes/index.json",
+      "keywords": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "dessert",
+        "snack",
+        "cocktails"
+      ]
+    },
+    {
+      "name": "MyBar",
+      "index": "MyLibrary/640/mybar/index.json",
+      "keywords": [
+        "alcohol",
+        "liquor",
+        "mixed drinks",
+        "cocktails"
+      ]
+    }
+  ]
+}

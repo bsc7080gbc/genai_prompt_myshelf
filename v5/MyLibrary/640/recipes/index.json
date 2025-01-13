@@ -1,0 +1,58 @@
+{
+  "Recipes": [
+    {
+      "name": "Cocktails",
+      "index": "MyLibrary/640/recipes/cocktails/index.json",
+      "keywords": [
+        "alcohol",
+        "cocktail mixers",
+        "liquor"
+      ]
+    },
+    {
+      "name": "Breakfast",
+      "index": "MyLibrary/640/recipes/breakfast/index.json",
+      "keywords": [
+        "morning",
+        "food"
+      ]
+    },
+    {
+      "name": "Lunch",
+      "index": "MyLibrary/640/recipes/lunch/index.json",
+      "keywords": [
+        "lunch",
+        "brunch",
+        "food"
+      ]
+    },
+    {
+      "name": "Dinner",
+      "index": "MyLibrary/640/recipes/dinner/index.json",
+      "keywords": [
+        "dinner",
+        "supper",
+        "food"
+      ]
+    },
+    {
+      "name": "Dessert",
+      "index": "MyLibrary/640/recipes/dessert/index.json",
+      "keywords": [
+        "dessert",
+        "after dinner",
+        "food"
+      ]
+    },
+    {
+      "name": "Snack",
+      "index": "MyLibrary/640/recipes/snack/index.json",
+      "keywords": [
+        "snack",
+        "quick food",
+        "munchies",
+        "food"
+      ]
+    }
+  ]
+}

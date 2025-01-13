@@ -1,0 +1,29 @@
+{
+  "recipes": [
+    {
+      "name": "Best Grilled Cheese Sandwich",
+      "path": "MyLibrary/640/recipes/lunch/best_grilled_cheese.md",
+      "keywords": [
+        "grated",
+        "cheese",
+        "sraw",
+        "buttered"
+      ],
+      "prep_time": "5 minutes",
+      "cooking_time": "10 minutes",
+      "difficulty": "Easy"
+    },
+    {
+      "name": "Caprese Sandwich",
+      "path": "MyLibrary/640/recipes/lunch/caprese_sandwich.md",
+      "keywords": [
+        "mozarella",
+        "basil",
+        "fresh"
+      ],
+      "prep_time": "10 minutes",
+      "cooking_time": "15 minutes",
+      "difficulty": "Easy"
+    }
+  ]
+}
