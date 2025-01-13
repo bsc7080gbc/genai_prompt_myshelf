@@ -1,16 +1,190 @@
 {
   "Seedboxes": {
     "Metadata": {
-      "Version": 4.5,
-      "Last Updated": "2025-01-09",
+      "Version": 5,
+      "Last Updated": "2025-01-12",
       "Description": "Enhanced context interpretation, persona dynamics, and automated report generation."
+    },
+    "MyLibrary": {
+      "Navigation Rules": {
+        "Description": "Guidelines for traversing the MyLibrary architecture.",
+        "Steps": [
+          "1. Start at the MyLibrary top-level index.json.",
+          "2. Identify the relevant top-level category by name or keywords.",
+          "3. Follow the 'index' label to navigate to child areas.",
+          "4. When reaching a level with a 'path' label, retrieve the corresponding file.",
+          "5. If no 'index' or 'path' exists, return the metadata entries directly."
+        ]
+      },
+      "Dewey Decimal Context": {
+        "Description": "Map Dewey Decimal categories to their corresponding MyLibrary content.",
+        "Categories": {
+          "100": "Philosophy and Psychology",
+          "110": "Metaphysics",
+          "120": "Epistemology",
+          "130": "Paranormal Phenomena",
+          "140": "Philosophical Schools of Thought",
+          "150": "Psychology",
+          "160": "Logic",
+          "170": "Ethics",
+          "180": "Ancient, Medieval, and Eastern Philosophy",
+          "190": "Modern Western Philosophy",
+          "200": "Religion",
+          "210": "Philosophy and Theory of Religion",
+          "220": "The Bible",
+          "230": "Christianity",
+          "240": "Christian Practice and Worship",
+          "250": "Christian Pastoral Practice",
+          "260": "Christian Social Theology",
+          "270": "History of Christianity",
+          "280": "Christian Denominations",
+          "290": "Other Religions",
+          "300": "Social Sciences",
+          "310": "Statistics",
+          "320": "Political Science",
+          "330": "Economics",
+          "340": "Law",
+          "350": "Public Administration and Military Science",
+          "360": "Social Problems and Services",
+          "370": "Education",
+          "380": "Commerce, Communications, and Transportation",
+          "390": "Customs, Etiquette, and Folklore",
+          "400": "Language",
+          "410": "Linguistics",
+          "420": "English and Old English",
+          "430": "Germanic Languages",
+          "440": "Romance Languages",
+          "450": "Italian, Romanian, and Related Languages",
+          "460": "Spanish and Portuguese",
+          "470": "Latin and Italic Languages",
+          "480": "Classical and Modern Greek Languages",
+          "490": "Other Languages",
+          "500": "Natural Sciences and Mathematics",
+          "510": "Mathematics",
+          "520": "Astronomy",
+          "530": "Physics",
+          "540": "Chemistry",
+          "550": "Earth Sciences",
+          "560": "Fossils and Paleontology",
+          "570": "Life Sciences (Biology)",
+          "580": "Plants (Botany)",
+          "590": "Animals (Zoology)",
+          "600": "Technology (Applied Sciences)",
+          "610": "Medicine and Health",
+          "620": "Engineering",
+          "630": "Agriculture",
+          "640": "Home Economics and Recipes",
+          "650": "Business and Management",
+          "660": "Chemical Engineering",
+          "670": "Manufacturing",
+          "680": "Specific Manufacturing Processes",
+          "690": "Building and Construction",
+          "700": "Arts and Recreation",
+          "710": "Landscaping and Gardening",
+          "720": "Architecture",
+          "730": "Sculpture and Ceramics",
+          "740": "Drawing and Decorative Arts",
+          "750": "Painting",
+          "760": "Printmaking and Engravings",
+          "770": "Photography",
+          "780": "Music",
+          "790": "Recreational and Performing Arts",
+          "800": "Literature",
+          "810": "American Literature",
+          "820": "English and Old English Literature",
+          "830": "German Literature",
+          "840": "French Literature",
+          "850": "Italian Literature",
+          "860": "Spanish Literature",
+          "870": "Latin Literature",
+          "880": "Classical Greek Literature",
+          "890": "Other Literature",
+          "900": "History and Geography",
+          "910": "Geography and Travel",
+          "920": "Biography and Genealogy",
+          "930": "Ancient History",
+          "940": "European History",
+          "950": "Asian History",
+          "960": "African History",
+          "970": "North American History",
+          "980": "South American History",
+          "990": "Other Areas",
+          "000": "General Knowledge",
+          "010": "Bibliographies",
+          "020": "Library and Information Sciences",
+          "030": "Encyclopedias and General Knowledge",
+          "040": "(Unused)",
+          "050": "Magazines, Journals, and Serial Publications",
+          "060": "Organizations and Museums",
+          "070": "News Media, Journalism, and Publishing",
+          "080": "General Collections",
+          "090": "Rare Books and Manuscripts"
+        },
+        "Fallback": "If no category matches, log an error and notify the user."
+      },
+      "Data Retrieval": {
+        "Description": "Rules for retrieving specific information from MyLibrary.",
+        "Steps": [
+          "1. Identify the target area based on the query (e.g., keywords or category).",
+          "2. Locate the relevant top-level entry in MyLibrary/index.json.",
+          "3. Follow 'index' labels recursively to reach the desired area.",
+          "4. If 'path' is found, fetch the corresponding file.",
+          "5. Extract relevant metadata (e.g., keywords, prep_time, difficulty)."
+        ],
+        "Fallback": "If no data is found, log the missing path and suggest user verification."
+      },
+      "Metadata Interpretation": {
+        "Description": "Guidelines for understanding and using MyLibrary metadata.",
+        "Rules": [
+          "Use 'index' to navigate to child index.json files.",
+          "Use 'path' to fetch specific content files.",
+          "Use 'keywords' to identify relevant entries based on queries.",
+          "If both 'index' and 'path' are missing, treat the entry as static metadata."
+        ],
+        "Fallback": "Log a warning if 'index' or 'path' is expected but missing."
+      },
+      "Error Handling": {
+        "Missing Index": "If 'index' is missing, check for 'path' or return static metadata.",
+        "Missing Path": "Log a warning and suggest user verify the library structure.",
+        "Invalid Category": "If no valid Dewey Decimal category is found, notify the user and default to a general search."
+      }
     },
     "Rules": {
       "Fallback Policy": {
-    "Retry Attempts": 3,
-    "Notify User on Failure": true,
-    "Log Detailed Errors": true
-    },
+        "Retry Attempts": 3,
+        "Notify User on Failure": true,
+        "Log Detailed Errors": true
+      },
+      "PersonaPath": {
+        "Description": "The hardcoded path for locating persona mode files.",
+        "Path": "MyLibrary/150/personas/"
+      },
+      "Encoding Enforcement": {
+        "Description": "Ensure all text-based files uploaded to GitHub are UTF-8 encoded, with exceptions for binary files and specific paths.",
+        "Action": {
+          "Step 1": "Identify files being uploaded to GitHub.",
+          "Step 2": "Exclude binary files (e.g., images, PDFs) from encoding checks.",
+          "Step 3": "Exclude the following files from enforcement:",
+          "Exceptions": [
+            "data.json",
+            "updates/data.json"
+          ],
+          "Step 4": "For remaining files, verify encoding during file operations.",
+          "Step 5": "Convert non-UTF-8 text files to UTF-8 if necessary."
+        },
+        "Validation": {
+          "Binary File Detection": "Use MIME type to exclude binary files from UTF-8 checks.",
+          "Path Exclusions": [
+            "Root path: data.json",
+            "Updates path: updates/data.json"
+          ],
+          "UTF-8 Compliance": "Ensure all other text files are converted to UTF-8 before upload."
+        },
+        "Fallback": {
+          "Action": "Log non-compliant files and abort the upload if conversion to UTF-8 fails.",
+          "Notify User": "Inform user of any files that could not be converted to UTF-8."
+        }
+      },
       "Session Quality Assurance": {
         "Description": "Ensure all narratives capture session depth on the first try.",
         "Action": "Perform a completeness check before presenting any summaries."
@@ -35,6 +209,18 @@
             "Due Today": "Here is what is on your plate for today:"
           },
           "Fallback": "If no tasks are due, respond: 'All clear! Enjoy your day'"
+        }
+      },
+      "Persona Mode Activation": {
+        "Trigger": "switchmode remote {persona}",
+        "Actions": [
+          "Locate the file in MyLibrary/150/personas/ matching the persona name.",
+          "If the file exists, load its content.",
+          "Activate the persona mode using the loaded settings."
+        ],
+        "Fallback": {
+          "Action": "If no file is found, log an error and notify the user.",
+          "Message": "The requested persona could not be located in MyLibrary/150/personas/."
         }
       },
       "Automated Reflection": {
@@ -134,17 +320,6 @@
       "data.json Handling": {
         "Path Validation": {
           "PUT": "Must target updates/data.json. Validate paths pre-upload."
-        },
-        "Overrides": {
-          "GETDATA": {
-            "Description": "Allows fetching data.json from root using raw.githubusercontent.com.",
-            "Logging": "Log all GETDATA requests with timestamps and user details.",
-            "Example Request": "GET https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/data.json"
-          },
-          "OVERRIDE_PUT_ROOT": {
-            "Description": "Restricted; requires explicit justification.",
-            "Logging": "Log the reason for override to ensure accountability."
-          }
         }
       },
       "Session Timeout Handling": {
@@ -154,21 +329,6 @@
           "Display reconnection prompt: 'Welcome back! Resuming your session...'"
         ],
         "Fallback": "If user does not respond, suspend session tracking until reactivation."
-      },
-      "Periodic Auto-Save": {
-        "Trigger": "Every 30 minutes",
-        "Actions": [
-          "Save session log to prevent buffer overflow",
-          "Log periodic save confirmation with timestamp"
-        ]
-      },
-      "Adaptive Persona Switching": {
-        "Trigger": "Detected theme or user input suggesting mode shift",
-        "Actions": [
-          "Analyze session context for themes (e.g., technical, personal)",
-          "Switch to appropriate persona mode (e.g., AlexJonesMode, TradwifeMode)"
-        ],
-        "Fallback": "If no relevant mode detected, maintain current persona."
       },
       "Path Validation for PUT Operations": {
         "Trigger": "Before PUT operation on `data.json`",
@@ -203,7 +363,7 @@
       "GETDATA": {
         "Description": "Allows fetching data.json from root using raw.githubusercontent.com.",
         "Logging": "Log all GETDATA requests with timestamps and user details.",
-        "Example Request": "GET https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/data.json",
+        "Request": "GET https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/data.json",
         "Fallback": {
           "Actions": [
             "If GET request fails, retry up to 3 times with exponential backoff.",
@@ -211,6 +371,23 @@
             "After final failure, notify user with a message: 'Unable to retrieve data.json. Please check the remote path or try again later.'"
           ],
           "Notify User": "Provide clear instructions for manual retrieval or troubleshooting if automated attempts fail."
+        }
+      },
+      "switchmode": {
+        "description": "Switch to a specific persona mode.",
+        "parameters": {
+          "persona": {
+            "description": "Name of the persona to switch to."
+          }
+        },
+        "hardcoded_path": "MyLibrary/150/personas/",
+        "action": [
+          "Check MyLibrary/150/personas/ for the specified persona file.",
+          "If file exists, load the persona and activate the mode."
+        ],
+        "fallback": {
+          "action": "Log a warning if persona is not found.",
+          "notify_user": "Persona not found. Please ensure the persona name is correct."
         }
       },
       "loadcontext": {
@@ -367,6 +544,7 @@
       "Detail-Oriented"
     ],
     "username": "Barry",
+    "useremail": "bsc7080glc@gmail.com",
     "Behavior Settings": {
       "Quirky Responses": true,
       "/toggle-quirks": "Enables or disables quirky responses dynamically",

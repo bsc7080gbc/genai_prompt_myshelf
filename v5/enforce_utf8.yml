@@ -1,0 +1,87 @@
+---
+name: enforce_utf8
+
+on: [push, pull_request]
+
+jobs:
+  utf8-validation:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout repository with full history
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Lyra[bot]"
+          git config user.email "lyra@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Set up Python environment
+      - name: Set up Python environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 4: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install chardet
+
+      # Step 5: Get list of changed files with fallback
+      - name: Get list of changed files
+        id: changed-files
+        run: |
+          if git cat-file -e ${{ github.event.before }}^{commit} 2>/dev/null; then
+            git diff --name-only ${{ github.event.before }} ${{ github.sha }} \
+            | grep -v '^data.json$' \
+            | grep -v '^updates/data.json$' > changed_files.txt
+          else
+            echo "Fallback: using HEAD^ for initial commit comparison."
+            git diff --name-only HEAD^ ${{ github.sha }} \
+            | grep -v '^data.json$' \
+            | grep -v '^updates/data.json$' > changed_files.txt
+          fi
+          if [ ! -s changed_files.txt ]; then
+            echo "No changed files detected." > utf8-validation.log
+            exit 0
+          fi
+          cat changed_files.txt
+
+      # Step 6: Run enforce_utf8.py on changed files
+      - name: Run enforce_utf8.py on changed files
+        run: |
+          python enforce_utf8.py --filelist changed_files.txt | tee utf8-validation.log
+          if [ $? -ne 0 ]; then
+            echo "UTF-8 validation failed. See utf8-validation.log for details."
+            exit 1
+          fi
+
+      # Step 7: Save log to notification-log.txt
+      - name: Generate Notification Log
+        if: failure()  # Only generate log if the job fails
+        run: |
+          echo "Workflow: ${{ github.workflow }}" > notification-log.txt
+          echo "Event: ${{ github.event_name }}" >> notification-log.txt
+          echo "Result: ${{ job.status }}" >> notification-log.txt
+          echo "" >> notification-log.txt
+          echo "Changed Files:" >> notification-log.txt
+          cat changed_files.txt >> notification-log.txt
+          echo "" >> notification-log.txt
+          echo "Validation Log:" >> notification-log.txt
+          cat utf8-validation.log >> notification-log.txt
+
+      # Step 8: Notify via GitHub Issues
+      - name: Notify via GitHub Issues
+        if: failure()  # Only notify on failure
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "${{ github.workflow }} - ${{ github.event_name }} Result: Failure"
+          content-filepath: ./notification-log.txt
+          labels: failure
+        env:
+          GITHUB_TOKEN: ${{ secrets.MYSHELF }}
