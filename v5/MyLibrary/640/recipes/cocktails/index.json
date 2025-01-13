@@ -1,32 +1,32 @@
 {
-  "Rusty Rail": {
-    "path": "MyLibrary/640/recipes/cocktails/rusty_rail.md",
-    "keywords": [
-      "bourbon",
-      "chocolate bitters",
-      "Kahlua"
-    ],
-    "prep_time": "5 minutes",
-    "difficulty": "Easy"
-  },
-  "Cranberry Gin Fizz": {
-    "path": "MyLibrary/640/recipes/cocktails/cranberry_gin_fizz.md",
-    "keywords": [
-      "gin",
-      "cranberry",
-      "sprite"
-    ],
-    "prep_time": "5 minutes",
-    "difficulty": "Extremely Easy"
-  },
-  "Whiskey Rum Smash": {
-    "path": "MyLibrary/640/recipes/cocktails/whiskey_rum_smash.md",
-    "keywords": [
-      "whiskey",
-      "rum",
-      "spiced"
-    ],
-    "prep_time": "5 minutes",
-    "difficulty": "Easy"
-  }
+    "Rusty Rail": {
+        "path": "MyLibrary/640/recipes/cocktails/rusty_rail.md",
+        "keywords": [
+            "bourbon",
+            "chocolate bitters",
+            "Kahlua"
+        ],
+        "prep_time": "5 minutes",
+        "difficulty": "Easy"
+    },
+    "Cranberry Gin Fizz": {
+        "path": "MyLibrary/640/recipes/cocktails/cranberry_gin_fizz.md",
+        "keywords": [
+            "gin",
+            "cranberry",
+            "sprite"
+        ],
+        "prep_time": "5 minutes",
+        "difficulty": "Extremely Easy"
+    },
+    "Whiskey Rum Smash": {
+        "path": "MyLibrary/640/recipes/cocktails/whiskey_rum_smash.md",
+        "keywords": [
+            "whiskey",
+            "rum",
+            "spiced"
+        ],
+        "prep_time": "5 minutes",
+        "difficulty": "Easy"
+    }
 }
