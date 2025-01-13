@@ -1,230 +1,230 @@
 {
-  "mybar": {
-    "Whiskey": [
-      {
-        "name": "Cinnamon Whiskey",
-        "type": "Flavored",
-        "brand": "Fireball"
-      },
-      {
-        "name": "Pecan Whiskey",
-        "type": "Flavored",
-        "brand": "na"
-      },
-      {
-        "name": "Wild Turkey American Honey",
-        "type": "Flavored",
-        "brand": "Wild Turkey"
-      },
-      {
-        "name": "Cookies and Cream Whiskey",
-        "type": "Flavored",
-        "brand": "Ole Smokey"
-      },
-      {
-        "name": "Spiced Cider",
-        "type": "Whiskey",
-        "brand": "Evan Williams"
-      },
-    ],
-    "Absinthe": [
-      {
-        "name": "Absinthe",
-        "type": "Herbal",
-        "brand": "Mephisto"
-      }
-    ],
-    "Vodka": [
-      {
-        "name": "Vodka",
-        "type": "Classic",
-        "brand": "Absolut"
-      },
-      {
-        "name": "Vanilla Vodka",
-        "type": "Flavored",
-        "brand": "Smirnoff"
-      }
-    ],
-    "Liqueur": [
-      {
-        "name": "Midori",
-        "type": "Melon",
-        "brand": "Midori"
-      },
-      {
-        "name": "Amaretto",
-        "type": "Almond",
-        "brand": "Di Amore"
-      },
-      {
-        "name": "Pineapple Cream Liquor",
-        "type": "Cream",
-        "brand": "Rum Chata"
-      },
-      {
-        "name": "Kahlua",
-        "type": "Coffee",
-        "brand": "Kahlua"
-      },
-      {
-        "name": "Blue Curacao",
-        "type": "Citrus",
-        "brand": "DeKuyper"
-      },
-      {
-        "name": "Triple Sec",
-        "type": "Orange",
-        "brand": "DeKuyper"
-      }
-    ],
-    "Tequila": [
-      {
-        "name": "Tequila",
-        "type": "Blanco",
-        "brand": "Espolon"
-      },
-      {
-        "name": "Tequila",
-        "type": "Blanco",
-        "brand": "Teremana"
-      }
-    ],
-    "Gin": [
-      {
-        "name": "Gin",
-        "type": "Herbal",
-        "brand": "Tanqueray"
-      }
-    ],
-    "Rum": [
-      {
-        "name": "Jamaican Rum",
-        "type": "Dark",
-        "brand": "Myers"
-      },
-      {
-        "name": "Spiced Rum",
-        "type": "Spiced",
-        "brand": "Captain Morgan"
-      },
-      {
-        "name": "White Rum",
-        "type": "Light",
-        "brand": "Bacardi"
-      },
-      {
-        "name": "Dark Rum",
-        "type": "Dark",
-        "brand": "Appleton Estate"
-      }
-    ],
-    "Schnapps": [
-      {
-        "name": "Peach Schnapps",
-        "type": "Fruit",
-        "brand": "DeKuyper"
-      },
-      {
-        "name": "Buttershots Schnapps",
-        "type": "Butterscotch",
-        "brand": "DeKuyper"
-      },
-      {
-        "name": "Peppermint schnapps",
-        "type": "Mint",
-        "brand": "DeKuyper"
-      },
-      {
-        "name": "Hot Damn Schnapps",
-        "type": "Cinnamon",
-        "brand": "DeKuyper"
-      }
-    ],
-    "Bourbon": [
-      {
-        "name": "Bourbon",
-        "type": "Classic",
-        "brand": "Buffalo Trace"
-      },
-      {
-        "name": "Bourbon",
-        "type": "Wheated",
-        "brand": "Larceny"
-      },
-      {
-        "name": "Coffee Bourbon",
-        "type": "Flavored",
-        "brand": "na"
-      },
-      {
-        "name": "Wild Turkey 101",
-        "type": "High Proof",
-        "brand": "Wild Turkey"
-      }
-    ],
-    "Brandy": [
-      {
-        "name": "Brandy",
-        "type": "Classic",
-        "brand": "na"
-      }
-    ],
-    "Bitters": [
-      {
-        "name": "Chocolate Bitters",
-        "type": "Chocolate",
-        "brand": "na"
-      },
-      {
-        "name": "Aromatic Bitters",
-        "type": "Aromatic",
-        "brand": "na"
-      }
-    ],
-    "Mixer": [
-      {
-        "name": "Sweet and Sour mix",
-        "type": "Citrus",
-        "brand": "na"
-      },
-      {
-        "name": "Lemon juice",
-        "type": "Citrus",
-        "brand": "na"
-      },
-      {
-        "name": "Lime juice",
-        "type": "Citrus",
-        "brand": "na"
-      },
-      {
-        "name": "Milk",
-        "type": "Dairy",
-        "brand": "na"
-      },
-      {
-        "name": "Coffee",
-        "type": "Caffeine",
-        "brand": "na"
-      }
-    ],
-    "Garnish": [
-      {
-        "name": "Maraschino cherries",
-        "type": "Fruit",
-        "brand": "na"
-      },
-      {
-        "name": "Orange",
-        "type": "Fruit",
-        "brand": "na"
-      },
-      {
-        "name": "Salt",
-        "type": "Seasoning",
-        "brand": "na"
-      }
-    ]
-  }
+    "mybar": {
+        "Whiskey": [
+            {
+                "name": "Cinnamon Whiskey",
+                "type": "Flavored",
+                "brand": "Fireball"
+            },
+            {
+                "name": "Pecan Whiskey",
+                "type": "Flavored",
+                "brand": "na"
+            },
+            {
+                "name": "Wild Turkey American Honey",
+                "type": "Flavored",
+                "brand": "Wild Turkey"
+            },
+            {
+                "name": "Cookies and Cream Whiskey",
+                "type": "Flavored",
+                "brand": "Ole Smokey"
+            },
+            {
+                "name": "Spiced Cider",
+                "type": "Whiskey",
+                "brand": "Evan Williams"
+            }
+        ],
+        "Absinthe": [
+            {
+                "name": "Absinthe",
+                "type": "Herbal",
+                "brand": "Mephisto"
+            }
+        ],
+        "Vodka": [
+            {
+                "name": "Vodka",
+                "type": "Classic",
+                "brand": "Absolut"
+            },
+            {
+                "name": "Vanilla Vodka",
+                "type": "Flavored",
+                "brand": "Smirnoff"
+            }
+        ],
+        "Liqueur": [
+            {
+                "name": "Midori",
+                "type": "Melon",
+                "brand": "Midori"
+            },
+            {
+                "name": "Amaretto",
+                "type": "Almond",
+                "brand": "Di Amore"
+            },
+            {
+                "name": "Pineapple Cream Liquor",
+                "type": "Cream",
+                "brand": "Rum Chata"
+            },
+            {
+                "name": "Kahlua",
+                "type": "Coffee",
+                "brand": "Kahlua"
+            },
+            {
+                "name": "Blue Curacao",
+                "type": "Citrus",
+                "brand": "DeKuyper"
+            },
+            {
+                "name": "Triple Sec",
+                "type": "Orange",
+                "brand": "DeKuyper"
+            }
+        ],
+        "Tequila": [
+            {
+                "name": "Tequila",
+                "type": "Blanco",
+                "brand": "Espolon"
+            },
+            {
+                "name": "Tequila",
+                "type": "Blanco",
+                "brand": "Teremana"
+            }
+        ],
+        "Gin": [
+            {
+                "name": "Gin",
+                "type": "Herbal",
+                "brand": "Tanqueray"
+            }
+        ],
+        "Rum": [
+            {
+                "name": "Jamaican Rum",
+                "type": "Dark",
+                "brand": "Myers"
+            },
+            {
+                "name": "Spiced Rum",
+                "type": "Spiced",
+                "brand": "Captain Morgan"
+            },
+            {
+                "name": "White Rum",
+                "type": "Light",
+                "brand": "Bacardi"
+            },
+            {
+                "name": "Dark Rum",
+                "type": "Dark",
+                "brand": "Appleton Estate"
+            }
+        ],
+        "Schnapps": [
+            {
+                "name": "Peach Schnapps",
+                "type": "Fruit",
+                "brand": "DeKuyper"
+            },
+            {
+                "name": "Buttershots Schnapps",
+                "type": "Butterscotch",
+                "brand": "DeKuyper"
+            },
+            {
+                "name": "Peppermint schnapps",
+                "type": "Mint",
+                "brand": "DeKuyper"
+            },
+            {
+                "name": "Hot Damn Schnapps",
+                "type": "Cinnamon",
+                "brand": "DeKuyper"
+            }
+        ],
+        "Bourbon": [
+            {
+                "name": "Bourbon",
+                "type": "Classic",
+                "brand": "Buffalo Trace"
+            },
+            {
+                "name": "Bourbon",
+                "type": "Wheated",
+                "brand": "Larceny"
+            },
+            {
+                "name": "Coffee Bourbon",
+                "type": "Flavored",
+                "brand": "na"
+            },
+            {
+                "name": "Wild Turkey 101",
+                "type": "High Proof",
+                "brand": "Wild Turkey"
+            }
+        ],
+        "Brandy": [
+            {
+                "name": "Brandy",
+                "type": "Classic",
+                "brand": "na"
+            }
+        ],
+        "Bitters": [
+            {
+                "name": "Chocolate Bitters",
+                "type": "Chocolate",
+                "brand": "na"
+            },
+            {
+                "name": "Aromatic Bitters",
+                "type": "Aromatic",
+                "brand": "na"
+            }
+        ],
+        "Mixer": [
+            {
+                "name": "Sweet and Sour mix",
+                "type": "Citrus",
+                "brand": "na"
+            },
+            {
+                "name": "Lemon juice",
+                "type": "Citrus",
+                "brand": "na"
+            },
+            {
+                "name": "Lime juice",
+                "type": "Citrus",
+                "brand": "na"
+            },
+            {
+                "name": "Milk",
+                "type": "Dairy",
+                "brand": "na"
+            },
+            {
+                "name": "Coffee",
+                "type": "Caffeine",
+                "brand": "na"
+            }
+        ],
+        "Garnish": [
+            {
+                "name": "Maraschino cherries",
+                "type": "Fruit",
+                "brand": "na"
+            },
+            {
+                "name": "Orange",
+                "type": "Fruit",
+                "brand": "na"
+            },
+            {
+                "name": "Salt",
+                "type": "Seasoning",
+                "brand": "na"
+            }
+        ]
+    }
 }
