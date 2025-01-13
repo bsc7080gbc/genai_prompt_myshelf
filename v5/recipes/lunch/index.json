@@ -1,9 +1,0 @@
-{
-  "recipes": [
-    {
-      "name": "Best Grilled Cheese Sandwich",
-      "path": "recipes/lunch/best_grilled_cheese.md",
-      "keywords": ["grated", "cheese", "sraw", "buttered"]
-    }
-  ]
-}

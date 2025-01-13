@@ -1,9 +1,0 @@
-{
-  "recipes": [
-    {
-      "name": "Lemon Berry Parfait",
-      "path": "recipes/dessert/lemon_berry_parfait.md",
-      "keywords": ["light", "fruit", "refreshing"]
-    }
-  ]
-}

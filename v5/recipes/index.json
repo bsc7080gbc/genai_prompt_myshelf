@@ -1,8 +1,0 @@
-{
-  "Cocktails": "recipes/cocktails/index.json",
-  "Breakfast": "recipes/breakfast/index.json",
-  "Lunch": "recipes/lunch/index.json",
-  "Dinner": "recipes/dinner/index.json",
-  "Dessert": "recipes/dessert/index.json",
-  "Snack": "recipes/snack/index.json"
-}

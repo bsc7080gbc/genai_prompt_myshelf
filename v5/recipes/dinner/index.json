@@ -1,9 +1,0 @@
-{
-  "recipes": [
-    {
-      "name": "Garlic Butter Steak with Herb Potatoes",
-      "path": "recipes/dinner/garlic_butter_steak.md",
-      "keywords": ["garlic", "butter", "steak", "herbs"]
-    }
-  ]
-}
