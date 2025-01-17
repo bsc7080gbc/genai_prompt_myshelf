@@ -1,0 +1,13 @@
+{
+    "Bar": [
+        {
+            "name": "My Bar",
+            "index": "mybar/index.json",
+            "keywords": [
+                "my bar",
+                "bar",
+                "mybar"
+            ]
+        }
+    ]
+}

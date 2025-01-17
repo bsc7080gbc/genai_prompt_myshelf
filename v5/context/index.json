@@ -1,0 +1,14 @@
+{
+    "context": [
+        {
+            "name": "context",
+            "path_wildcard": "context.session.*.md",
+            "keywords": [
+                "archive",
+                "context",
+                "session",
+                "audit"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+{
+    "MyShelf": [
+        {
+            "name": "modules",
+            "index": "modules/index.json",
+            "keywords": [
+                "modules",
+                "core.json"
+            ],
+            "description": "Contains modules that are triggered by the core.json wrapper"
+        },
+        {
+            "name": "MyLibrary",
+            "index": "MyLibrary/index.json",
+            "keywords": [
+                "Library"
+            ],
+            "description": "The main library containing categorized resources, organized using the Dewey Decimal System."
+        },
+        {
+            "name": "archive",
+            "index": "archive/index.json",
+            "keywords": [
+                "archive",
+                "data.json"
+            ],
+            "description": "Archived files and historical data including previous versions of data.json."
+        },
+        {
+            "name": "context",
+            "index": "context/index.json",
+            "keywords": [
+                "context",
+                "session",
+                "audit"
+            ],
+            "description": "Holds session context data"
+        },
+        {
+            "name": "updates",
+            "index": "updates/index.json",
+            "keywords": [
+                "updates",
+                "session"
+            ],
+            "description": "Contains recent updates to data.json"
+        },
+        {
+            "name": "snapshots",
+            "index": "snapshots/index.json",
+            "keywords": [
+                "snapshots",
+                "cognitive graph map"
+            ],
+            "description": "Contains core.graph.json and cache.graph.json"
+        },   
+        {
+            "name": "scripts",
+            "index": "scripts/index.json",
+            "keywords": [
+                "scripts",
+                "python"
+            ],
+            "description": "Contains python scripts"
+        },          
+        {
+            "name": "TEMPLATE.md",
+            "path": "TEMPLATE.md",
+            "keywords": [
+                "template"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "barebones.data.json",
+            "path": "barebones.data.json",
+            "keywords": [
+                "xxx"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "core.json",
+            "path": "core.json",
+            "keywords": [
+                "core.json",
+                "immutable"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "data.json",
+            "path": "data.json",
+            "keywords": [
+                "data.json",
+                "mutable"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "schema.json",
+            "path": "schema.json",
+            "keywords": [
+                "schema",
+                "data.json"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "template.json",
+            "path": "template.json",
+            "keywords": [
+                "template",
+                "data.json"
+            ],
+            "description": "x"
+        },
+        {
+            "name": "ziggyprompt.md",
+            "path": "ziggyprompt.md",
+            "keywords": [
+                "prompt"
+            ],
+            "description": "x"
+        }
+    ]
+}

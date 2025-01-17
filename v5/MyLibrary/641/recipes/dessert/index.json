@@ -1,0 +1,29 @@
+{
+    "dessert": [
+        {
+            "name": "Lemon Berry Parfait",
+            "path": "lemon_berry_parfait.md",
+            "keywords": [
+                "light",
+                "fruit",
+                "refreshing"
+            ],
+            "prep_time": "5 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "No-Bake Chocolate Peanut Butter Bars",
+            "path": "no_bake_chocolate_peanut_butter_bars.md",
+            "keywords": [
+                "chocolate",
+                "peanut",
+                "no_bake",
+                "sweet"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Medium"
+        }
+    ]
+}

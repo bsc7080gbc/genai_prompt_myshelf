@@ -2,7 +2,7 @@
     "MyBoxes": {
         "Reminders": {
             "Date Bound": {
-                "2025-01-11T00:00:00": "Snow removal on driveway"
+                "2025-01-17T00:00:00": "Bring curved monitor to work"
             }
         },
         "Generic": {
@@ -11,17 +11,17 @@
         "Shopping": {
             "Groceries": {
                 "Items": [
-                    "milk",
-                    "bread",
+                    "onion",
                     "paper towels",
-                    "eggs"
+                    "apples",
+                    "oranges",
+                    "sugar"
                 ]
             },
             "Gifts": {
                 "Items": [
                     "rock",
-                    "pencil",
-                    "rum"
+                    "pencil"
                 ]
             }
         },
@@ -29,81 +29,11 @@
             "Autocross": {
                 "SkyNotes": "Find a car"
             }
-        },
-        "JournalBox": {
-            "2025-01-01": {
-                "Title": "New Year Reflections",
-                "Content": "Spent time reflecting on this year's challenges and successes, feeling hopeful for 2025.",
-                "Tags": [
-                    "Reflection",
-                    "Goals"
-                ]
-            }
-        },
-        "Inventory": {
-            "MyBar": {
-                "Items": [
-                    "Fireball Cinnamon Whiskey",
-                    "Mephisto Absinthe",
-                    "Absolut Vodka",
-                    "Midori",
-                    "Espolon Tequila",
-                    "Vanilla Vodka",
-                    "Jagermeister",
-                    "Tequila",
-                    "Gin",
-                    "Amaretto",
-                    "Jamaican Rum",
-                    "Rum Chata Pineapple Cream Liquor",
-                    "Spiced Rum",
-                    "White Rum",
-                    "Peach Schnapps",
-                    "Buffalo Trace Bourbon",
-                    "Larceny Bourbon",
-                    "Dark Rum",
-                    "Kahlua",
-                    "Buttershots Schnapps",
-                    "Blue Curacao",
-                    "Peppermint schnapps",
-                    "Triple Sec",
-                    "Hot Damn Schnapps",
-                    "Coffee Bourbon",
-                    "Wild Turkey 101",
-                    "Pecan Whiskey",
-                    "Brandy",
-                    "Chocolate Bitters",
-                    "Aromatic Bitters",
-                    "maraschino cherries",
-                    "Wild Turkey American Honey",
-                    "Spiced Cider",
-                    "Cookies and Cream Whiskey",
-                    "Sweet and Sour mix",
-                    "Lemon juice",
-                    "Lime juice",
-                    "Apple Moonshine",
-                    "Milk",
-                    "Ice",
-                    "Orange",
-                    "Salt",
-                    "Pepper",
-                    "Cholula hot sauce",
-                    "Vanilla Extract",
-                    "Coffee",
-                    "orange juice",
-                    "pineapple juice",
-                    "Cranberry cocktail juice",
-                    "Cream of Coconut",
-                    "buzz buttons",
-                    "margarita salt",
-                    "buzz button electric dust",
-                    "Sprite"
-                ]
-            }
         }
     },
     "Metadata": {
         "Version": "1.0.0",
-        "Last Updated": "2025-01-11T18:33:43Z",
-        "Description": "Reconciled and added Sprite to MyBar."
+        "Last Updated": "2025-01-16T20:33:59.154883Z",
+        "Description": "Added 'sugar' to the groceries list; updated metadate timestamp."
     }
 }

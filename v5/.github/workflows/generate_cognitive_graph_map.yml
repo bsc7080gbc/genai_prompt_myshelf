@@ -1,0 +1,52 @@
+---
+name: Generate Cognitive Graph Map
+
+on:
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      reason:
+        description: "Reason for triggering the workflow"
+        required: false
+        default: "Manual trigger"
+
+jobs:
+  generate-cognitive-graph-map:
+    name: Generate Cognitive Graph Map
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Core Graph
+        run: |
+          echo "Running generate_core_graph.yml"
+          gh workflow run generate_core_graph.yml
+
+      - name: Wait for Core Graph Generation
+        run: |
+          echo "Waiting for Core Graph workflow to complete..."
+          gh run watch --exit-status
+
+      - name: Generate Mini Graphs
+        run: |
+          echo "Running generate_mini_graphs.yml"
+          gh workflow run generate_mini_graphs.yml
+
+      - name: Wait for Mini Graphs Generation
+        run: |
+          echo "Waiting for Mini Graphs workflow to complete..."
+          gh run watch --exit-status
+
+      - name: Generate Cache Graph
+        run: |
+          echo "Running generate_cache_graph.yml"
+          gh workflow run generate_cache_graph.yml
+
+      - name: Wait for Cache Graph Generation
+        run: |
+          echo "Waiting for Cache Graph workflow to complete..."
+          gh run watch --exit-status
+
+      - name: Completion
+        run: echo "All graph generation workflows have been completed successfully."

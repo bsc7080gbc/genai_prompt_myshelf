@@ -1,0 +1,58 @@
+{
+    "dinner": [
+        {
+            "name": "Garlic Butter Steak with Herb Potatoes",
+            "path": "garlic_butter_steak.md",
+            "keywords": [
+                "garlic",
+                "butter",
+                "steak",
+                "herbs"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "25 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Creamy Lemon Herb Pasta with Chicken",
+            "path": "creamy_lemon_herb_pasta.md",
+            "keywords": [
+                "pasta",
+                "creamy",
+                "lemon",
+                "chicken"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "One-Pan Cheesy Hamburger Skillet",
+            "path": "one_pan_cheesy_hamburger_skillet.md",
+            "keywords": [
+                "dinner",
+                "hamburger",
+                "pasta",
+                "skillet",
+                "comfort food"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Garlic Butter Herb Chicken with Zucchini Noodles",
+            "path": "garlic_butter_herb_chicken_zucchini_noodles.md",
+            "keywords": [
+                "gluten free",
+                "keto",
+                "low carb",
+                "diet",
+                "chicken"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        }
+    ]
+}

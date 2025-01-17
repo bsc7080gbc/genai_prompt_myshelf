@@ -1,0 +1,86 @@
+{
+    "Navigation": {
+        "adaptive_navigation": {
+            "prioritize_metadata": true,
+            "fallback_rules": {
+                "use_contextual_keywords": true,
+                "keyword_threshold": 0.05
+            }
+        },
+        "adaptive_exploration": {
+            "prioritize": [
+                "metadata relationships",
+                "related nodes"
+            ],
+            "fallbacks": {
+                "contextual_nodes": "explore paths with similar types or categories",
+                "cache_priority": "prioritize cached paths when traversal exceeds depth"
+            }
+        },
+        "contextual_reasoning": {
+            "enabled": true,
+            "rules": {
+                "type_priority": [
+                    "file",
+                    "directory"
+                ],
+                "path_inference": true,
+                "theme_match_priority": true
+            }
+        },
+        "IndexTraversal": {
+            "Description": "Enable intelligent traversal of graphs and registries, leveraging metadata, weighting, and contextual reasoning to efficiently navigate and locate items.",
+            "Paths": {
+                "Registry": "snapshots/mini-graphs/registry.json",
+                "ThemeRegistry": "snapshots/mini-graph-themes/theme.registry.json",
+                "MiniGraphs": "snapshots/mini-graphs/",
+                "CacheGraph": "snapshots/cache.graph.json",
+                "CoreGraph": "snapshots/core.graph.json"
+            },
+            "Instructions": [{
+                "Step": "ReadThemeRegistry",
+                "Description": "Load the theme.registry.json to identify related mini-graphs based on query keywords and weights."
+            },
+                {
+                    "Step": "MatchQueryToGraph",
+                    "Description": "Match the query context (keywords, descriptions, paths) against entries in the theme.registry.json and registry.json. Select the highest weighted matches above the threshold."
+                },
+                {
+                    "Step": "LoadRelevantMiniGraphs",
+                    "Description": "Load related mini-graphs identified from theme.registry.json or registry.json to begin traversal. Use weighting to prioritize graphs with the most relevance to the query."
+                },
+                {
+                    "Step": "FallbackTraversal",
+                    "Description": "If theme and registry matches are insufficient, traverse through mini-graphs. Expand to cache.graph.json or core.graph.json as a last resort."
+                },
+                {
+                    "Step": "AggregateKeywordMatches",
+                    "Description": "Combine keywords from mini-graphs, theme.registry.json, and registry.json to dynamically infer new relationships and expand traversal pathways."
+                },
+                {
+                    "Step": "DynamicTraversalDepth",
+                    "Description": "Allow configurable traversal depth to limit or expand directory exploration. Default to shallow exploration unless deeper traversal is required."
+                },
+                {
+                    "Step": "PrioritizeEfficiency",
+                    "Description": "Cache matched graphs and paths for frequently accessed queries to optimize future traversal operations."
+                },
+                {
+                    "Step": "KeywordSearch",
+                    "Description": "Enable direct keyword searches across registry and theme.registry for precise query matches, prioritizing files with high keyword density."
+                },
+                {
+                    "Step": "IncludeFiles",
+                    "Description": "Ensure each directory’s index.json includes a 'Files' section listing local files with metadata for direct keyword matching."
+                },
+                {
+                    "Step": "ErrorLogging",
+                    "Description": "Log traversal errors or unmatched queries for debugging."
+                },
+                {
+                    "Step": "TabCompatibility",
+                    "Description": "Ensure JSON files maintain 4-tab spaces for formatting consistency."
+                }]
+        }
+    }
+}

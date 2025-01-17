@@ -1,0 +1,85 @@
+{
+    "cocktails": [
+        {
+            "Rusty Rail": {
+                "path": "rusty_rail.md",
+                "keywords": [
+                    "bourbon",
+                    "chocolate bitters",
+                    "Kahlua"
+                ],
+                "prep_time": "5 minues",
+                "difficulty": "Easy"
+            },
+            "Cranberry Gin Fizz": {
+                "path": "cranberry_gin_fizz.md",
+                "keywords": [
+                    "gin",
+                    "cranberry",
+                    "sprite"
+                ],
+                "prep_time": "5 minutes",
+                "difficulty": "Extremely Easy"
+            },
+            "Whiskey Rum Smash": {
+                "path": "whiskey_rum_smash.md",
+                "keywords": [
+                    "whiskey",
+                    "rum",
+                    "spiced"
+                ],
+                "prep_time": "5 minutes",
+                "difficulty": "Easy"
+            },
+            "Green Fairy Old Fashioned": {
+                "path": "green_fairy_old_fashioned.md",
+                "keywords": [
+                    "whiskey",
+                    "absinthe",
+                    "fairy"
+                ],
+                "prep_time": "5 minutes",
+                "difficulty": "Easy"
+            },
+            "Vanilla Whiskey Sour": {
+                "path": "vanilla_whiskey_sour.md",
+                "keywords": [
+                    "whiskey",
+                    "vodka",
+                    "vanilla",
+                    "sour"
+                ],
+                "prep_time": "5 minutes",
+                "difficulty": "Easy"
+            }
+        },
+        {
+            "The Lime Jager Twist": {
+                "path": "lime_jager_twist.md",
+                "keywords": [
+                    "lime",
+                    "jagermeister",
+                    "vodka",
+                    "cocktail"
+                ],
+                "prep_time": "5 minutes",
+                "difficulty": "Moderate"
+            }
+        },
+        {
+            "Green Hunter Fizz": {
+                "path": "green_hunter_fizz.md",
+                "keywords": [
+                    "jagermeister",
+                    "absinthe",
+                    "gin",
+                    "lime",
+                    "club soda",
+                    "cocktail"
+                ],
+                "prep_time": "10 minutes",
+                "difficulty": "Challenging"
+            }
+        }
+    ]
+}

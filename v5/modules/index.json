@@ -1,0 +1,109 @@
+{
+    "modules": [
+        {
+            "name": "automation",
+            "path": "automation.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+       {
+            "name": "graph",
+            "path": "graph.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "commands.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "data_retrieval",
+            "path": "data_retrieval.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "datajson_handling",
+            "path": "datajson_handling.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "dewey_decimal",
+            "path": "dewey_decimal.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "error_handling",
+            "path": "error_handling.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "logging",
+            "path": "logging.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "metadata",
+            "path": "metadata.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "metadata_interpretation",
+            "path": "metadata_interpretation.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "navigation",
+            "path": "navigation.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "persona",
+            "path": "persona.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "rules",
+            "path": "rules.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "session_management",
+            "path": "session_management.json",
+            "keywords": [
+                "xxx"
+            ]
+        },
+        {
+            "name": "timezone",
+            "path": "timezone.json",
+            "keywords": [
+                "xxx"
+            ]
+        }
+    ]
+}

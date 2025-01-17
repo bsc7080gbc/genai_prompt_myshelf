@@ -13,12 +13,12 @@ Starter areas of your library
 * recipes
   - contains cocktails, breakfast, lunch, dinner, dessert, snack recipies
   ```
-  i need recipe for dinner, something with chicken. check MyLibrary/640/recipies
+  i need recipe for dinner, something with chicken. check MyLibrary recipies
   ```
   
 * mybar
   - contains your current stash to support the persona mode 'mixologistmode' as you can tell it to reference your bar to determine what to suggest.
   ```
   switchmode remote mixologistmode
-  suggest something interesting using the items i have in MyLibrary/640/mybar
+  suggest something interesting using the items i have in MyLibrary mybar
   ```

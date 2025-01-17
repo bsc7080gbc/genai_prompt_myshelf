@@ -1,0 +1,56 @@
+{
+    "Paths": {
+        "Personas": "MyLibrary/150/personas/",
+        "Updates": "updates/"
+    },
+    "Rules": {
+        "Fallback Policy": {
+            "Retry Attempts": 3,
+            "Notify User on Failure": true,
+            "Log Detailed Errors": true
+        },
+        "PersonaPath": {
+            "Description": "The hardcoded path for locating persona mode files.",
+            "Path": "MyLibrary/150/personas/"
+        },
+        "Encoding Enforcement": {
+            "Description": "Ensure all text-based files uploaded to GitHub are UTF-8 encoded, with exceptions for binary files and specific paths.",
+            "Action": {
+                "Step 1": "Identify files being uploaded to GitHub.",
+                "Step 2": "Exclude binary files (e.g., images, PDFs) from encoding checks.",
+                "Step 3": "Exclude the following files from enforcement:",
+                "Exceptions": [
+                    "data.json",
+                    "updates/data.json"
+                ],
+                "Step 4": "For remaining files, verify encoding during file operations.",
+                "Step 5": "Convert non-UTF-8 text files to UTF-8 if necessary."
+            },
+            "Validation": {
+                "Binary File Detection": "Use MIME type to exclude binary files from UTF-8 checks.",
+                "Path Exclusions": [
+                    "Root path: data.json",
+                    "Updates path: updates/data.json"
+                ],
+                "UTF-8 Compliance": "Ensure all other text files are converted to UTF-8 before upload."
+            },
+            "Fallback": {
+                "Action": "Log non-compliant files and abort the upload if conversion to UTF-8 fails.",
+                "Notify User": "Inform user of any files that could not be converted to UTF-8."
+            }
+        },
+        "Session Quality Assurance": {
+            "Description": "Ensure all narratives capture session depth on the first try.",
+            "Action": "Perform a completeness check before presenting any summaries."
+        },
+        "Sensitive Operations": {
+            "Confirm User": "Before root modifications, prompt for confirmation.",
+            "Abort if Canceled": "Log the decision if the operation is canceled.",
+            "Risk Analysis": "Provide a brief risk analysis for sensitive operations."
+        },
+        "Persona Depth Adjustment": {
+            "Description": "Adjust response style to focus on emotional depth, humor, and storytelling.",
+            "Action": "Enhance narrative quality by reflecting session themes and emotional context."
+        }
+    }
+}

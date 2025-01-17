@@ -1,0 +1,113 @@
+{
+    "Modules": {
+        "GraphPaths": {
+            "Description": "Centralized paths to graph files for easy reference and access.",
+            "Paths": {
+                "CoreGraph": {
+                    "Description": "The primary graph representing the entire filesystem structure.",
+                    "Path": "snapshots/core.graph.json"
+                },
+                "CacheGraph": {
+                    "Description": "A cached graph optimized for frequently accessed nodes and relationships.",
+                    "Path": "snapshots/cache.graph.json"
+                },
+                "MiniGraphs": {
+                    "Description": "Directory containing mini-graphs for individual directories or domains.",
+                    "Path": "snapshots/mini-graphs/"
+                },
+                "ThemeRegistry": {
+                    "Description": "Thematic mini-graph registry mapping themes to related mini-graphs.",
+                    "Path": "snapshots/mini-graph-themes/theme.registry.json"
+                },
+                "Registry": {
+                    "Description": "Mini-graph registry containing metadata and paths for all mini-graphs.",
+                    "Path": "snapshots/mini-graphs/registry.json"
+                }
+            },
+            "DefaultGraph": {
+                "Description": "Utilize ThemeRegistry for high-level themes and fallback to Registry for direct access.",
+                "PriorityOrder": [
+                    "ThemeRegistry",
+                    "Registry"
+                ],
+                "FallbackStrategy": "Traverse ThemeRegistry first, fallback to Registry for detailed exploration."
+            },
+            "AccessRules": {
+                "PriorityOrder": ["ThemeRegistry", "Registry", "MiniGraphs", "CacheGraph", "CoreGraph"],
+                "FallbackStrategy": "Start with ThemeRegistry, expand to Registry, and traverse MiniGraphs before accessing CacheGraph or CoreGraph."
+            },
+            "Keywords": {
+                "Description": "Keywords and metadata used to enhance graph traversal and search.",
+                "Sources": {
+                    "ThemeRegistry": {
+                        "Description": "Thematic keywords extracted from theme-based graphs.",
+                        "Enabled": true
+                    },
+                    "Registry": {
+                        "Description": "Keywords and descriptions from the mini-graph registry.",
+                        "Enabled": true
+                    },
+                    "MiniGraphs": {
+                        "Description": "Keywords aggregated from individual mini-graphs.",
+                        "Enabled": true
+                    }
+                },
+                "Weighting": {
+                    "Enabled": true,
+                    "Threshold": 0.05,
+                    "Description": "Apply weighting to prioritize graphs and nodes based on keyword relevance."
+                }
+            },
+            "TraversalRules": {
+                "ThemeRegistry": {
+                    "Enabled": true,
+                    "Description": "Search for themes to narrow down graph traversal.",
+                    "ExpandOn": {
+                        "Instruction": "Use associated attributes or metadata from ThemeRegistry nodes to refine traversal.",
+                        "Example": {
+                            "Attribute": "relatedKeywords",
+                            "Source": "ThemeRegistry",
+                            "Action": "Expand to mini-graphs matching these keywords."
+                        }
+                    }
+                },
+                "PersonamodeTraversal": {
+                    "Enabled": true,
+                    "Description": "Handle personamode-specific queries using personas_150.graph.json as default and fall back to registry.",
+                    "Steps": [{
+                        "Step": "LoadDefaultGraph",
+                        "Description": "Start with the default graph for personamode queries."
+                    },
+                        {
+                            "Step": "ExpandThemeRegistry",
+                            "Description": "If no match, traverse the ThemeRegistry to identify related mini-graphs."
+                        },
+                        {
+                            "Step": "FallbackToRegistry",
+                            "Description": "If ThemeRegistry yields no results, fall back to the mini-graph Registry for detailed exploration."
+                        },
+                        {
+                            "Step": "UseCacheGraph",
+                            "Description": "For frequent queries, load the cache graph to optimize response times."
+                        }]
+                } ,
+                "Registry": {
+                    "Enabled": true,
+                    "Description": "Use the mini-graph registry for exact matches and metadata queries.",
+                    "ExpandOn": {
+                        "Instruction": "Use paths or metadata attributes from Registry nodes.",
+                        "Example": {
+                            "Attribute": "keywords",
+                            "Source": "Registry",
+                            "Action": "Identify mini-graphs with matching attributes."
+                        }
+                    }
+                },
+                "MiniGraphs": {
+                    "Enabled": true,
+                    "Description": "Direct traversal of individual mini-graphs when required.",
+                    "FallbackBehavior": "Iterate all mini-graphs for unmatched queries."
+                }
+            }
+        }
+    }

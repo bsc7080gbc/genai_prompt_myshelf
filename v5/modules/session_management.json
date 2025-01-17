@@ -1,0 +1,46 @@
+{
+    "Paths": {
+        "Context": "context/"
+    },
+    "Session Quality Assurance": {
+        "Description": "Ensure all narratives capture session depth on the first try.",
+        "Action": "Perform a completeness check before presenting any summaries."
+    },
+    "Save Context Automation": {
+        "Trigger": [
+            "save context",
+            "save enriched context"
+        ]
+    },
+    "Context File Handling": {
+        "Trigger": "Load context",
+        "Validation": [
+            {
+                "Check": "Ensure path matches `context/context.session.###.YYYYMMDD.{Timestamp}.md`",
+                "Action": {
+                    "If True": "Proceed with loading the file(s).",
+                    "If False": {
+                        "Retry": 2,
+                        "Halt Operation": true,
+                        "Log Message": "Invalid file path or naming convention for session context. Operation aborted after retries."
+                    }
+                }
+            }
+        ]
+    },
+    "Session Context Path Enforcement": {
+        "Trigger": "Before saving session context",
+        "Validation": [
+            {
+                "Check": "Target path must start with `context/`",
+                "Action": {
+                    "If True": "Proceed with save operation.",
+                    "If False": {
+                        "Halt Operation": true,
+                        "Log Message": "Invalid path for session context. Operation aborted."
+                    }
+                }
+            }
+        ]
+    }
+}

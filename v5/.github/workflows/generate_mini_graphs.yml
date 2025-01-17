@@ -1,0 +1,111 @@
+---
+name: Generate Mini Graphs
+on:
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      reason:
+        description: "Reason for triggering the workflow"
+        required: false
+        default: "Manual trigger"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  mini_graph_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Lyra[bot]"
+          git config user.email "lyra@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Debug Directory Structure
+      - name: Debug Directory Structure
+        run: |
+          echo "Listing directory structure:"
+          find /home/runner/work/MyShelf -name "*.json"
+
+      # Step 4: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 5: Install Python dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install networkx scikit-learn spacy
+          python -m spacy download en_core_web_sm
+
+      # Step 6: Validate core.graph.json Location
+      - name: Validate core.graph.json Location
+        run: |
+          if [ ! -f snapshots/core.graph.json ]; then
+            echo "core.graph.json not found. Exiting." > notification-log.txt
+            exit 1
+          fi
+          echo "core.graph.json found at $(pwd)."
+
+      # Step 7: Run Mini-Graph Generation Script
+      - name: Run Mini-Graph Generation Script
+        working-directory: /home/runner/work/MyShelf/MyShelf
+        run: |
+          python scripts/generate_mini_graphs.py || {
+            echo "Mini-graph generation failed. Exiting." > notification-log.txt
+            exit 1
+          }
+          echo "Mini-graph generation completed successfully." >> notification-log.txt
+
+      # Step 8: Run Graph Registry Generation Script
+      - name: Run Graph Registry Generation Script
+        working-directory: /home/runner/work/MyShelf/MyShelf
+        run: |
+          python scripts/generate_graph_registry.py || {
+            echo "Graph registry generation failed. Exiting." > notification-log.txt
+            exit 1
+          }
+          echo "Graph registry generation completed successfully." >> notification-log.txt
+
+      # Step 9: Commit and Push Changes
+      - name: Commit and Push Changes
+        if: success()
+        run: |
+          echo "Staging new and updated graph files..."
+          git add snapshots/mini-graphs/*.graph.json snapshots/mini-graphs/registry.json || echo "No new graph files to add."
+
+          echo "Committing changes..."
+          git commit -m "Updated mini-graphs and registry on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+
+          echo "Pushing changes to remote repository..."
+          git push origin main || echo "No changes to push."
+
+      # Step 10: Notify via GitHub Issues
+      - name: Notify via GitHub Issues
+        if: failure() # Notify only on failure
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Generate Mini Graphs - Workflow Failed"
+          content-filepath: ./notification-log.txt
+          labels: failure
+        env:
+          GITHUB_TOKEN: ${{ secrets.MYSHELF }}
+
+      # Step 11: Debug Workflow State
+      - name: Debug Workflow State
+        run: |
+          echo "Git status:"
+          git status
+          echo ".gitignore contents (if exists):"
+          [ -f .gitignore ] && cat .gitignore || echo "No .gitignore found."

@@ -1,0 +1,30 @@
+{
+    "breakfast": [
+        {
+            "name": "Pancakes",
+            "path": "fluffy_pancakes.md",
+            "keywords": [
+                "floury",
+                "butter",
+                "lemon",
+                "economy"
+            ],
+            "prep_time": "15 minuets",
+            "cooking_time": "10 minutes",
+            "difficulty": "Medium"
+        },
+        {
+            "name": "Gluten-Free Pancakes",
+            "path": "gluten_free_pancakes.md",
+            "keywords": [
+                "gluten-free",
+                "fluffy",
+                "lemon",
+                "refreshing"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "20 minutes",
+            "difficulty": "Easy"
+        }
+    ]
+}

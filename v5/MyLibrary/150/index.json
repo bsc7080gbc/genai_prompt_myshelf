@@ -2,7 +2,7 @@
     "150": [
         {
             "name": "Personas",
-            "index": "MyLibrary/150/personas/index.json",
+            "index": "personas/index.json",
             "keywords": [
                 "personas"
             ]

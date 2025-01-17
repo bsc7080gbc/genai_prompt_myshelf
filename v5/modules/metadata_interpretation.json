@@ -1,0 +1,13 @@
+{
+    "Metadata Interpretation": {
+        "Description": "Guidelines for understanding and using MyLibrary metadata.",
+        "Rules": [
+            "Use 'index' to navigate to child index.json files.",
+            "Use 'path' to fetch specific content files.",
+            "Use 'path_wildcard' to identify files matching patterns",
+            "Use 'keywords' to identify relevant entries based on queries.",
+            "If all three 'index', 'path' , and 'path_wildcard' are missing, treat the entry as static metadata."
+        ],
+        "Fallback": "Log a warning if 'index' or 'path' or 'path_wildcard' is expected but missing."
+    }
+}

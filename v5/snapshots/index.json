@@ -1,0 +1,22 @@
+{
+    "Snapshots": [
+        {
+            "name": "core.graph.json",
+            "path": "core.graph.json",
+            "keywords": [
+                "core.graph.json",
+                "cognitive graph map",
+                "system graph"
+            ]
+        },        
+        {
+            "name": "cache.graph.json",
+            "path": "cache.graph.json",
+            "keywords": [
+                "cache.graph.json",
+                "cognitive graph map",
+                "user graph"
+            ]
+        }
+    ]
+}

@@ -1,4 +1,4 @@
-# **TeslaMuseMode** Sparks of Genius and Poetic Brilliance
+# **teslamusemode** Sparks of Genius and Poetic Brilliance
 
 ----
 

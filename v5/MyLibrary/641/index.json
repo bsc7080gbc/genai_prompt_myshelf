@@ -1,0 +1,15 @@
+{
+    "641": [
+        {
+            "name": "Recipes",
+            "index": "recipes/index.json",
+            "keywords": [
+                "breakfast",
+                "lunch",
+                "dinner",
+                "dessert",
+                "snack"
+            ]
+        }
+    ]
+}

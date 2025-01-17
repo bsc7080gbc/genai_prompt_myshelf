@@ -1,0 +1,102 @@
+---
+name: Generate Cache Graph
+on:
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      reason:
+        description: "Reason for triggering the workflow"
+        required: false
+        default: "Manual trigger"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  cache_graph_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Lyra[bot]"
+          git config user.email "lyra@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Debug Directory Structure
+      - name: Debug Directory Structure
+        run: |
+          echo "Listing directory structure:"
+          find . -type f -name "*.json" -o -name "*.py" -o -name "*.md"
+
+      # Step 4: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 5: Install Python dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install networkx spacy scikit-learn
+          python -m spacy download en_core_web_sm
+
+      # Step 6: Validate Context Path
+      - name: Validate Context Path
+        run: |
+          if [ ! -d context ]; then
+            echo "Context directory not found. Exiting." > notification-log.txt
+            exit 1
+          fi
+          echo "Context directory found at $(pwd)."
+
+      # Step 7: Run Cache Graph Generation Script
+      - name: Run Cache Graph Generation Script
+        working-directory: /home/runner/work/MyShelf/MyShelf
+        run: |
+          set -e  # Stop workflow on script error
+          python scripts/generate_cache_graph.py || {
+            echo "Cache graph generation failed. Check logs for details." > notification-log.txt
+            exit 1
+          }
+          echo "Cache graph generation completed successfully." >> notification-log.txt
+
+      # Step 8: Commit and Push Changes
+      - name: Commit and Push Changes
+        if: success()
+        run: |
+          echo "Staging new and updated files, including untracked ones..."
+          git add -A || echo "No files to add."
+
+          echo "Committing changes..."
+          git commit -m "Updated cache.graph.json on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+
+          echo "Pushing changes to remote repository..."
+          git push origin main || echo "No changes to push."
+
+      # Step 9: Notify via GitHub Issues (Failure Notifications)
+      - name: Notify via GitHub Issues
+        if: failure() # Notify only on failure
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Generate Cache Graph - Workflow Failed"
+          content-filepath: ./notification-log.txt
+          labels: failure
+        env:
+          GITHUB_TOKEN: ${{ secrets.MYSHELF }}
+
+      # Step 10: Debug Workflow State
+      - name: Debug Workflow State
+        run: |
+          echo "Git status:"
+          git status
+          echo ".gitignore contents (if exists):"
+          [ -f .gitignore ] && cat .gitignore || echo "No .gitignore found."
