@@ -1,3 +1,5 @@
+THIS IS NOT READY FOR USE YET. STILL WORKING ON ITEMS. V5 IS SUBJECT TO CHANGE FREQUENTLY AS I WORK OUT ISSUES>
+
 v5 brings several changes to MyShelf
 
 * Introduction of using the raw files from GitHub when peforming the GET operations, e.g. retrieving the data.json file as opposed to using the normal APIs. This increased stability and accuracy of the file retrieval from the GitHub repository.
