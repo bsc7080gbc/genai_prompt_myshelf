@@ -1,6 +1,6 @@
 **[ELI5](‐-0.0.0-.1-README-(ELI5).md)**
 
-<TABLE width="100%"><TR><TD align="left"><a href="README.md">Home</a></TD><TD align="right"><a href="‐-1.0.0-Introduction.md">1.0.0 Introduction</a></TD></TR></TABLE>
+<TABLE width="100%"><TR><TD align="left"><a href="README.md">Home</a></TD><TD align="right"><a href="‐-1.0.0-Introduction.md">NEXT > 1.0.0 Introduction</a></TD></TR></TABLE>
 
 
 **Ziggy** is an innovative system designed to streamline data management and automation for personal projects, team collaborations, and organizational efficiency. It leverages GitHub workflows, seamless integrations, and intelligent automation, simplifying complex operations and making the system a valuable asset.
@@ -31,4 +31,4 @@ While it's acknowledged that some aspects may have been overlooked, the groundwo
 
 Ziggy’s architecture ensures reliability, scalability, and ease of use, making it ideal for both beginners and advanced users seeking a simplified yet capable solution.
 
-<TABLE width="100%"><TR><TD align="left"><a href="README.md">Home</a></TD><TD align="right"><a href="‐-1.0.0-Introduction.md">1.0.0 Introduction</a></TD></TR></TABLE>
+<TABLE width="100%"><TR><TD align="left"><a href="README.md">Home</a></TD><TD align="right"><a href="‐-1.0.0-Introduction.md">NEXT > 1.0.0 Introduction</a></TD></TR></TABLE>
