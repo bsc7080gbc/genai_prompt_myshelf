@@ -7,7 +7,7 @@ In short, think "Jarvis" ...but on a budget.
 
 ---
 **Read the Docs**:
-   - [![User Manual](https://img.shields.io/badge/user%20manual-8A2BE2)](https://github.com/bsc7080gbc/genai_prompt_myshelf/wiki)
+   - [![User Manual](https://img.shields.io/badge/user%20manual-8A2BE2)](docs/README.md)
      - This manual provides instructions, feature overviews, and breakdowns of how this all works to help you get the most out of "MyShelf".
 ---
 
