@@ -1,4 +1,4 @@
-**[ELI5](-0.0.0-.1-Home-(ELI5))**
+**[ELI5](‐-0.0.0-.1-Home-(ELI5).md)**
 
 
 **Ziggy** is an innovative system designed to streamline data management and automation for personal projects, team collaborations, and organizational efficiency. It leverages GitHub workflows, seamless integrations, and intelligent automation, simplifying complex operations and making the system a valuable asset.
