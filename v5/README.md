@@ -13,7 +13,16 @@ v5 brings several changes to MyShelf
 * Personas ** no longer need to be attached to the custom GPT with exception of the defaultmode and personamodetemplate. Instead we have created a personas path in our private github repository and placed all personas in there. MyShelf now has two commands: `switchmode {mode}`
 * Recipes ** folder has been added to the GitHub repo as well. Under that we have indexes for breakfast, lunch, dinner, etc. even a cocktails folder which works in concert with the "MyBar" in the data.json
 
-* And I think an actual cognitive graph map of the filesystem in your private github repo.
+* And I had hoped for an actual cognitive graph map of the filesystem in your private github repo, but it is what we call a proto-cognitive graph. Very close, but there would be some work to do - and it is doable - to make it a true cognitive graph. For purposes of this project I believe I have demonstrated that a lot is possible with the minimal amount of tooling. This can leave most of you with the inspiration of what would be possible with even more appropriate and advanced tools and software.
+
+* My next effort on this project will most likely be focused on how I might be able to integrate [IFTTT](https://ifttt.com) - building recipes with that and running
+
+https://help.ifttt.com/hc/en-us/articles/115010230347-Webhooks-service-FAQ
+
+CURL:
+
+curl -X POST -H "Content-Type: application/json" -d '{"this":[{"is":{"some":["test","data"]}}]}' http://maker.ifttt.com/trigger/{event}/json/with/key/{webhooks_key}
+
 
 
 ** IMPORTANT **
