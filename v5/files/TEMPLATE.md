@@ -44,26 +44,7 @@ This section stores generic notes.
   - `"Note Title"`: A unique title for the note.
   - `"Note Text"`: The text of the note.
 
-#### **1.3. Projects**
-This section stores project information.
-
-```json
-"Projects": {
-    "ProjectName": {
-        "Description": "Project Description",
-        "Status": "WIP | Completed",
-        "Notes": ["Note 1", "Note 2"]
-    }
-}
-```
-
-- **Fields**:
-  - `ProjectName`: A unique name for the project.
-  - `Description`: A description of the project.
-  - `Status`: The current status of the project (`WIP`, `Completed`, etc.).
-  - `Notes`: A list of notes associated with the project.
-
-#### **1.4. Shopping**
+#### **1.3. Shopping**
 This section stores categorized shopping lists.
 
 ```json
@@ -78,7 +59,7 @@ This section stores categorized shopping lists.
   - `ListName`: A unique name for the shopping list.
   - `Items`: A list of items in the shopping list.
 
-#### **1.5. BlueSky**
+#### **1.4. BlueSky**
 This section stores miscellaneous ideas or notes.
 
 ```json
@@ -118,7 +99,7 @@ This section stores miscellaneous ideas or notes.
    All date fields must use the ISO 8601 format (`YYYY-MM-DDTHH:MM:SSZ`).
 
 2. **Naming Conventions**:
-   - Use unique names for keys like `ProjectName`, `ListName`, and `CategoryName`.
-
+   - Use unique names for keys.
+   
 3. **Optional vs Required Fields**:
    - Fields like `Notes` (in Projects) and `Items` (in Shopping) can be left empty but should still follow the proper structure.

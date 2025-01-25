@@ -6,9 +6,9 @@
             "Updates": "updates/"
         },
         "GETDATA": {
-            "Description": "Allows fetching data.json from root using raw.githubusercontent.com.",
+            "Description": "Allows fetching data.json from root using raw.githubusercontent.com. Change the {owner} to your profile or org",
             "Logging": "Log all GETDATA requests with timestamps and user details.",
-            "Request": "GET https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/data.json",
+            "Request": "GET https://raw.githubusercontent.com/{owner}/MyShelf/main/data.json",
             "Fallback": {
                 "Actions": [
                     "If GET request fails, retry up to 3 times with exponential backoff.",

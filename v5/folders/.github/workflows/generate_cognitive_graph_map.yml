@@ -14,10 +14,12 @@ permissions:
   issues: write
   actions: write
 
+# you will need to go retrieve the associated Workflow IDs from the workflows using APIs available by GitHub. ChatGPT can help with the appropriate command
+
 env:
-  CORE_GRAPH_WORKFLOW_ID: "138268956"
-  MINI_GRAPHS_WORKFLOW_ID: "138396345"
-  CACHE_GRAPH_WORKFLOW_ID: "138365804"
+  CORE_GRAPH_WORKFLOW_ID: "#########"
+  MINI_GRAPHS_WORKFLOW_ID: "#########"
+  CACHE_GRAPH_WORKFLOW_ID: "#########"
 
 jobs:
   core_graph_workflow:

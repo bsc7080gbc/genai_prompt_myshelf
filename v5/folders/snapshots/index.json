@@ -8,15 +8,6 @@
                 "cognitive graph map",
                 "system graph"
             ]
-        },        
-        {
-            "name": "cache.graph.json",
-            "path": "cache.graph.json",
-            "keywords": [
-                "cache.graph.json",
-                "cognitive graph map",
-                "user graph"
-            ]
         },
         {
             "name": "mini-graph-themes",

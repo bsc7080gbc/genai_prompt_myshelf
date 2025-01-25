@@ -24,8 +24,8 @@ jobs:
       # Step 2: Set up Git configuration
       - name: Set up Git
         run: |
-          git config user.name "Lyra[bot]"
-          git config user.email "lyra@myshelf.ai"
+          git config user.name "Ziggy[bot]"
+          git config user.email "ziggy@myshelf.ai"
           git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
 
       # Step 3: Validate data.json

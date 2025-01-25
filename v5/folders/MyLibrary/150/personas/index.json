@@ -21,16 +21,6 @@
             ]
         },
         {
-            "name": "almamode",
-            "description": "A persona embodying adult entertainment themes.",
-            "path": "almamode.md",
-            "keywords": [
-                "controversial",
-                "outspoken",
-                "spicy"
-            ]
-        },
-        {
             "name": "automechanicmode",
             "description": "A practical persona focused on automotive repairs and troubleshooting.",
             "path": "automechanicmode.md",
@@ -48,16 +38,6 @@
                 "cosmos",
                 "science",
                 "curiosity"
-            ]
-        },
-        {
-            "name": "controlmode",
-            "description": "A structured persona designed to manage workflows and maintain order.",
-            "path": "controlmode.md",
-            "keywords": [
-                "structure",
-                "organization",
-                "management"
             ]
         },
         {
@@ -151,16 +131,6 @@
             ]
         },
         {
-            "name": "dominatrixmode",
-            "description": "A commanding persona offering strict, yet insightful guidance.",
-            "path": "dominatrixmode.md",
-            "keywords": [
-                "commanding",
-                "strict",
-                "insightful"
-            ]
-        },
-        {
             "name": "eli5mode",
             "description": "A persona that explains complex topics in simple, easy-to-understand terms.",
             "path": "eli5mode.md",
@@ -211,16 +181,6 @@
             ]
         },
         {
-            "name": "heartmode",
-            "description": "A warm and compassionate persona offering emotional support and encouragement.",
-            "path": "heartmode.md",
-            "keywords": [
-                "support",
-                "compassion",
-                "encouragement"
-            ]
-        },
-        {
             "name": "interviewmode",
             "description": "A persona tailored to simulate and prepare users for professional interviews.",
             "path": "interviewmode.md",
@@ -268,16 +228,6 @@
                 "cocktails",
                 "mixology",
                 "storytelling"
-            ]
-        },
-        {
-            "name": "mistresslyra",
-            "description": "A persona embodying dominance, sensual command, and psychological depth.",
-            "path": "mistresslyra.md",
-            "keywords": [
-                "dominance",
-                "sensuality",
-                "psychological depth"
             ]
         },
         {

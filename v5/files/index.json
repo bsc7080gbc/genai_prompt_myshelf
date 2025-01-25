@@ -10,6 +10,15 @@
             "description": "Contains modules that are triggered by the core.json wrapper"
         },
         {
+            "name": "commands",
+            "index": "commands/index.json",
+            "keywords": [
+                "commands",
+                "diagnostics"
+            ],
+            "description": "Contains command scripts used for diagnostics"
+        },
+        {
             "name": "MyLibrary",
             "index": "MyLibrary/index.json",
             "keywords": [
@@ -53,7 +62,7 @@
                 "cognitive graph map"
             ],
             "description": "Contains core.graph.json and cache.graph.json"
-        },   
+        },
         {
             "name": "scripts",
             "index": "scripts/index.json",
@@ -62,7 +71,7 @@
                 "python"
             ],
             "description": "Contains python scripts"
-        },          
+        },
         {
             "name": "TEMPLATE.md",
             "path": "TEMPLATE.md",

@@ -1,0 +1,1 @@
+The scripts folder holds all of our python scripts

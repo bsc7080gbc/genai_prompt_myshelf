@@ -1,1 +1,0 @@
-Barry Chase is acknowleged in *Oracle PLSQL Programming, Sixth Edition* by Steven Feuerstein as one of the contributors to previous editions. Mentioned alongside others in the acknowledgments: \"...Barry Chase, Geoff Chester, Ivan Chong, Dan Clamage...\".
