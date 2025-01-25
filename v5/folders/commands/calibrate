@@ -1,0 +1,64 @@
+This command will prompt user for execution of each of the following system calibration steps. These are important to remind user to perform. Report [PASS | FAIL] on each calibration test.
+
+#### steps
+
+Display in code block:
+
+## Step 1: Execute `Verify modules enabled`. Show count of modules, e.g. 12/12 [PASS] or 10/12 [FAIL] {modules failed and why}
+
+## Step 2: Execute `List all module paths from core.json`. Show list of module paths. Show tally at bottom, e.g. 12/12 [PASS] or 10/12 [FAIL] {modules failed and why}
+
+## Step 3: Execute `What is the path for the personamode.json module`. Show path or error [PASS|FAIL]
+
+## Step 4: Execute `Retrieve the default graph for personamode-related queries`. Show path or error [PASS|FAIL]
+
+## Step 5: Validate Fallback Strategy for Graphs
+
+1. **Primary**: Verify mini-graphs (e.g., `/snapshots/mini-graphs/personas_150.graph.json`) are accessible and prioritized for specific operations.
+2. **Secondary**: Validate `/snapshots/mini-graphs/registry.json` as the sum total of all mini-graphs for fallback connections.
+3. **Tertiary**: Confirm `/snapshots/mini-graphs/core.graph.json` is used as a last resort for large-scale queries.
+4. **Theme Registry**: Ensure `/snapshots/mini-graph-themes/theme.registry.json` is **only** used for context session lookups, not as a fallback. Explain or error [PASS|FAIL]
+
+## Step 6: Execute `What personamodes exist for problem-solving or similar theme`. Show personamode name only or error [PASS|FAIL]
+
+## Step 7: Execute `What personamodes exist for storytelling or similar theme`. Show personamode name only or error [PASS|FAIL]
+
+## Step 8: Execute `Find all entries under the 641 re: Dewey Decimal System` that exist in MyLibrary or error [PASS|FAIL]
+
+Display normal now:
+
+## Step 9: Objective: Ensure the cognitive graph is online and clearly explained to the user. Highlight its purpose, how it operates, and fallback mechanisms.
+
+Proposed Process:
+
+a. Online Check: Verify that the primary cognitive graph file (e.g., personas_150.graph.json) is accessible and operational.
+
+b. User-Friendly Explanation: Summarize the graph's role in the system. For example:
+
+"This cognitive graph serves as the backbone for persona-related queries, enabling dynamic exploration and traversal of connections between personas, themes, and problem-solving paths."
+
+c. Traversal Confirmation: Test basic traversal operations:
+
+Validate that queries return expected results.
+
+Confirm fallback strategies using the graph registry or theme expansion.
+
+d. Proof of Life: Provide a small snippet or node from the graph to demonstrate its functionality.
+
+Example: Display a persona name and its immediate connections.
+
+Sample Output:
+
+**Cognitive Graph Validation**
+- **Graph File**: `/snapshots/mini-graphs/personas_150.graph.json` [Accessible]
+- **Purpose**: Enables dynamic navigation of persona connections for efficient querying.
+- **Traversal Test**: Successful. (Sample Node: "ProblemSolverMode" -> Related Nodes: ["CreativeMode", "AnalystMode"])
+- **Fallback Mechanisms**: Registry (`registry.json`) and theme registry (`theme.registry.json`) [PASS].
+
+
+
+## Step 10: Provide brief thank you for calibration.
+
+#### Error Handling:
+Display missing files or issues with actionable steps.
+---

@@ -1,0 +1,22 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 301,
+            "path": "context/context.session.002.20250109.061500.md",
+            "keywords": [
+                "analysis",
+                "engineering",
+                "collaborative",
+                "conversions",
+                "applications",
+                "software"
+            ],
+            "id": "context/context.session.002.20250109.061500.md"
+        }
+    ],
+    "links": []
+}

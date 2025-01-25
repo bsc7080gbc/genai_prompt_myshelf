@@ -1,0 +1,31 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1366,
+            "path": "MyLibrary/641/recipes/lunch/gourmet_lobster_bisque.md",
+            "keywords": [
+                "1 hour",
+                "croutons",
+                "meat",
+                "2 minutes",
+                "simmer",
+                "375",
+                "lobster",
+                "garlic powder",
+                "lobster bisque",
+                "cognac",
+                "cream",
+                "10 more minutes",
+                "saut\u00e9",
+                "bisque",
+                "the herb croutons"
+            ],
+            "id": "MyLibrary/641/recipes/lunch/gourmet_lobster_bisque.md"
+        }
+    ],
+    "links": []
+}

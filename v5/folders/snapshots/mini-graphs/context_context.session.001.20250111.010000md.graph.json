@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 793,
+            "path": "context/context.session.001.20250111.010000md",
+            "keywords": [
+                "strategy",
+                "# session audit",
+                "adaptive",
+                "nodes",
+                "audit",
+                "session",
+                "configurations",
+                "search",
+                "breakfast"
+            ],
+            "id": "context/context.session.001.20250111.010000md"
+        }
+    ],
+    "links": []
+}

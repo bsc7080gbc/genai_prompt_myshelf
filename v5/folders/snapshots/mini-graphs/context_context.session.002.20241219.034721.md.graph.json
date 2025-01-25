@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 331,
+            "path": "context/context.session.002.20241219.034721.md",
+            "keywords": [
+                "2024-12-19t03:00:00z",
+                "19t03",
+                "# session audit - hyper",
+                "2024",
+                "00z",
+                "audit",
+                "session",
+                "lyra",
+                "barry",
+                "logging"
+            ],
+            "id": "context/context.session.002.20241219.034721.md"
+        }
+    ],
+    "links": []
+}

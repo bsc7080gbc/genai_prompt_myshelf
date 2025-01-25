@@ -1,0 +1,50 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/647/mybar",
+            "id": "MyLibrary/647/mybar"
+        },
+        {
+            "type": "file",
+            "size": 1734,
+            "path": "MyLibrary/647/mybar/index.json",
+            "keywords": [],
+            "id": "MyLibrary/647/mybar/index.json"
+        },
+        {
+            "type": "file",
+            "size": 8230,
+            "path": "MyLibrary/647/mybar/mybar.json",
+            "keywords": [],
+            "id": "MyLibrary/647/mybar/mybar.json"
+        },
+        {
+            "type": "file",
+            "size": 22,
+            "path": "MyLibrary/647/mybar/README.md",
+            "keywords": [
+                "inventory",
+                "bar"
+            ],
+            "id": "MyLibrary/647/mybar/README.md"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/647/mybar",
+            "target": "MyLibrary/647/mybar/index.json"
+        },
+        {
+            "source": "MyLibrary/647/mybar",
+            "target": "MyLibrary/647/mybar/mybar.json"
+        },
+        {
+            "source": "MyLibrary/647/mybar",
+            "target": "MyLibrary/647/mybar/README.md"
+        }
+    ]
+}

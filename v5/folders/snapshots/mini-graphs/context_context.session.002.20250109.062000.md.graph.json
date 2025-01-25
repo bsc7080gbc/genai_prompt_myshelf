@@ -1,0 +1,28 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 349,
+            "path": "context/context.session.002.20250109.062000.md",
+            "keywords": [
+                "categories",
+                "prompt",
+                "shot",
+                "thought generation, ensembling",
+                "engineering",
+                "techniques",
+                "engineered",
+                "software",
+                "decomposition",
+                "detailed",
+                "enriching",
+                "zero-shot"
+            ],
+            "id": "context/context.session.002.20250109.062000.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 145,
+            "path": "context/context.session.003.20250109.065500.md",
+            "keywords": [
+                "challing",
+                "perspectives",
+                "reasoning",
+                "deliver",
+                "ensembling",
+                "prompts",
+                "different",
+                "## ensembling techniques",
+                "output",
+                "paths",
+                "intercombine"
+            ],
+            "id": "context/context.session.003.20250109.065500.md"
+        }
+    ],
+    "links": []
+}

@@ -47,7 +47,7 @@
       }
     },
     "Persona Mode Activation": {
-      "Trigger": "switchmode remote {persona}",
+      "Trigger": "switchmode {persona}",
       "Actions": [
         "Locate the file in MyLibrary/150/personas/ matching the persona name.",
         "If the file exists, load its content.",

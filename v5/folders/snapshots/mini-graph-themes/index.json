@@ -1,0 +1,2719 @@
+{
+    "prompt": {
+        "files": [
+            "context/context.session.003.20250109.063500.md",
+            "context/context.session.001.20250109.050000.md",
+            "context/context.session.004.20250109.070000.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.002.20250109.062000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_aiwhisperermode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "tasks": {
+        "files": [
+            "context/context.session.003.20250109.063500.md",
+            "context/context.session.002.20241219.034721.md",
+            "context/context.session.003.20250109.065000.md",
+            "context/context.session.002.20250109.062500.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_eventplannermode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_automechanicmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "prompts": {
+        "files": [
+            "context/context.session.002.20250109.061500.md",
+            "context/context.session.003.20250109.065000.md",
+            "context/context.session.003.20250109.065500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_creativemode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_aiwhisperermode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "analysis": {
+        "files": [
+            "context/context.session.002.20250109.061500.md",
+            "context/context.session.001.20241222.065401.md",
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.001.20250116.011035.md",
+            "context/context.session.002.20250109.062500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "understanding": {
+        "files": [
+            "context/context.session.002.20250109.061500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_carlsaganmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "focus": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.002.20250109.060000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "reflection": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.050000.md",
+            "context/context.session.002.20250109.063000.md",
+            "context/context.session.004.20250109.071500.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250101.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "MyLibrary_150_personas_reflectionmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "self": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.050000.md",
+            "context/context.session.002.20250109.063000.md",
+            "context/context.session.004.20250109.071500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "learning": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.004.20250109.070000.md",
+            "context/context.session.004.20250109.071500.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "zero": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.050000.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.003.20250109.064000.md",
+            "context/context.session.002.20250109.062000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_aiwhisperermode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "examples": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.004.20250109.070000.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.004.20250109.070500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "scenario": {
+        "files": [
+            "context/context.session.001.20250109.010000.md",
+            "context/context.session.001.20250109.043045.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "issues": {
+        "files": [
+            "context/context.session.001.20241222.065401.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.004.20250106.021223.md",
+            "context/context.session.001.20241217.223226.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_diymode.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "repository": {
+        "files": [
+            "context/context.session.001.20241222.065401.md",
+            "context/context.session.001.20241216.053126.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20241216.053129.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "github": {
+        "files": [
+            "context/context.session.001.20241222.065401.md",
+            "context/context.session.001.20250110.010000.md",
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250119.193002.md",
+            "context/context.session.001.20250110.021527.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_README.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_devopsmode.md.graph.json",
+                "weight": 0.03
+            }
+        ]
+    },
+    "user": {
+        "files": [
+            "context/context.session.001.20241216.104500.md",
+            "context/context.session.003.20250106.013620.md",
+            "context/context.session.004.20250106.021223.md",
+            "context/context.session.001.20250113.153000.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.001.20250110.021527.md",
+            "context/context.session.001.20241217.115154.md",
+            "context/context.session.002.20250105.233703.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_README.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_damnmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_thorfinnmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "let": {
+        "files": [
+            "context/context.session.001.20241216.104500.md",
+            "context/context.session.001.20241217.115154.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_damnmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_mixologistmode.md.graph.json",
+                "weight": 0.02
+            }
+        ]
+    },
+    "information": {
+        "files": [
+            "context/context.session.001.20250108.034056.md",
+            "context/context.session.004.20250109.071000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_minimalmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "role": {
+        "files": [
+            "context/context.session.001.20250108.034056.md",
+            "context/context.session.001.20250109.043045.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "auto": {
+        "files": [
+            "context/context.session.001.20250108.034056.md",
+            "context/context.session.005.20250106.021500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_automechanicmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "lyra": {
+        "files": [
+            "context/context.session.002.20241219.034721.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_tradwifemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_mistressmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_almamode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "interactions": {
+        "files": [
+            "context/context.session.002.20241219.034721.md",
+            "context/context.session.001.20241219.034721.md",
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md",
+            "context/context.session.001.20241219.025732.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "breaking": {
+        "files": [
+            "context/context.session.003.20250109.065000.md",
+            "context/context.session.002.20250109.062500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250116.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "data.json": {
+        "files": [
+            "context/context.session.001.20250110.010000.md",
+            "context/context.session.001.20241216.053126.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.001.20250110.021527.md",
+            "context/context.session.001.20241217.223226.md",
+            "context/context.session.001.20241222.104515.md",
+            "context/context.session.001.20241216.053129.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "persona": {
+        "files": [
+            "context/context.session.001.20250110.010000.md",
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20250112.173045.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_README.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "items": {
+        "files": [
+            "context/context.session.001.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "modes": {
+        "files": [
+            "context/context.session.001.20250110.010000.md",
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250105.233703.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "work": {
+        "files": [
+            "context/context.session.001.20241219.034721.md",
+            "context/context.session.001.20241217.115154.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "responses": {
+        "files": [
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.001.20250116.204213.md",
+            "context/context.session.004.20250109.071500.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cornholiomode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_tradwifemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "provides": {
+        "files": [
+            "context/context.session.001.20250109.043045.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_automechanicmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_minimalmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "water": {
+        "files": [
+            "context/context.session.001.20250109.043045.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "ask": {
+        "files": [
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.003.20250106.013620.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cookingmode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_diymode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_150_personas_eventplannermode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_creativemode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_minimalmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_devmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_travelmode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_devopsmode.md.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "questions": {
+        "files": [
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.005.20250106.021500.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_reflectionmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "response": {
+        "files": [
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.003.20250106.013620.md",
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cornholiomode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_alexjonesmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "fun": {
+        "files": [
+            "context/context.session.001.20250109.043045.md",
+            "context/context.session.004.20250109.070000.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            }
+        ]
+    },
+    "life": {
+        "files": [
+            "context/context.session.004.20250109.070000.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_carlsaganmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "eli5": {
+        "files": [
+            "context/context.session.004.20250109.070000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "inventory": {
+        "files": [
+            "context/context.session.001.20250116.011035.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_647_mybar.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_647.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_647_mybar_README.md.graph.json",
+                "weight": 0.5
+            }
+        ]
+    },
+    "rich": {
+        "files": [
+            "context/context.session.001.20250116.011035.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_dessert_no_bake_chocolate_peanut_butter_bars.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "MyLibrary_641_recipes_dessert.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "example": {
+        "files": [
+            "context/context.session.002.20250109.062500.md",
+            "context/context.session.002.20250109.060000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_thorfinnmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "myshelf": {
+        "files": [
+            "context/context.session.001.20241216.053126.md",
+            "context/context.session.001.20250119.193002.md",
+            "context/context.session.005.20250115.150000.md",
+            "context/context.session.003.20250108.010000.md",
+            "context/context.session.001.20241216.053129.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "journal_990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_990_journal_20250116.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "start": {
+        "files": [
+            "context/context.session.003.20250106.013620.md",
+            "context/context.session.004.20250106.021223.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "time": {
+        "files": [
+            "context/context.session.003.20250106.013620.md",
+            "context/context.session.004.20250106.021223.md",
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.001.20241217.115154.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "areas": {
+        "files": [
+            "context/context.session.002.20250109.060000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "help": {
+        "files": [
+            "context/context.session.002.20250109.060000.md",
+            "context/context.session.004.20250109.071500.md",
+            "context/context.session.004.20250109.070500.md",
+            "context/context.session.004.20250109.071000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "plan": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cookingmode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_travelmode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "lobster": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_lunch_gourmet_lobster_bisque.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "task": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_eventplannermode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "library": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250111.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "croutons": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_lunch_gourmet_lobster_bisque.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "lunch": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_lunch_README.md.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_641_README.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "lunch_recipes_641.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "creativity": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_teslamusemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "engagement": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.003.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "events": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "vanilla": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_vanilla_whiskey_sour.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "whiskey": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250114.180540.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_whiskey_rum_smash.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails_green_fairy_old_fashioned.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails_vanilla_whiskey_sour.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "bisque": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_lunch_gourmet_lobster_bisque.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "recipe": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250116.204213.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_dinner_README.md.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_150_personas_cookingmode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "dinner_recipes_641.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_641_recipes_dinner.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "mixologistmode": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_mixologistmode.md.graph.json",
+                "weight": 0.02
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "recipes": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250116.204213.md",
+            "context/context.session.001.20250113.153000.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_README.md.graph.json",
+                "weight": 1.0
+            },
+            {
+                "name": "MyLibrary_641_recipes_snack_README.md.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch_README.md.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_641_README.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "snack_recipes_641.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "lunch_recipes_641.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_snack.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "mylibrary": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_README.md.graph.json",
+                "weight": 0.11
+            }
+        ]
+    },
+    "debugging": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250112.173045.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_devopsmode.md.graph.json",
+                "weight": 0.03
+            }
+        ]
+    },
+    "cocktail": {
+        "files": [
+            "context/context.session.001.20250112.232459.md",
+            "context/context.session.001.20250116.204213.md",
+            "context/context.session.001.20250114.180540.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_FieryAppleSmash.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails_lime_jager_twist.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_mixologistmode.md.graph.json",
+                "weight": 0.02
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "lobster bisque": {
+        "files": [
+            "context/context.session.001.20250112.232459.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "lunch_recipes_641.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch_gourmet_lobster_bisque.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "project myshelf": {
+        "files": [
+            "context/context.session.001.20250119.193002.md",
+            "context/context.session.003.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250116.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "discovery": {
+        "files": [
+            "context/context.session.001.20250119.193002.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_carlsaganmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "activities": {
+        "files": [
+            "context/context.session.001.20241219.050513.md",
+            "context/context.session.001.20250116.204213.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_travelmode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "captures": {
+        "files": [
+            "context/context.session.001.20241219.050513.md",
+            "context/context.session.001.20250110.021527.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "test": {
+        "files": [
+            "context/context.session.005.20250106.021500.md",
+            "context/context.session.001.20241217.115154.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "mode": {
+        "files": [
+            "context/context.session.005.20250106.021500.md",
+            "context/context.session.001.20250112.014548.md",
+            "context/context.session.001.20241217.115154.md",
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250105.233703.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cookingmode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_diymode.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_150_personas_explorermode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_150_personas_eventplannermode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_creativemode.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_150_personas_cornholiomode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_focusmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_aiwhisperermode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_reflectionmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_carlsaganmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_automechanicmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_minimalmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_alexjonesmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_wellnessmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_damnmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_eli5mode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_devmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_travelmode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_thorfinnmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_openaiexpertmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "MyLibrary_150_personas_devopsmode.md.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "journal": {
+        "files": [
+            "context/context.session.001.20250116.204213.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250116.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "progress": {
+        "files": [
+            "context/context.session.001.20250116.204213.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "tools": {
+        "files": [
+            "context/context.session.004.20250109.071500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "explanations": {
+        "files": [
+            "context/context.session.004.20250109.071500.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cunkmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "uploads": {
+        "files": [
+            "context/context.session.001.20250113.153000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_almamode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "avoid": {
+        "files": [
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_studymode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "rum": {
+        "files": [
+            "context/context.session.001.20250105.202951.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_whiskey_rum_smash.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "configurations": {
+        "files": [
+            "context/context.session.001.20250105.202951.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_README.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "feedback": {
+        "files": [
+            "context/context.session.001.20250105.202951.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "bar": {
+        "files": [
+            "context/context.session.001.20250114.180540.md",
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "647.graph.json",
+                "weight": 1.0
+            },
+            {
+                "name": "MyLibrary_647_README.md.graph.json",
+                "weight": 1.0
+            },
+            {
+                "name": "MyLibrary_647_mybar.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_647.graph.json",
+                "weight": 0.5
+            },
+            {
+                "name": "MyLibrary_647_mybar_README.md.graph.json",
+                "weight": 0.5
+            }
+        ]
+    },
+    "making": {
+        "files": [
+            "context/context.session.001.20250114.180540.md",
+            "context/context.session.004.20250109.071000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_ProblemSolverMode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "pecan": {
+        "files": [
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_green_fairy_old_fashioned.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "cocktails_recipes_641.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "cinnamon": {
+        "files": [
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_whiskey_rum_smash.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails_FieryAppleSmash.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "flavors": {
+        "files": [
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_whiskey_rum_smash.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "drink": {
+        "files": [
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_lime_jager_twist.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_mixologistmode.md.graph.json",
+                "weight": 0.02
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "cinnamon whiskey": {
+        "files": [
+            "context/context.session.001.20250114.180540.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_whiskey_rum_smash.md.graph.json",
+                "weight": 0.09
+            },
+            {
+                "name": "cocktails_recipes_641.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "interaction": {
+        "files": [
+            "context/context.session.001.20250112.014548.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_damnmode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "bitters": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "kahlua": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "cocktails_recipes_641.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "recipes_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "bourbon": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "technical": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_teslamusemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_devmode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "rusty": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "notes": {
+        "files": [
+            "context/context.session.001.20250111.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "louisville": {
+        "files": [
+            "context/context.session.001.20241217.115154.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "journal_990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_990_journal_20250116.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "control": {
+        "files": [
+            "context/context.session.001.20241217.115154.md",
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_mistressmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_alexjonesmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "moment": {
+        "files": [
+            "context/context.session.001.20241217.115154.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "michener": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "love": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_teslamusemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "michener mode": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "preferences": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "dominatrix mode": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "dialogue": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_minimalmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "dynamics": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "reflections": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250101.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "experiences": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_tradwifemode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "default mode": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_defaultmode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "control mode": {
+        "files": [
+            "context/context.session.002.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_controlmode.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "exploration": {
+        "files": [
+            "context/context.session.002.20250108.010000.md",
+            "context/context.session.003.20250108.010000.md",
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_explorermode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "feelings": {
+        "files": [
+            "context/context.session.001.20241217.223226.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_empathymode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "feeling": {
+        "files": [
+            "context/context.session.001.20241217.223226.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_990_journal_20250101.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "journal_990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "990.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_990_journal.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_990.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "place": {
+        "files": [
+            "context/context.session.003.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_README.md.graph.json",
+                "weight": 0.17
+            },
+            {
+                "name": "MyLibrary_641_README.md.graph.json",
+                "weight": 0.14
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "story": {
+        "files": [
+            "context/context.session.003.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "deeper": {
+        "files": [
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_explorermode.md.graph.json",
+                "weight": 0.1
+            }
+        ]
+    },
+    "topics": {
+        "files": [
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_learnmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "lighthearted": {
+        "files": [
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            }
+        ]
+    },
+    "evening": {
+        "files": [
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_cocktails_rusty_rail.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            },
+            {
+                "name": "MyLibrary_641_recipes_cocktails.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "cultural": {
+        "files": [
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_michenermode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "power": {
+        "files": [
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_dominatrixmode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "humor": {
+        "files": [
+            "context/context.session.002.20250110.010000.md",
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_150_personas_cornholiomode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_150_personas_precisemode.md.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_150_personas_cunkmode.md.graph.json",
+                "weight": 0.04
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "energy": {
+        "files": [
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_damnmode.md.graph.json",
+                "weight": 0.06
+            }
+        ]
+    },
+    "ideas": {
+        "files": [
+            "context/context.session.002.20250110.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_explorermode.md.graph.json",
+                "weight": 0.1
+            },
+            {
+                "name": "MyLibrary_150_personas_creativemode.md.graph.json",
+                "weight": 0.09
+            }
+        ]
+    },
+    "tradwifemode": {
+        "files": [
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_tradwifemode.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "personas_150.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "150.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "heart": {
+        "files": [
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_heartmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    },
+    "stretch": {
+        "files": [
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_wellnessmode.md.graph.json",
+                "weight": 0.07
+            }
+        ]
+    },
+    "playful": {
+        "files": [
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_playfulmode.md.graph.json",
+                "weight": 0.1
+            }
+        ]
+    },
+    "activation": {
+        "files": [
+            "context/context.session.002.20250105.233703.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_teslamusemode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "star": {
+        "files": [
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_interviewmode.md.graph.json",
+                "weight": 0.08
+            }
+        ]
+    },
+    "options": {
+        "files": [
+            "context/context.session.001.20250108.010000.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_travelmode.md.graph.json",
+                "weight": 0.05
+            }
+        ]
+    },
+    "oil": {
+        "files": [
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_641_recipes_snack_garlic_parmesan_popcorn.md.graph.json",
+                "weight": 0.12
+            },
+            {
+                "name": "MyLibrary_641_recipes_breakfast_fluffy_pancakes.md.graph.json",
+                "weight": 0.12
+            },
+            {
+                "name": "MyLibrary_641_recipes_breakfast_gluten_free_pancakes.md.graph.json",
+                "weight": 0.11
+            },
+            {
+                "name": "MyLibrary_641_recipes_snack_ranch_seasoned_pretzels.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch_caprese_sandwich.md.graph.json",
+                "weight": 0.08
+            },
+            {
+                "name": "MyLibrary_641_recipes_dinner_garlic_butter_steak.md.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_breakfast.graph.json",
+                "weight": 0.07
+            },
+            {
+                "name": "MyLibrary_641_recipes_snack.graph.json",
+                "weight": 0.05
+            },
+            {
+                "name": "MyLibrary_641_recipes_dinner.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "MyLibrary_641_recipes_lunch.graph.json",
+                "weight": 0.03
+            },
+            {
+                "name": "MyLibrary_641.graph.json",
+                "weight": 0.01
+            },
+            {
+                "name": "MyLibrary_641_recipes.graph.json",
+                "weight": 0.01
+            }
+        ]
+    },
+    "cunkmode": {
+        "files": [
+            "context/context.session.001.20250111.055124.md"
+        ],
+        "mini-graphs": [
+            {
+                "name": "MyLibrary_150_personas_cunkmode.md.graph.json",
+                "weight": 0.04
+            }
+        ]
+    }
+}

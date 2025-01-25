@@ -1,0 +1,22 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 67,
+            "path": "MyLibrary/150/README.md",
+            "keywords": [
+                "pesonas",
+                "psychology",
+                "150",
+                "perfect",
+                "refers",
+                "place"
+            ],
+            "id": "MyLibrary/150/README.md"
+        }
+    ],
+    "links": []
+}

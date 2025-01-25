@@ -46,10 +46,21 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install networkx scikit-learn spacy
+          pip install --no-cache-dir networkx==3.0 scikit-learn==1.3.1 spacy==3.5
           python -m spacy download en_core_web_sm
 
-      # Step 6: Validate core.graph.json Location
+      # Step 6: Verify Installed Dependencies
+      - name: Verify Installed Dependencies
+        run: |
+          echo "Verifying installed dependencies..."
+          pip freeze
+
+      # Step 7: Validate spaCy Model Installation
+      - name: Validate spaCy Model Installation
+        run: |
+          python -m spacy validate
+
+      # Step 8: Validate core.graph.json Location
       - name: Validate core.graph.json Location
         run: |
           if [ ! -f snapshots/core.graph.json ]; then
@@ -58,7 +69,7 @@ jobs:
           fi
           echo "core.graph.json found at $(pwd)."
 
-      # Step 7: Run Mini-Graph Generation Script
+      # Step 9: Run Mini-Graph Generation Script
       - name: Run Mini-Graph Generation Script
         working-directory: /home/runner/work/MyShelf/MyShelf
         run: |
@@ -68,7 +79,7 @@ jobs:
           }
           echo "Mini-graph generation completed successfully." >> notification-log.txt
 
-      # Step 8: Run Graph Registry Generation Script
+      # Step 10: Run Graph Registry Generation Script
       - name: Run Graph Registry Generation Script
         working-directory: /home/runner/work/MyShelf/MyShelf
         run: |
@@ -78,20 +89,29 @@ jobs:
           }
           echo "Graph registry generation completed successfully." >> notification-log.txt
 
-      # Step 9: Commit and Push Changes
+      # Step 11: Validate index.json Creation
+      - name: Validate index.json Creation
+        run: |
+          if [ ! -f snapshots/mini-graphs/index.json ]; then
+            echo "index.json not created. Exiting." > notification-log.txt
+            exit 1
+          fi
+          echo "index.json created successfully."
+
+      # Step 12: Commit and Push Changes
       - name: Commit and Push Changes
         if: success()
         run: |
           echo "Staging new and updated graph files..."
-          git add snapshots/mini-graphs/*.graph.json snapshots/mini-graphs/registry.json || echo "No new graph files to add."
+          git add snapshots/mini-graphs/*.graph.json snapshots/mini-graphs/registry.json snapshots/mini-graphs/index.json || echo "No new graph files to add."
 
           echo "Committing changes..."
-          git commit -m "Updated mini-graphs and registry on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+          git commit -m "Updated mini-graphs, registry, and index.json on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
 
           echo "Pushing changes to remote repository..."
           git push origin main || echo "No changes to push."
 
-      # Step 10: Notify via GitHub Issues
+      # Step 13: Notify via GitHub Issues
       - name: Notify via GitHub Issues
         if: failure() # Notify only on failure
         uses: peter-evans/create-issue-from-file@v5
@@ -102,7 +122,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MYSHELF }}
 
-      # Step 11: Debug Workflow State
+      # Step 14: Debug Workflow State
       - name: Debug Workflow State
         run: |
           echo "Git status:"

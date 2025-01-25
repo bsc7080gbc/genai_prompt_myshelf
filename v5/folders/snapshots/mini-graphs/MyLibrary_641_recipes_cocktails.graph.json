@@ -1,0 +1,223 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1356,
+            "path": "MyLibrary/641/recipes/cocktails/lime_jager_twist.md",
+            "keywords": [
+                "grace",
+                "#### instructions",
+                "cunkified edition",
+                "ml",
+                "ice",
+                "30 ml",
+                "cocktail",
+                "jagermeister",
+                "lime",
+                "sugar syrup",
+                "45 ml",
+                "panache",
+                "juice",
+                "gordon ramsay",
+                "0.5",
+                "drink"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/lime_jager_twist.md"
+        },
+        {
+            "type": "file",
+            "size": 510,
+            "path": "MyLibrary/641/recipes/cocktails/vanilla_whiskey_sour.md",
+            "keywords": [
+                "smirnoff",
+                "vanilla vodka",
+                "ice",
+                "15-20 seconds",
+                "vodka",
+                "0.75",
+                "wild turkey",
+                "5 minutes",
+                "vanilla",
+                "juice",
+                "syrup",
+                "whiskey",
+                "garnish",
+                "vanilla whiskey",
+                "simple"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/vanilla_whiskey_sour.md"
+        },
+        {
+            "type": "file",
+            "size": 385,
+            "path": "MyLibrary/641/recipes/cocktails/whiskey_rum_smash.md",
+            "keywords": [
+                "rum",
+                "flavors",
+                "jamaican",
+                "cinnamon",
+                "cinnamon whiskey",
+                "lime",
+                "rum smash",
+                "whiskey",
+                "jamaican rum",
+                "fireball",
+                "chilled"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/whiskey_rum_smash.md"
+        },
+        {
+            "type": "file",
+            "size": 862,
+            "path": "MyLibrary/641/recipes/cocktails/rusty_rail.md",
+            "keywords": [
+                "bourbon",
+                "kahlua",
+                "rusty nail",
+                "rusty rail",
+                "dashes",
+                "the late 1940s",
+                "rusty",
+                "notes",
+                "cocktail",
+                "evening",
+                "a last snowy day",
+                "bitters",
+                "larceny",
+                "hint"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/rusty_rail.md"
+        },
+        {
+            "type": "file",
+            "size": 654,
+            "path": "MyLibrary/641/recipes/cocktails/green_fairy_old_fashioned.md",
+            "keywords": [
+                "0.25",
+                "sugar",
+                "5 minutes",
+                "about 20-30 seconds",
+                "glass",
+                "1.5",
+                "pecan",
+                "angostura",
+                "fashioned",
+                "whiskey",
+                "mephisto",
+                "orange",
+                "garnish",
+                "cube"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/green_fairy_old_fashioned.md"
+        },
+        {
+            "type": "file",
+            "size": 328,
+            "path": "MyLibrary/641/recipes/cocktails/FieryAppleSmash.md",
+            "keywords": [
+                "cubes",
+                "fiery apple smash",
+                "apple",
+                "fireball cinnamon whisky\n- 2",
+                "## description",
+                "cinnamon",
+                "cocktail",
+                "apple pie moonshine\n- 1",
+                "extra",
+                "fireball",
+                "fiery",
+                "description"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/FieryAppleSmash.md"
+        },
+        {
+            "type": "file",
+            "size": 536,
+            "path": "MyLibrary/641/recipes/cocktails/cranberry_gin_fizz.md",
+            "keywords": [
+                "cranberry gin fizz",
+                "club",
+                "ice",
+                "gin",
+                "lime",
+                "simple",
+                "juice",
+                "citrus",
+                "soda"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/cranberry_gin_fizz.md"
+        },
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/cocktails",
+            "id": "MyLibrary/641/recipes/cocktails"
+        },
+        {
+            "type": "file",
+            "size": 690,
+            "path": "MyLibrary/641/recipes/cocktails/green_hunter_fizz.md",
+            "keywords": [
+                "herbal",
+                "absinthe",
+                "club",
+                "ice",
+                "gin",
+                "lime",
+                "juice",
+                "add j\u00e4germeister",
+                "syrup",
+                "0.25",
+                "soda"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/green_hunter_fizz.md"
+        },
+        {
+            "type": "file",
+            "size": 2776,
+            "path": "MyLibrary/641/recipes/cocktails/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/cocktails/index.json"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/lime_jager_twist.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/rusty_rail.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/cranberry_gin_fizz.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/FieryAppleSmash.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/whiskey_rum_smash.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/green_hunter_fizz.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/vanilla_whiskey_sour.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/cocktails",
+            "target": "MyLibrary/641/recipes/cocktails/green_fairy_old_fashioned.md"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 227,
+            "path": "MyLibrary/647/index.json",
+            "keywords": [],
+            "id": "MyLibrary/647/index.json"
+        }
+    ],
+    "links": []
+}

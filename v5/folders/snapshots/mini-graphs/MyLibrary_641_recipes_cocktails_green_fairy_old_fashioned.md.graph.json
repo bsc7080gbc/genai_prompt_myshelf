@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 654,
+            "path": "MyLibrary/641/recipes/cocktails/green_fairy_old_fashioned.md",
+            "keywords": [
+                "0.25",
+                "sugar",
+                "5 minutes",
+                "about 20-30 seconds",
+                "glass",
+                "1.5",
+                "pecan",
+                "angostura",
+                "fashioned",
+                "whiskey",
+                "mephisto",
+                "orange",
+                "garnish",
+                "cube"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/green_fairy_old_fashioned.md"
+        }
+    ],
+    "links": []
+}

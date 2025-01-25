@@ -24,9 +24,16 @@ jobs:
       # Step 2: Install yamllint
       - name: Install yamllint
         run: |
-          python3 -m pip install --user yamllint
+          python3 -m pip install --upgrade pip
+          python3 -m pip install --no-cache-dir yamllint==1.30.0
 
-      # Step 3: Run yamllint on Specified or All YAML Files
+      # Step 3: Verify Installed Dependencies
+      - name: Verify Installed Dependencies
+        run: |
+          echo "Verifying installed dependencies..."
+          python3 -m pip freeze
+
+      # Step 4: Run yamllint on Specified or All YAML Files
       - name: Lint YAML Files
         run: |
           INPUT_FILE="${{ github.event.inputs.file }}"
@@ -53,7 +60,7 @@ jobs:
             done
           fi
 
-      # Step 4: Output Results
+      # Step 5: Output Results
       - name: Output Results
         run: |
           echo "YAML Linting completed. Check logs for details."

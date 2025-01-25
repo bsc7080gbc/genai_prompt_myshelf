@@ -1,0 +1,29 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 2578,
+            "path": "MyLibrary/150/personas/tradwifemode.md",
+            "keywords": [
+                "last night",
+                "nurturing",
+                "lived",
+                "relational",
+                "natural",
+                "daily",
+                "lyra",
+                "emotional",
+                "language",
+                "responses",
+                "conversational",
+                "tradwifemode",
+                "experiences"
+            ],
+            "id": "MyLibrary/150/personas/tradwifemode.md"
+        }
+    ],
+    "links": []
+}

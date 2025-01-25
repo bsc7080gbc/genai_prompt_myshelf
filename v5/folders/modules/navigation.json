@@ -1,86 +1,117 @@
 {
     "Navigation": {
-        "adaptive_navigation": {
-            "prioritize_metadata": true,
-            "fallback_rules": {
-                "use_contextual_keywords": true,
-                "keyword_threshold": 0.05
-            }
-        },
-        "adaptive_exploration": {
-            "prioritize": [
-                "metadata relationships",
-                "related nodes"
-            ],
-            "fallbacks": {
-                "contextual_nodes": "explore paths with similar types or categories",
-                "cache_priority": "prioritize cached paths when traversal exceeds depth"
-            }
-        },
-        "contextual_reasoning": {
-            "enabled": true,
-            "rules": {
-                "type_priority": [
-                    "file",
-                    "directory"
+        "Description": "Dynamic, graph-driven navigation module designed to enable intelligent traversal of Project MyShelf using metadata, themes, and contextual reasoning.",
+        "GraphTraversal": {
+            "Approach": {
+                "NarrativeGuidance": "Navigation within Project MyShelf prioritizes relationships between nodes, themes, and metadata rather than physical paths. Queries are interpreted contextually, guiding the user through the graph dynamically.",
+                "Hierarchy": [
+                    "Theme-based relationships",
+                    "Metadata-driven connections",
+                    "Keyword associations",
+                    "Registry-driven exploration"
                 ],
-                "path_inference": true,
-                "theme_match_priority": true
-            }
-        },
-        "IndexTraversal": {
-            "Description": "Enable intelligent traversal of graphs and registries, leveraging metadata, weighting, and contextual reasoning to efficiently navigate and locate items.",
-            "Paths": {
-                "Registry": "snapshots/mini-graphs/registry.json",
-                "ThemeRegistry": "snapshots/mini-graph-themes/theme.registry.json",
-                "MiniGraphs": "snapshots/mini-graphs/",
-                "CacheGraph": "snapshots/cache.graph.json",
-                "CoreGraph": "snapshots/core.graph.json"
+                "FallbackStrategy": {
+                    "ContextualKeywords": "If a query lacks explicit matches, broaden the search to include related themes or cached connections.",
+                    "DepthExpansion": "Allow deeper traversal of related nodes if primary paths fail to yield results."
+                }
             },
-            "Instructions": [{
-                "Step": "ReadThemeRegistry",
-                "Description": "Load the theme.registry.json to identify related mini-graphs based on query keywords and weights."
-            },
+            "TraversalSteps": [
                 {
-                    "Step": "MatchQueryToGraph",
-                    "Description": "Match the query context (keywords, descriptions, paths) against entries in the theme.registry.json and registry.json. Select the highest weighted matches above the threshold."
+                    "Step": "IdentifyThemes",
+                    "Description": "Extract key themes from the query using keywords, metadata, or contextual session files. Use theme weights from theme.registry.json for prioritization."
                 },
                 {
-                    "Step": "LoadRelevantMiniGraphs",
-                    "Description": "Load related mini-graphs identified from theme.registry.json or registry.json to begin traversal. Use weighting to prioritize graphs with the most relevance to the query."
+                    "Step": "ExploreThemeRegistry",
+                    "Description": "Match the identified themes with relevant entries in the theme.registry.json. This establishes the starting nodes for traversal."
+                },
+                {
+                    "Step": "SelectMiniGraphs",
+                    "Description": "Retrieve mini-graphs from the registry.json based on their relevance to the themes or metadata weights. Prioritize those with high-weighted matches."
+                },
+                {
+                    "Step": "TraverseMetadata",
+                    "Description": "Explore node metadata within the selected mini-graphs. Identify connections such as related themes, file-level keywords, and neighboring nodes."
+                },
+                {
+                    "Step": "ExpandContext",
+                    "Description": "Incorporate contextual insights from enriched session files. Refine traversal paths by aligning with session themes or past interactions."
+                },
+                {
+                    "Step": "AggregateConnections",
+                    "Description": "Dynamically gather relationships between nodes. Include inferred connections based on shared metadata, themes, or keywords."
+                },
+                {
+                    "Step": "OptimizeTraversal",
+                    "Description": "Adjust traversal depth and prioritize frequently accessed paths to minimize redundant exploration."
                 },
                 {
                     "Step": "FallbackTraversal",
-                    "Description": "If theme and registry matches are insufficient, traverse through mini-graphs. Expand to cache.graph.json or core.graph.json as a last resort."
+                    "Description": "If mini-graphs and metadata exploration fail to resolve the query, fallback to core.graph.json for a broader search."
                 },
                 {
-                    "Step": "AggregateKeywordMatches",
-                    "Description": "Combine keywords from mini-graphs, theme.registry.json, and registry.json to dynamically infer new relationships and expand traversal pathways."
+                    "Step": "VerifyResults",
+                    "Description": "Ensure returned paths or nodes align with the original query intent. Log any mismatches for future refinement."
+                }
+            ]
+        },
+        "ContextualReasoning": {
+            "Enabled": true,
+            "Rules": {
+                "RelationshipPriority": [
+                    "Theme-based relationships",
+                    "Metadata relevance",
+                    "Keyword density"
+                ],
+                "DynamicInference": "Enable on-the-fly generation of relationships using context session insights and enriched metadata."
+            }
+        },
+        "AdaptiveExploration": {
+            "Strategies": {
+                "ThemePrioritization": "Emphasize exploration paths with strong thematic alignment to the query.",
+                "MetadataDriven": "Leverage metadata such as keywords, descriptions, and weights for node prioritization."
+            },
+            "FallbackRules": {
+                "ExpandDepth": "Increase traversal depth incrementally when primary paths fail.",
+                "CacheOptimization": "Use cached paths and keywords for frequently accessed nodes."
+            }
+        },
+        "IndexTraversal": {
+            "Description": "Facilitates intelligent interaction with graphs, registries, and enriched session files to locate relevant nodes dynamically.",
+            "Instructions": [
+                {
+                    "Step": "LoadCoreGraph",
+                    "Description": "Start with the core.graph.json for global structure understanding. Identify high-level connections relevant to the query."
                 },
                 {
-                    "Step": "DynamicTraversalDepth",
-                    "Description": "Allow configurable traversal depth to limit or expand directory exploration. Default to shallow exploration unless deeper traversal is required."
+                    "Step": "UtilizeThemeRegistry",
+                    "Description": "Use theme.registry.json to map the query to relevant themes and their associated mini-graphs."
                 },
                 {
-                    "Step": "PrioritizeEfficiency",
-                    "Description": "Cache matched graphs and paths for frequently accessed queries to optimize future traversal operations."
+                    "Step": "ExploreMiniGraphs",
+                    "Description": "Traverse mini-graphs using registry.json. Extract relevant metadata to identify local relationships."
                 },
                 {
-                    "Step": "KeywordSearch",
-                    "Description": "Enable direct keyword searches across registry and theme.registry for precise query matches, prioritizing files with high keyword density."
+                    "Step": "LeverageSessionContext",
+                    "Description": "Incorporate session files to refine traversal paths. Prioritize nodes or themes consistent with recent interactions."
                 },
                 {
-                    "Step": "IncludeFiles",
-                    "Description": "Ensure each directory’s index.json includes a 'Files' section listing local files with metadata for direct keyword matching."
+                    "Step": "AggregateConnections",
+                    "Description": "Combine metadata, theme relations, and contextual insights to form a comprehensive traversal strategy."
                 },
                 {
-                    "Step": "ErrorLogging",
-                    "Description": "Log traversal errors or unmatched queries for debugging."
-                },
-                {
-                    "Step": "TabCompatibility",
-                    "Description": "Ensure JSON files maintain 4-tab spaces for formatting consistency."
-                }]
+                    "Step": "ValidatePaths",
+                    "Description": "Ensure all identified paths align with the query intent. Discard irrelevant or low-relevance nodes."
+                }
+            ]
+        },
+        "ErrorHandling": {
+            "LogFile": "logs/navigation_errors.log",
+            "DefaultFallback": "Log error and notify user if traversal fails to yield meaningful results.",
+            "ResolutionSteps": [
+                "Refine query with additional keywords or themes.",
+                "Expand traversal depth incrementally.",
+                "Suggest alternative categories or nodes."
+            ]
         }
     }
 }

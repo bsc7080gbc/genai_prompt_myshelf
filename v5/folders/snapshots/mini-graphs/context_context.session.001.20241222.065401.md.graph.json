@@ -1,0 +1,29 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 394,
+            "path": "context/context.session.001.20241222.065401.md",
+            "keywords": [
+                "analyzed",
+                "analysis",
+                "verbosity",
+                "conversation",
+                "access",
+                "a github app",
+                "session",
+                "diagnostics",
+                "default",
+                "enabled",
+                "context",
+                "pathaencrypt",
+                "app"
+            ],
+            "id": "context/context.session.001.20241222.065401.md"
+        }
+    ],
+    "links": []
+}

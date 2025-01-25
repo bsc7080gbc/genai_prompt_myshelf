@@ -1,0 +1,134 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/641/recipes/dinner",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/dinner",
+            "id": "MyLibrary/641/recipes/dinner"
+        },
+        {
+            "type": "file",
+            "size": 1388,
+            "path": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md",
+            "keywords": [
+                "Garlic Butter Herb Chicken",
+                "Zucchini Noodles",
+                "thyme",
+                "6-8 minutes",
+                "1 tbsp"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md"
+        },
+        {
+            "type": "file",
+            "size": 1677,
+            "path": "MyLibrary/641/recipes/dinner/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/dinner/index.json"
+        },
+        {
+            "type": "file",
+            "size": 1191,
+            "path": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md",
+            "keywords": [
+                "10-12 minutes",
+                "cheddar",
+                "2-3 minutes",
+                "10 minutes",
+                "20 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md"
+        },
+        {
+            "type": "file",
+            "size": 1547,
+            "path": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md",
+            "keywords": [
+                "Garlic Butter",
+                "## Instructions:",
+                "400",
+                "200",
+                "garlic powder"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md"
+        },
+        {
+            "type": "file",
+            "size": 14,
+            "path": "MyLibrary/641/recipes/dinner/README.md",
+            "keywords": [
+                "recipe",
+                "dinner"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/README.md"
+        },
+        {
+            "type": "file",
+            "size": 1020,
+            "path": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md",
+            "keywords": [
+                "Creamy Lemon",
+                "Herb Pasta",
+                "Chicken",
+                "Parmesan",
+                "## Instructions:"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary/641/recipes",
+            "target": "MyLibrary/641/recipes/dinner"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/README.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md"
+        }
+    ],
+    "keywords": [
+        "Herb Pasta",
+        "6-8 minutes",
+        "400",
+        "10 minutes",
+        "Garlic Butter Herb Chicken",
+        "Creamy Lemon",
+        "2-3 minutes",
+        "Garlic Butter",
+        "recipe",
+        "200",
+        "1 tbsp",
+        "## Instructions:",
+        "Zucchini Noodles",
+        "dinner",
+        "garlic powder",
+        "Parmesan",
+        "thyme",
+        "cheddar",
+        "20 minutes",
+        "Chicken",
+        "10-12 minutes"
+    ],
+    "description": "No description available."
+}

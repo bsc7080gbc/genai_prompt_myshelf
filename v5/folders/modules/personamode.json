@@ -19,10 +19,10 @@
             "SearchRules": {
                 "Attributes": ["keywords", "metadata", "path"],
                 "DynamicExtraction": {
-                    "Enabled": true, "Threshold": 0.1
+                    "Enabled": true, "Threshold": 0.05
                 },
                 "Weighting": {
-                    "Enabled": true, "Threshold": 0.1
+                    "Enabled": true, "Threshold": 0.05
                 }
             },
             "TraversalRules": {

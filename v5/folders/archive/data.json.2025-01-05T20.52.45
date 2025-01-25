@@ -1,0 +1,42 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-04T00:00:00": "Put up holiday decorations"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "milk",
+                    "cookies",
+                    "bread",
+                    "paper towels"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        },
+        "JournalBox": {
+            "2025-01-01": {
+                "Title": "New Year Reflections",
+                "Content": "Spent time reflecting on this year's challenges and successes, feeling hopeful for 2025.",
+                "Tags": [
+                    "Reflection",
+                    "Goals"
+                ]
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-05T20:51:55Z",
+        "Description": "add paper towels to groceries"
+    }
+}

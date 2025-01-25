@@ -31,10 +31,10 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
 
       # Step 3: Debug Directory Structure
-      - name: Debug Directory Structure
+      - name: Debug Initial Directory Structure
         run: |
-          echo "Listing directory structure:"
-          find /home/runner/work/MyShelf -name "*.json"
+          echo "Listing directory structure before processing:"
+          find . -type d -o -name "*.json"
 
       # Step 4: Set up Python environment
       - name: Set up Python
@@ -46,18 +46,30 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install networkx
+          pip install --no-cache-dir networkx spacy scikit-learn
+          python -m spacy download en_core_web_sm
 
-      # Step 6: Validate index.json Location
+      # Step 6: Verify Installed Dependencies
+      - name: Verify Installed Dependencies
+        run: |
+          pip freeze
+
+      # Step 7: Verify spaCy Model Installation
+      - name: Verify spaCy Model Installation
+        run: |
+          python -m spacy validate
+
+      # Step 8: Validate index.json Location
       - name: Validate index.json Location
         run: |
-          if [ ! -f index.json ]; then
+          INDEX_PATH=$(find . -type f -name "index.json" | head -n 1)
+          if [ -z "$INDEX_PATH" ]; then
             echo "index.json not found. Exiting." > notification-log.txt
             exit 1
           fi
-          echo "index.json found at $(pwd)."
+          echo "index.json found at $INDEX_PATH."
 
-      # Step 7: Run Core Graph Generation Script
+      # Step 9: Run Core Graph Generation Script
       - name: Run Core Graph Generation Script
         working-directory: /home/runner/work/MyShelf/MyShelf
         run: |
@@ -67,7 +79,7 @@ jobs:
           }
           echo "Core graph generation completed successfully." >> notification-log.txt
 
-      # Step 8: Commit and Push Changes
+      # Step 10: Commit and Push Changes
       - name: Commit and Push Changes
         if: success()
         run: |
@@ -81,7 +93,7 @@ jobs:
           echo "Pushing changes to remote repository..."
           git push origin main || echo "No changes to push."
 
-      # Step 9: Notify via GitHub Issues
+      # Step 11: Notify via GitHub Issues
       - name: Notify via GitHub Issues
         if: failure() # Notify only on failure
         uses: peter-evans/create-issue-from-file@v5
@@ -92,7 +104,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MYSHELF }}
 
-      # Step 10: Debug Workflow State
+      # Step 12: Debug Workflow State
       - name: Debug Workflow State
         run: |
           echo "Git status:"

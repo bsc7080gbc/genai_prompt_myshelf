@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 890,
+            "path": "context/context.session.003.20250108.010000.md",
+            "keywords": [
+                "potential",
+                "automated",
+                "session",
+                "features",
+                "## duration",
+                "context",
+                "myshelf",
+                "project myshelf",
+                "exploration",
+                "project"
+            ],
+            "id": "context/context.session.003.20250108.010000.md"
+        }
+    ],
+    "links": []
+}

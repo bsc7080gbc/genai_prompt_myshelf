@@ -1,7 +1,9 @@
 {
     "Modules": {
         "metadata": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/metadata.json",
+       "diagnostics": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/diagnostics.json",
         "graph": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/graph.json",
+        "commons": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/commons.json",        
         "favorites": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/favorites.json",        
         "automations": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/automations.json",
         "commands": "https://raw.githubusercontent.com/bsc7080gbc/MyShelf/main/modules/commands.json",

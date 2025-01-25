@@ -1,0 +1,15 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 8230,
+            "path": "MyLibrary/647/mybar/mybar.json",
+            "keywords": [],
+            "id": "MyLibrary/647/mybar/mybar.json"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,31 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1328,
+            "path": "MyLibrary/150/personas/studymode.md",
+            "keywords": [
+                "mode",
+                "tips",
+                "avoid",
+                "ask",
+                "daily",
+                "learning mode",
+                "provides",
+                "the next week",
+                "15 minutes",
+                "25-minute",
+                "study",
+                "pomodoro",
+                "help",
+                "focus techniques",
+                "learning"
+            ],
+            "id": "MyLibrary/150/personas/studymode.md"
+        }
+    ],
+    "links": []
+}

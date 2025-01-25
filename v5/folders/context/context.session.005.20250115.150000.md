@@ -1,0 +1,2 @@
+{ "CurrentSession": "Enriched Traversal Proofs Policy Follow", "GraphPath": "MyShelf/snapshots/graph.json", "SmartTraversal": true, "FrequentLearning": { "sessionContext": [ {"dependency": "Specific to thesories", }]}, 
+        "data": {"graphstate": "onlyplayofcontext./GPINfos" }}

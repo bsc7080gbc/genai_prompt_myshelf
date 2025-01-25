@@ -1,0 +1,24 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 168,
+            "path": "context/context.session.001.20250112.173045.md",
+            "keywords": [
+                "key actions",
+                "upload",
+                "debugging",
+                "enriched",
+                "context",
+                "actions",
+                "january 12, 2025",
+                "paths"
+            ],
+            "id": "context/context.session.001.20250112.173045.md"
+        }
+    ],
+    "links": []
+}

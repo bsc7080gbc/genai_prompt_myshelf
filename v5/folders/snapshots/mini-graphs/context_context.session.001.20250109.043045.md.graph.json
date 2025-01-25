@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 849,
+            "path": "context/context.session.001.20250109.043045.md",
+            "keywords": [
+                "key focus",
+                "role prompting",
+                "focus",
+                "scenario",
+                "ll",
+                "buoyancy",
+                "january 9th, 2025",
+                "types",
+                "context",
+                "children",
+                "objects",
+                "prompting",
+                "systems",
+                "simple"
+            ],
+            "id": "context/context.session.001.20250109.043045.md"
+        }
+    ],
+    "links": []
+}

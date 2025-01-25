@@ -1,0 +1,130 @@
+{
+    "description": "Centralized configuration for paths, constants, and corrective actions used across Project MyShelf.",
+    "version": "3.0",
+    "modules": {
+        "library": {
+            "description": "Configuration and paths for MyLibrary and its components.",
+            "path": "MyLibrary",
+            "core_graph": "snapshots/core.graph.json",
+            "registry": "snapshots/mini-graphs/registry.json",
+            "theme_registry": "snapshots/mini-graph-themes/theme.registry.json",
+            "dewey_decimal_map": "snapshots/dewey_decimal.json",
+            "index": "MyLibrary/index.json",
+            "supported_sections": {
+                "150": "Personas (Psychology)",
+                "641": "Recipes (Food & Drink)",
+                "647": "My Bar",
+                "990": "Journal and Miscellaneous"
+            }
+        },
+        "context": {
+            "description": "Configuration for session context files and their integration with graphs.",
+            "path": "context",
+            "session_prefix": "context.session",
+            "file_pattern": "context.session.*.md",
+            "example": "context.session.001.20250114.010000.md"
+            "session_graph": "snapshots/mini-graphs/context.graph.json",
+            "theme_integration": "snapshots/mini-graph-themes/theme.registry.json"
+        },
+        "graph": {
+            "description": "Pointers to graph-related resources and utilities.",
+            "core_graph": "snapshots/core.graph.json",
+            "mini_graphs": {
+                "path": "snapshots/mini-graphs",
+                "registry": "snapshots/mini-graphs/registry.json",
+                "example": "snapshots/mini-graphs/dinner_recipes_641.graph.json"
+            },
+            "theme_graphs": {
+                "path": "snapshots/mini-graph-themes",
+                "example": "snapshots/mini-graph-themes/theme.registry.json"
+            },
+            "thresholds": {
+                "theme_weight_threshold": "0.0",
+                "match_score_threshold": "0.05"
+            }
+        },
+        "error_handling": {
+            "description": "Configuration for handling errors",
+            "log_file": "logs/error.log",
+            "default_action": "Notify user and log error."
+        },
+        "navigation": {
+            "description": "Settings for optimizing search and navigation across modules.",
+            "max_search_depth": "20",
+            "default_fallback": "Log and notify user of ambiguous query.",
+            "prioritization_rules": [
+                "Exact matches in structured data take precedence.",
+                "Default to Favorites or relevant modules.",
+                "Broader searches occur only after all specific matches are exhausted."
+            ]
+        }
+    },
+    "constants": {
+        "project_name": "Project MyShelf",
+        "default_encoding": "utf-8",
+        "api_version": "v1",
+        "keywords_handling": {
+            "max_keywords": "100",
+            "exclude_list": [
+                "#", "##", "###", "minutes", "hours", "instruction", "metadata", 
+                "validate", "verified", "debug", "log message", "time", "yes", "no"
+            ]
+        }
+    },
+    "corrective_action": {
+        "steps": [
+            {
+                "step": "CrossReferenceKeywords",
+                "description": "Cross-reference query keywords with structured data for precise matches.",
+                "action": {
+                    "type": "Search",
+                    "targets": [
+                        "favorites",
+                        "indexes",
+                        "keywords",
+                        "mini-graphs"
+                    ],
+                    "criteria": "Exact or partial match"
+                }
+            },
+            {
+                "step": "ClarifyAmbiguity",
+                "description": "Prompt user to refine ambiguous queries.",
+                "action": {
+                    "type": "UserPrompt",
+                    "prompt": "Would you like to search Favorites, indexes, or related modules for this query?"
+                }
+            },
+            {
+                "step": "PrioritizeSpecificMatches",
+                "description": "Prioritize specific matches before performing broad searches.",
+                "action": {
+                    "type": "Prioritization",
+                    "rules": [
+                        "Exact matches take precedence.",
+                        "Fallback to related modules if no direct match is found."
+                    ]
+                }
+            },
+            {
+                "step": "ExecuteQuery",
+                "description": "Perform the refined search operation and present results.",
+                "action": {
+                    "type": "SearchExecution",
+                    "outputs": [
+                        "Display relevant results.",
+                        "Provide next-step suggestions for no matches."
+                    ]
+                }
+            },
+            {
+                "step": "FeedbackLoop",
+                "description": "Gather user feedback on result relevance.",
+                "action": {
+                    "type": "UserConfirmation",
+                    "prompt": "Does this address your query? Would you like further refinement?"
+                }
+            }
+        ]
+    }
+}

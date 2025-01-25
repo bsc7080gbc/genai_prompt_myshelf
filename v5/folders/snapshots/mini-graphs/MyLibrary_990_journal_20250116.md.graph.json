@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 781,
+            "path": "MyLibrary/990/journal/20250116.md",
+            "keywords": [
+                "louisville",
+                "accomplished",
+                "like",
+                "## reflections\n- feeling",
+                "january 16, 2025",
+                "journal",
+                "the ohio river",
+                "working",
+                "breaking",
+                "beautiful",
+                "myshelf",
+                "two days",
+                "project myshelf",
+                "## goals"
+            ],
+            "id": "MyLibrary/990/journal/20250116.md"
+        }
+    ],
+    "links": []
+}

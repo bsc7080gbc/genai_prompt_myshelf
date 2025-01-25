@@ -1,0 +1,14 @@
+# Command: checkfavorites
+
+## Steps:
+1. Load `favorites.json` from the specified module path.
+2. Verify if all favorite entries are accessible.
+3. Report status and errors.
+
+## Example Output:
+Favorites Validation:
+- Total Favorites: 12
+- Accessible: 12/12 [PASS]
+- Inaccessible: None
+
+Errors: None

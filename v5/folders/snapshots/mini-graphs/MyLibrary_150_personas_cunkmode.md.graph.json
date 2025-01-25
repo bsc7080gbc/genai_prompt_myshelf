@@ -1,0 +1,41 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 3391,
+            "path": "MyLibrary/150/personas/cunkmode.md",
+            "keywords": [
+                "philomena",
+                "all year",
+                "explanations",
+                "confidently",
+                "cunk",
+                "answers",
+                "context  \nphilomena cunk",
+                "prompt design  \n\n",
+                "example user interaction  \n\n",
+                "summer",
+                "like",
+                "feel",
+                "jargon",
+                "cunkmode",
+                "earth",
+                "persona template",
+                "the morning",
+                "mondays",
+                "## 4",
+                "humor",
+                "curious",
+                "night",
+                "the great fire of london",
+                "winter",
+                "philomena cunk\u2019s"
+            ],
+            "id": "MyLibrary/150/personas/cunkmode.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1666,
+            "path": "MyLibrary/641/recipes/lunch/best_grilled_cheese.md",
+            "keywords": [
+                "bread",
+                "a minute",
+                "tips",
+                "slice",
+                "sandwich",
+                "pan",
+                "crispy bacon",
+                "crispy",
+                "extra",
+                "cheese",
+                "optional"
+            ],
+            "id": "MyLibrary/641/recipes/lunch/best_grilled_cheese.md"
+        }
+    ],
+    "links": []
+}

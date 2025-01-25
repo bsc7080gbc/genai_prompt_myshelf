@@ -1,0 +1,75 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/990/journal",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/990/journal",
+            "id": "MyLibrary/990/journal"
+        },
+        {
+            "type": "file",
+            "size": 182,
+            "path": "MyLibrary/990/journal/index.json",
+            "keywords": [],
+            "id": "MyLibrary/990/journal/index.json"
+        },
+        {
+            "type": "file",
+            "size": 143,
+            "path": "MyLibrary/990/journal/20250101.md",
+            "keywords": [
+                "hopeful",
+                "feeling",
+                "2025",
+                "# New Year",
+                "challenges"
+            ],
+            "id": "MyLibrary/990/journal/20250101.md"
+        },
+        {
+            "type": "file",
+            "size": 781,
+            "path": "MyLibrary/990/journal/20250116.md",
+            "keywords": [
+                "January 16, 2025",
+                "## Goals",
+                "MyShelf",
+                "Louisville",
+                "the Ohio River"
+            ],
+            "id": "MyLibrary/990/journal/20250116.md"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary/990",
+            "target": "MyLibrary/990/journal"
+        },
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/index.json"
+        },
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/20250101.md"
+        },
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/20250116.md"
+        }
+    ],
+    "keywords": [
+        "## Goals",
+        "MyShelf",
+        "Louisville",
+        "the Ohio River",
+        "challenges",
+        "January 16, 2025",
+        "hopeful",
+        "# New Year",
+        "feeling",
+        "2025"
+    ],
+    "description": "No description available."
+}

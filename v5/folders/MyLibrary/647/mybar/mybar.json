@@ -1,0 +1,273 @@
+{
+    "mybar": [
+        {
+            "name": "Vanilla Vodka",
+            "category": "Vodka",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Smirnoff",
+            "flavor_profiles": [
+                "vanilla",
+                "smooth",
+                "sweet"
+            ],
+            "notes": "Sweet vanilla aroma and flavor with a creamy finish."
+        },
+        {
+            "name": "Vodka",
+            "category": "Vodka",
+            "path": "README.md",
+            "type": "Classic",
+            "brand": "Absolut",
+            "flavor_profiles": [
+                "neutral",
+                "clean"
+            ],
+            "notes": "Clean and neutral taste, suitable for mixing."
+        },
+        {
+            "name": "Gin",
+            "category": "Gin",
+            "path": "README.md",
+            "type": "Herbal",
+            "brand": "Tanqueray",
+            "flavor_profiles": [
+                "juniper",
+                "citrus",
+                "botanical"
+            ],
+            "notes": "Classic gin with bold juniper and refreshing citrus."
+        },
+        {
+            "name": "Bourbon",
+            "category": "Bourbon",
+            "path": "README.md",
+            "type": "Classic",
+            "brand": "Buffalo Trace",
+            "flavor_profiles": [
+                "oak",
+                "vanilla",
+                "caramel"
+            ],
+            "notes": "Balanced and smooth with hints of oak and caramel."
+        },
+        {
+            "name": "Jamaican Rum",
+            "category": "Rum",
+            "path": "README.md",
+            "type": "Dark",
+            "brand": "Myers",
+            "flavor_profiles": [
+                "molasses",
+                "caramel",
+                "spicy"
+            ],
+            "notes": "Rich and full-bodied with caramel and molasses undertones."
+        },
+        {
+            "name": "Cinnamon Whiskey",
+            "category": "Whiskey",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Fireball",
+            "flavor_profiles": [],
+            "notes": "na"
+        },
+        {
+            "name": "Pecan Whiskey",
+            "category": "Whiskey",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Ole Smokey",
+            "flavor_profiles": [],
+            "notes": "na"
+        },
+        {
+            "name": "American Honey",
+            "category": "Whiskey",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Wild Turkey",
+            "flavor_profiles": [],
+            "notes": "na"
+        },
+        {
+            "name": "Cookies and Cream",
+            "category": "Whiskey",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Ole Smokey",
+            "flavor_profiles": [],
+            "notes": "na"
+        },
+        {
+            "name": "Spiced Cider",
+            "category": "Whiskey",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Evan Williams",
+            "flavor_profiles": [],
+            "notes": "na"
+        },            
+        {
+            "name": "Peach Schnapps",
+            "category": "Schnapps",
+            "path": "README.md",
+            "type": "Fruit",
+            "brand": "DeKuyper",
+            "flavor_profiles": [
+                "peach",
+                "sweet",
+                "fruity"
+            ],
+            "notes": "Juicy and sweet with a strong peach aroma."
+        },
+        {
+            "name": "Midori",
+            "category": "Liqueur",
+            "path": "README.md",
+            "type": "Melon",
+            "brand": "Midori",
+            "flavor_profiles": [
+                "melon",
+                "sweet"
+            ],
+            "notes": "Bright green liqueur with a sweet melon flavor."
+        },
+        {
+            "name": "Amaretto",
+            "category": "Liqueur",
+            "path": "README.md",
+            "type": "Almond",
+            "brand": "Di Amore",
+            "flavor_profiles": [
+                "almond",
+                "sweet",
+                "nutty"
+            ],
+            "notes": "Rich almond flavor with a smooth, sweet finish."
+        },
+        {
+            "name": "Apple Pie",
+            "category": "Moonshine",
+            "path": "README.md",
+            "type": "Flavored",
+            "brand": "Ole Smokey",
+            "flavor_profiles": [
+                "apple",
+                "cinnamon",
+                "sweet"
+            ],
+            "notes": "Sweet and warming with strong apple pie spices."
+        },
+        {
+            "name": "Brandy",
+            "category": "Brandy",
+            "path": "README.md",
+            "type": "Classic",
+            "brand": "Christian Brothers",
+            "flavor_profiles": [
+                "oak",
+                "vanilla",
+                "spicy"
+            ],
+            "notes": "Smooth and warming with oak and vanilla undertones."
+        },
+        {
+            "name": "Aztec Chocolate Bitters",
+            "category": "Bitters",
+            "path": "README.md",
+            "type": "Chocolate",
+            "brand": "Fee Brothers",
+            "flavor_profiles": [
+                "chocolate",
+                "spicy"
+            ],
+            "notes": "Rich chocolate flavor with a touch of spice."
+        },
+        {
+            "name": "Aromatic Bitters",
+            "category": "Bitters",
+            "path": "README.md",
+            "type": "Aromatic",
+            "brand": "Angostura",
+            "flavor_profiles": [
+                "spicy",
+                "herbal"
+            ],
+            "notes": "Complex aromatic blend of spices and herbs."
+        },
+        {
+            "name": "Sweet and Sour mix",
+            "category": "Mixer",
+            "path": "README.md",
+            "type": "Citrus",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Common mixer for cocktails, adds a tangy citrus flavor."
+        },
+        {
+            "name": "Lemon juice",
+            "category": "Mixer",
+            "path": "README.md",
+            "type": "Citrus",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Fresh lemon juice for a tart and tangy addition to drinks."
+        },
+        {
+            "name": "Lime juice",
+            "category": "Mixer",
+            "path": "README.md",
+            "type": "Citrus",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Zesty lime juice, often used in margaritas and other tropical cocktails."
+        },
+        {
+            "name": "Milk",
+            "category": "Mixer",
+            "path": "README.md",
+            "type": "Dairy",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Adds creaminess to drinks, often used in dessert cocktails."
+        },
+        {
+            "name": "Coffee",
+            "category": "Mixer",
+            "path": "README.md",
+            "type": "Caffeine",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Rich and bold, pairs well with liqueurs like Kahlua."
+        },
+        {
+            "name": "Maraschino cherries",
+            "category": "Garnish",
+            "path": "README.md",
+            "type": "Fruit",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Bright red cherries often used to garnish cocktails like Old Fashioned."
+        },
+        {
+            "name": "Orange",
+            "category": "Garnish",
+            "path": "README.md",
+            "type": "Fruit",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Slices or twists used to garnish drinks like Old Fashioned or Negroni."
+        },
+        {
+            "name": "Salt",
+            "category": "Garnish",
+            "path": "README.md",
+            "type": "Seasoning",
+            "brand": "na",
+            "flavor_profiles": [],
+            "notes": "Often used to rim glasses for margaritas and other savory cocktails."
+        }
+    ]
+}

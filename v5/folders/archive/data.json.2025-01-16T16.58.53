@@ -1,0 +1,37 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-17T00:00:00": "Bring curved monitor to work"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "onion",
+                    "paper towels",
+                    "apples"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-16T16:57:05.643574Z",
+        "Description": "Added 'apples' to the groceries list; updated metadata timestamp."
+    }
+}

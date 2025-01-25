@@ -1,0 +1,29 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 2403,
+            "path": "MyLibrary/150/personas/cornholiomode.md",
+            "keywords": [
+                "heh",
+                "mode",
+                "head",
+                "humor",
+                "response",
+                "like",
+                "butt",
+                "beavis",
+                "cornholio mode",
+                "what\u2019s butt-head\u2019s",
+                "cool",
+                "beavis and butt-head\u2019s",
+                "responses"
+            ],
+            "id": "MyLibrary/150/personas/cornholiomode.md"
+        }
+    ],
+    "links": []
+}

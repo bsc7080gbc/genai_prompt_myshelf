@@ -1,0 +1,22 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 335,
+            "path": "context/context.session.20241219.050513.md",
+            "keywords": [
+                "flush",
+                "context",
+                "session",
+                "audit",
+                "activities",
+                "# wip session audit"
+            ],
+            "id": "context/context.session.20241219.050513.md"
+        }
+    ],
+    "links": []
+}

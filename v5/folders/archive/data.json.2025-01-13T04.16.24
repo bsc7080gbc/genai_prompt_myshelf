@@ -1,0 +1,51 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-11T00:00:00": "Snow removal on driveway"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "onion",
+                    "eggs",
+                    "carrots",
+                    "salt",
+                    "crackers",
+                    "chicken broth",
+                    "whole chicken",
+                    "olive oil",
+                    "pepper",
+                    "hamburger",
+                    "garlic cloves",
+                    "bay leaf",
+                    "bread",
+                    "milk",
+                    "thyme",
+                    "celery"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil",
+                    "rum"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-13T04:15:49.467740Z",
+        "Description": "Removed JournalBox section; content moved to MyLibrary on GitHub."
+    }
+}

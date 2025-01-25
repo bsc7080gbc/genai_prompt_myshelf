@@ -1,0 +1,29 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1719,
+            "path": "context/context.session.002.20250110.010000.md",
+            "keywords": [
+                "conversations",
+                "humor",
+                "deeper",
+                "the day",
+                "curiosity",
+                "insights",
+                "january 10, 2025",
+                "takeaways",
+                "session",
+                "cultural",
+                "002",
+                "topics",
+                "exploration"
+            ],
+            "id": "context/context.session.002.20250110.010000.md"
+        }
+    ],
+    "links": []
+}

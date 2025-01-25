@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 536,
+            "path": "MyLibrary/641/recipes/cocktails/cranberry_gin_fizz.md",
+            "keywords": [
+                "cranberry gin fizz",
+                "club",
+                "ice",
+                "gin",
+                "lime",
+                "simple",
+                "juice",
+                "citrus",
+                "soda"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/cranberry_gin_fizz.md"
+        }
+    ],
+    "links": []
+}

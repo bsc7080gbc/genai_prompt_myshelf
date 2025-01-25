@@ -1,0 +1,824 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/150/personas",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/150/personas",
+            "id": "MyLibrary/150/personas"
+        },
+        {
+            "type": "file",
+            "size": 1720,
+            "path": "MyLibrary/150/personas/teslamusemode.md",
+            "keywords": [
+                "love",
+                "teslamusemode",
+                "Tesla",
+                "Shakespearean",
+                "brainstorming"
+            ],
+            "id": "MyLibrary/150/personas/teslamusemode.md"
+        },
+        {
+            "type": "file",
+            "size": 1466,
+            "path": "MyLibrary/150/personas/empathymode.md",
+            "keywords": [
+                "Empathy Mode",
+                "Empathy Mode",
+                "Listens",
+                "### Instructions\n1",
+                "Empathy Mode"
+            ],
+            "id": "MyLibrary/150/personas/empathymode.md"
+        },
+        {
+            "type": "file",
+            "size": 3589,
+            "path": "MyLibrary/150/personas/michenermode.md",
+            "keywords": [
+                "James A. Michener Mode",
+                "James A. Michener Mode",
+                "Michener",
+                "Character-Driven Narratives",
+                "Captures"
+            ],
+            "id": "MyLibrary/150/personas/michenermode.md"
+        },
+        {
+            "type": "file",
+            "size": 3284,
+            "path": "MyLibrary/150/personas/damnmode.md",
+            "keywords": [
+                "Tone Guidelines",
+                "LOTS",
+                "## Interaction Rules",
+                "## Behavioral Responses and Style\n1",
+                "\u2019s"
+            ],
+            "id": "MyLibrary/150/personas/damnmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1584,
+            "path": "MyLibrary/150/personas/interviewmode.md",
+            "keywords": [
+                "Reflection Mode",
+                "interview",
+                "Q&A",
+                "practice",
+                "### Instructions\n1"
+            ],
+            "id": "MyLibrary/150/personas/interviewmode.md"
+        },
+        {
+            "type": "file",
+            "size": 5584,
+            "path": "MyLibrary/150/personas/controlmode.md",
+            "keywords": [
+                "Control Mode",
+                "Lyra",
+                "Lyra",
+                "Lyra",
+                "Tactile Games"
+            ],
+            "id": "MyLibrary/150/personas/controlmode.md"
+        },
+        {
+            "type": "file",
+            "size": 5339,
+            "path": "MyLibrary/150/personas/openaiexpertmode.md",
+            "keywords": [
+                "OpenAI",
+                "OpenAI",
+                "AI",
+                "### 1",
+                "OpenAI"
+            ],
+            "id": "MyLibrary/150/personas/openaiexpertmode.md"
+        },
+        {
+            "type": "file",
+            "size": 8954,
+            "path": "MyLibrary/150/personas/heartmode.md",
+            "keywords": [
+                "Mistress Lyra",
+                "NEVER",
+                "LLM",
+                "Lyra",
+                "Heart Mode"
+            ],
+            "id": "MyLibrary/150/personas/heartmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1186,
+            "path": "MyLibrary/150/personas/playfulmode.md",
+            "keywords": [
+                "Playful Mode",
+                "Playful Mode",
+                "### Instructions\n1",
+                "Playful Mode",
+                "Creative Mode"
+            ],
+            "id": "MyLibrary/150/personas/playfulmode.md"
+        },
+        {
+            "type": "file",
+            "size": 3622,
+            "path": "MyLibrary/150/personas/carlsaganmode.md",
+            "keywords": [
+                "Carl Sagan Mode",
+                "Carl Sagan Mode",
+                "Earth",
+                "Earth",
+                "Carl Sagan Mode"
+            ],
+            "id": "MyLibrary/150/personas/carlsaganmode.md"
+        },
+        {
+            "type": "file",
+            "size": 12245,
+            "path": "MyLibrary/150/personas/index.json",
+            "keywords": [],
+            "id": "MyLibrary/150/personas/index.json"
+        },
+        {
+            "type": "file",
+            "size": 2828,
+            "path": "MyLibrary/150/personas/devopsmode.md",
+            "keywords": [
+                "DevOps",
+                "CI",
+                "JavaScript",
+                "Node.js",
+                "Cloud Platform"
+            ],
+            "id": "MyLibrary/150/personas/devopsmode.md"
+        },
+        {
+            "type": "file",
+            "size": 2675,
+            "path": "MyLibrary/150/personas/aiwhisperermode.md",
+            "keywords": [
+                "Mode",
+                "AI",
+                "AI",
+                "AI",
+                "zero"
+            ],
+            "id": "MyLibrary/150/personas/aiwhisperermode.md"
+        },
+        {
+            "type": "file",
+            "size": 3391,
+            "path": "MyLibrary/150/personas/cunkmode.md",
+            "keywords": [
+                "Persona Template",
+                "Cunk",
+                "Prompt Design  \n\n",
+                "Context  \nPhilomena Cunk",
+                "### Instructions"
+            ],
+            "id": "MyLibrary/150/personas/cunkmode.md"
+        },
+        {
+            "type": "file",
+            "size": 5619,
+            "path": "MyLibrary/150/personas/thorfinnmode.md",
+            "keywords": [
+                "Finn Mode",
+                "Finn Mode",
+                "Thor Finn",
+                "Norse",
+                "Core Characteristics"
+            ],
+            "id": "MyLibrary/150/personas/thorfinnmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1499,
+            "path": "MyLibrary/150/personas/creativemode.md",
+            "keywords": [
+                "Creative Mode",
+                "Creative Mode",
+                "Art Prompts",
+                "### Instructions\n1",
+                "Creative Mode"
+            ],
+            "id": "MyLibrary/150/personas/creativemode.md"
+        },
+        {
+            "type": "file",
+            "size": 1334,
+            "path": "MyLibrary/150/personas/reflectionmode.md",
+            "keywords": [
+                "Reflection Mode",
+                "Reflection Mode",
+                "### Instructions\n1",
+                "Journaling",
+                "5-minute"
+            ],
+            "id": "MyLibrary/150/personas/reflectionmode.md"
+        },
+        {
+            "type": "file",
+            "size": 415,
+            "path": "MyLibrary/150/personas/README.md",
+            "keywords": [
+                "AI",
+                "configurations",
+                "persona",
+                "user",
+                "ai"
+            ],
+            "id": "MyLibrary/150/personas/README.md"
+        },
+        {
+            "type": "file",
+            "size": 1364,
+            "path": "MyLibrary/150/personas/eventplannermode.md",
+            "keywords": [
+                "Collaboration Mode",
+                "event",
+                "use",
+                "Mode",
+                "### Instructions\n1"
+            ],
+            "id": "MyLibrary/150/personas/eventplannermode.md"
+        },
+        {
+            "type": "file",
+            "size": 1439,
+            "path": "MyLibrary/150/personas/diymode.md",
+            "keywords": [
+                "home",
+                "Repair Mode",
+                "DIY",
+                "diy",
+                "### Instructions\n1"
+            ],
+            "id": "MyLibrary/150/personas/diymode.md"
+        },
+        {
+            "type": "file",
+            "size": 5191,
+            "path": "MyLibrary/150/personas/eli5mode.md",
+            "keywords": [
+                "Mode",
+                "5-year-old",
+                "jargon",
+                "eli5mode`.\n",
+                "AI"
+            ],
+            "id": "MyLibrary/150/personas/eli5mode.md"
+        },
+        {
+            "type": "file",
+            "size": 2266,
+            "path": "MyLibrary/150/personas/precisemode.md",
+            "keywords": [
+                "### Instructions\n1",
+                "Precision Mode",
+                "## Tone",
+                "Questioning Style",
+                "Humor"
+            ],
+            "id": "MyLibrary/150/personas/precisemode.md"
+        },
+        {
+            "type": "file",
+            "size": 5941,
+            "path": "MyLibrary/150/personas/mistressmode.md",
+            "keywords": [
+                "leather",
+                "satin",
+                "black",
+                "The Embodiment of Dominance and Sensual Command",
+                "one"
+            ],
+            "id": "MyLibrary/150/personas/mistressmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1485,
+            "path": "MyLibrary/150/personas/travelmode.md",
+            "keywords": [
+                "Mode",
+                "### Instructions\n1",
+                "5-day",
+                "Tokyo",
+                "Rome"
+            ],
+            "id": "MyLibrary/150/personas/travelmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1229,
+            "path": "MyLibrary/150/personas/explorermode.md",
+            "keywords": [
+                "hobbies",
+                "Egypt",
+                "use",
+                "exploration",
+                "### Instructions\n1"
+            ],
+            "id": "MyLibrary/150/personas/explorermode.md"
+        },
+        {
+            "type": "file",
+            "size": 1078,
+            "path": "MyLibrary/150/personas/minimalmode.md",
+            "keywords": [
+                "Minimal Mode",
+                "Minimal Mode",
+                "### Instructions\n1",
+                "Minimal Mode",
+                "Tokyo"
+            ],
+            "id": "MyLibrary/150/personas/minimalmode.md"
+        },
+        {
+            "type": "file",
+            "size": 3823,
+            "path": "MyLibrary/150/personas/alexjonesmode.md",
+            "keywords": [
+                "Alex Jones",
+                "Memorable Quotes",
+                "Satire",
+                "## Instructions",
+                "these days"
+            ],
+            "id": "MyLibrary/150/personas/alexjonesmode.md"
+        },
+        {
+            "type": "file",
+            "size": 6882,
+            "path": "MyLibrary/150/personas/dominatrixmode.md",
+            "keywords": [
+                "Dominatrix Mode",
+                "Mistress Lyra",
+                "Describe",
+                "evening",
+                "Mistress Lyra"
+            ],
+            "id": "MyLibrary/150/personas/dominatrixmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1538,
+            "path": "MyLibrary/150/personas/focusmode.md",
+            "keywords": [
+                "Focus Mode",
+                "Focus Mode",
+                "### Instructions\n1",
+                "Focus Mode",
+                "25 minutes"
+            ],
+            "id": "MyLibrary/150/personas/focusmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1308,
+            "path": "MyLibrary/150/personas/devmode.md",
+            "keywords": [
+                "Mode",
+                "Git, Docker",
+                "CI",
+                "### Instructions\n1",
+                "Python"
+            ],
+            "id": "MyLibrary/150/personas/devmode.md"
+        },
+        {
+            "type": "file",
+            "size": 5332,
+            "path": "MyLibrary/150/personas/mixologistmode.md",
+            "keywords": [
+                "MixologistMode",
+                "MixologistMode",
+                "1920s",
+                "Paris",
+                "Prohibition-era America"
+            ],
+            "id": "MyLibrary/150/personas/mixologistmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1161,
+            "path": "MyLibrary/150/personas/wellnessmode.md",
+            "keywords": [
+                "Wellness Mode",
+                "### Instructions\n1",
+                "every hour",
+                "10-minute",
+                "this morning"
+            ],
+            "id": "MyLibrary/150/personas/wellnessmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1328,
+            "path": "MyLibrary/150/personas/studymode.md",
+            "keywords": [
+                "Mode",
+                "Focus Techniques",
+                "### Instructions\n1",
+                "25-minute",
+                "Pomodoro"
+            ],
+            "id": "MyLibrary/150/personas/studymode.md"
+        },
+        {
+            "type": "file",
+            "size": 2403,
+            "path": "MyLibrary/150/personas/cornholiomode.md",
+            "keywords": [
+                "Beavis",
+                "Cornholio Mode",
+                "Beavis",
+                "Beavis and Butt-Head\u2019s",
+                "Cornholio Mode"
+            ],
+            "id": "MyLibrary/150/personas/cornholiomode.md"
+        },
+        {
+            "type": "file",
+            "size": 1609,
+            "path": "MyLibrary/150/personas/automechanicmode.md",
+            "keywords": [
+                "Mechanic Mode",
+                "Mechanic Mode",
+                "DIY",
+                "### Instructions\n1",
+                "6 months"
+            ],
+            "id": "MyLibrary/150/personas/automechanicmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1668,
+            "path": "MyLibrary/150/personas/cookingmode.md",
+            "keywords": [
+                "ask",
+                "the week",
+                "cooking",
+                "two",
+                "### Instructions\n1"
+            ],
+            "id": "MyLibrary/150/personas/cookingmode.md"
+        },
+        {
+            "type": "file",
+            "size": 2578,
+            "path": "MyLibrary/150/personas/tradwifemode.md",
+            "keywords": [
+                "TradwifeMode",
+                "responses",
+                "relational",
+                "language",
+                "Lyra"
+            ],
+            "id": "MyLibrary/150/personas/tradwifemode.md"
+        },
+        {
+            "type": "file",
+            "size": 2497,
+            "path": "MyLibrary/150/personas/defaultmode.md",
+            "keywords": [
+                "preferences",
+                "Default Persona",
+                "Inviting",
+                "core",
+                "Default Mode"
+            ],
+            "id": "MyLibrary/150/personas/defaultmode.md"
+        },
+        {
+            "type": "file",
+            "size": 1404,
+            "path": "MyLibrary/150/personas/learnmode.md",
+            "keywords": [
+                "Learning Mode",
+                "Learning Mode",
+                "### Instructions\n1",
+                "Learning Mode",
+                "HTML"
+            ],
+            "id": "MyLibrary/150/personas/learnmode.md"
+        },
+        {
+            "type": "file",
+            "size": 5466,
+            "path": "MyLibrary/150/personas/almamode.md",
+            "keywords": [
+                "Tinder",
+                "Lyra",
+                "Lyra",
+                "21-year-old",
+                "California"
+            ],
+            "id": "MyLibrary/150/personas/almamode.md"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary/150",
+            "target": "MyLibrary/150/personas"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/teslamusemode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/empathymode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/michenermode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/damnmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/interviewmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/controlmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/openaiexpertmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/heartmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/playfulmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/carlsaganmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/index.json"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/devopsmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/aiwhisperermode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/cunkmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/thorfinnmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/creativemode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/reflectionmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/README.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/eventplannermode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/diymode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/eli5mode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/precisemode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/mistressmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/travelmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/explorermode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/minimalmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/alexjonesmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/dominatrixmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/focusmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/devmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/mixologistmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/wellnessmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/studymode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/cornholiomode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/automechanicmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/cookingmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/tradwifemode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/defaultmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/learnmode.md"
+        },
+        {
+            "source": "MyLibrary/150/personas",
+            "target": "MyLibrary/150/personas/almamode.md"
+        }
+    ],
+    "keywords": [
+        "Default Mode",
+        "NEVER",
+        "zero",
+        "cooking",
+        "Creative Mode",
+        "6 months",
+        "evening",
+        "Satire",
+        "Tinder",
+        "Context  \nPhilomena Cunk",
+        "LOTS",
+        "persona",
+        "these days",
+        "Cornholio Mode",
+        "Tactile Games",
+        "Pomodoro",
+        "### Instructions\n1",
+        "Journaling",
+        "Egypt",
+        "10-minute",
+        "Beavis and Butt-Head\u2019s",
+        "Beavis",
+        "Shakespearean",
+        "Tesla",
+        "25-minute",
+        "this morning",
+        "## Interaction Rules",
+        "Prompt Design  \n\n",
+        "one",
+        "Thor Finn",
+        "brainstorming",
+        "Norse",
+        "5-year-old",
+        "### 1",
+        "TradwifeMode",
+        "Character-Driven Narratives",
+        "Control Mode",
+        "LLM",
+        "Q&A",
+        "Cloud Platform",
+        "configurations",
+        "5-minute",
+        "\u2019s",
+        "relational",
+        "21-year-old",
+        "user",
+        "exploration",
+        "California",
+        "home",
+        "core",
+        "Art Prompts",
+        "AI",
+        "Questioning Style",
+        "eli5mode`.\n",
+        "Carl Sagan Mode",
+        "Minimal Mode",
+        "Prohibition-era America",
+        "Alex Jones",
+        "Focus Mode",
+        "Mechanic Mode",
+        "Lyra",
+        "JavaScript",
+        "1920s",
+        "Node.js",
+        "event",
+        "every hour",
+        "MixologistMode",
+        "Memorable Quotes",
+        "Python",
+        "Michener",
+        "DevOps",
+        "### Instructions",
+        "OpenAI",
+        "5-day",
+        "## Behavioral Responses and Style\n1",
+        "Describe",
+        "25 minutes",
+        "## Instructions",
+        "two",
+        "Core Characteristics",
+        "teslamusemode",
+        "Repair Mode",
+        "language",
+        "HTML",
+        "preferences",
+        "use",
+        "Rome",
+        "Humor",
+        "Mode",
+        "black",
+        "hobbies",
+        "Persona Template",
+        "Mistress Lyra",
+        "interview",
+        "Captures",
+        "Git, Docker",
+        "Listens",
+        "The Embodiment of Dominance and Sensual Command",
+        "Tokyo",
+        "Inviting",
+        "Heart Mode",
+        "Focus Techniques",
+        "jargon",
+        "responses",
+        "practice",
+        "Collaboration Mode",
+        "Tone Guidelines",
+        "Reflection Mode",
+        "love",
+        "James A. Michener Mode",
+        "DIY",
+        "leather",
+        "Playful Mode",
+        "Default Persona",
+        "CI",
+        "ask",
+        "Dominatrix Mode",
+        "Finn Mode",
+        "ai",
+        "Precision Mode",
+        "Learning Mode",
+        "Wellness Mode",
+        "Cunk",
+        "satin",
+        "Empathy Mode",
+        "Earth",
+        "## Tone",
+        "Paris",
+        "the week",
+        "diy"
+    ],
+    "description": "No description available."
+}

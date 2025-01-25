@@ -1,0 +1,31 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 3622,
+            "path": "MyLibrary/150/personas/carlsaganmode.md",
+            "keywords": [
+                "mode",
+                "life",
+                "understanding",
+                "earth",
+                "voyager",
+                "explain the drake equation",
+                "carl",
+                "universe",
+                "sagan",
+                "discovery",
+                "humanity",
+                "cosmic",
+                "scientific",
+                "carl sagan mode",
+                "activating carl sagan mode"
+            ],
+            "id": "MyLibrary/150/personas/carlsaganmode.md"
+        }
+    ],
+    "links": []
+}

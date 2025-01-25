@@ -1,0 +1,36 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1021,
+            "path": "context/context.session.001.20241217.223226.md",
+            "keywords": [
+                "00:02:00",
+                "barry",
+                "00:00:00",
+                "ziggy",
+                "00:21:00",
+                "2024-12-17",
+                "00:18:00",
+                "00:14:00",
+                "2024",
+                "00:17:00",
+                "00:20:00",
+                "confirmed",
+                "audit",
+                "00:06:00",
+                "00:08:00",
+                "00:12:00",
+                "00:09:00",
+                "data.json",
+                "session",
+                "00:15:00"
+            ],
+            "id": "context/context.session.001.20241217.223226.md"
+        }
+    ],
+    "links": []
+}

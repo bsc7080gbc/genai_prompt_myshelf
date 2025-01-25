@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 690,
+            "path": "MyLibrary/641/recipes/cocktails/green_hunter_fizz.md",
+            "keywords": [
+                "herbal",
+                "absinthe",
+                "club",
+                "ice",
+                "gin",
+                "lime",
+                "juice",
+                "add j\u00e4germeister",
+                "syrup",
+                "0.25",
+                "soda"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/green_hunter_fizz.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,39 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-21T09:00:00-05:00": "Check Humana Stock"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "paper towels",
+                    "apples",
+                    "oranges",
+                    "Canadian Peak",
+                    "coffee"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-21T09:15:00-05:00",
+        "Description": "Updated groceries: added coffee, removed sugar."
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 12619,
+            "path": "MyLibrary/150/personas/index.json",
+            "keywords": [],
+            "id": "MyLibrary/150/personas/index.json"
+        }
+    ],
+    "links": []
+}

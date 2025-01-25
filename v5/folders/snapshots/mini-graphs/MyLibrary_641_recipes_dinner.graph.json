@@ -1,0 +1,126 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1388,
+            "path": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md",
+            "keywords": [
+                "garlic butter herb chicken",
+                "1-2 minutes",
+                "chicken",
+                "noodles",
+                "zucchini",
+                "skillet",
+                "zucchini noodles",
+                "saut\u00e9"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md"
+        },
+        {
+            "type": "file",
+            "size": 1191,
+            "path": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md",
+            "keywords": [
+                "pasta",
+                "ground",
+                "diced",
+                "hamburger",
+                "skillet",
+                "cheese"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md"
+        },
+        {
+            "type": "file",
+            "size": 1677,
+            "path": "MyLibrary/641/recipes/dinner/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/dinner/index.json"
+        },
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/dinner",
+            "id": "MyLibrary/641/recipes/dinner"
+        },
+        {
+            "type": "file",
+            "size": 1547,
+            "path": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md",
+            "keywords": [
+                "200",
+                "5 minutes",
+                "steaks",
+                "## instructions:",
+                "potatoes",
+                "pepper",
+                "25-30 minutes",
+                "garlic powder",
+                "weeknight",
+                "400",
+                "salt",
+                "garlic butter",
+                "olive",
+                "oil"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md"
+        },
+        {
+            "type": "file",
+            "size": 14,
+            "path": "MyLibrary/641/recipes/dinner/README.md",
+            "keywords": [
+                "recipe",
+                "dinner"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/README.md"
+        },
+        {
+            "type": "file",
+            "size": 1020,
+            "path": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md",
+            "keywords": [
+                "pasta",
+                "chicken",
+                "teaspoon",
+                "## instructions:",
+                "pepper",
+                "creamy lemon",
+                "juice",
+                "dried",
+                "salt",
+                "herb pasta",
+                "4-5 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/garlic_butter_herb_chicken_zucchini_noodles.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/one_pan_cheesy_hamburger_skillet.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/README.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dinner",
+            "target": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md"
+        }
+    ]
+}

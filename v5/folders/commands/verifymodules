@@ -1,0 +1,15 @@
+# Command: verifymodules
+
+## Steps:
+1. Load `core.json` and retrieve module paths.
+2. Verify accessibility for each module.
+3. Report the total number of modules and their status.
+
+## Example Output:
+Modules Verification:
+- Total Modules: 18
+- Accessible: 18/18 [PASS]
+- Inaccessible Modules:
+  - None
+
+Errors: None

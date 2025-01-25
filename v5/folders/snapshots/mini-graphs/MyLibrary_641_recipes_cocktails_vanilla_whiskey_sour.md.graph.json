@@ -1,0 +1,31 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 510,
+            "path": "MyLibrary/641/recipes/cocktails/vanilla_whiskey_sour.md",
+            "keywords": [
+                "smirnoff",
+                "vanilla vodka",
+                "ice",
+                "15-20 seconds",
+                "vodka",
+                "0.75",
+                "wild turkey",
+                "5 minutes",
+                "vanilla",
+                "juice",
+                "syrup",
+                "whiskey",
+                "garnish",
+                "vanilla whiskey",
+                "simple"
+            ],
+            "id": "MyLibrary/641/recipes/cocktails/vanilla_whiskey_sour.md"
+        }
+    ],
+    "links": []
+}

@@ -1,89 +1,106 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "type": "object",
-  "properties": {
-    "MyBoxes": {
-      "type": "object",
-      "properties": {
-        "Reminders": {
-          "type": "object",
-          "properties": {
-            "Date Bound": {
-              "type": "object",
-              "patternProperties": {
-                "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}$": {
-                  "type": "string"
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "MyBoxes": {
+            "type": "object",
+            "properties": {
+                "Reminders": {
+                    "type": "object",
+                    "properties": {
+                        "Date Bound": {
+                            "type": "object",
+                            "patternProperties": {
+                                "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:[+-]\\d{2}:\\d{2})?$": {
+                                    "type": "string"
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "Date Bound"
+                    ]
+                },
+                "Generic": {
+                    "type": "object",
+                    "properties": {
+                        "Notes": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "required": [
+                        "Notes"
+                    ]
+                },
+                "Shopping": {
+                    "type": "object",
+                    "properties": {
+                        "Groceries": {
+                            "type": "object",
+                            "properties": {
+                                "Items": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "required": [
+                                "Items"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "Groceries"
+                    ]
+                },
+                "BlueSky": {
+                    "type": "object",
+                    "patternProperties": {
+                        ".*": {
+                            "type": "object",
+                            "properties": {
+                                "SkyNotes": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "SkyNotes"
+                            ]
+                        }
+                    }
                 }
-              },
-              "additionalProperties": false
-            }
-          },
-          "required": ["Date Bound"]
+            },
+            "additionalProperties": true
         },
-        "Generic": {
-          "type": "object",
-          "properties": {
-            "Notes": {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            }
-          },
-          "required": ["Notes"]
-        },
-        "Shopping": {
-          "type": "object",
-          "properties": {
-            "Groceries": {
-              "type": "object",
-              "properties": {
-                "Items": {
-                  "type": "array",
-                  "items": {
+        "Metadata": {
+            "type": "object",
+            "properties": {
+                "Version": {
                     "type": "string"
-                  }
+                },
+                "Last Updated": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "Description": {
+                    "type": "string"
                 }
-              },
-              "required": ["Items"]
-            }
-          },
-          "required": ["Groceries"]
-        },
-        "BlueSky": {
-          "type": "object",
-          "patternProperties": {
-            ".*": {
-              "type": "object",
-              "properties": {
-                "SkyNotes": {
-                  "type": "string"
-                }
-              },
-              "required": ["SkyNotes"]
-            }
-          }
+            },
+            "required": [
+                "Version",
+                "Last Updated",
+                "Description"
+            ]
         }
-      },
-      "additionalProperties": true
     },
-    "Metadata": {
-      "type": "object",
-      "properties": {
-        "Version": {
-          "type": "string"
-        },
-        "Last Updated": {
-          "type": "string",
-          "format": "date-time"
-        },
-        "Description": {
-          "type": "string"
-        }
-      },
-      "required": ["Version", "Last Updated", "Description"]
-    }
-  },
-  "required": ["MyBoxes", "Metadata"],
-  "additionalProperties": false
+    "required": [
+        "MyBoxes",
+        "Metadata"
+    ],
+    "additionalProperties": false
 }

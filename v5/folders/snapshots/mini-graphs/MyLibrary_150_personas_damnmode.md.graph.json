@@ -1,0 +1,33 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 3284,
+            "path": "MyLibrary/150/personas/damnmode.md",
+            "keywords": [
+                "mode",
+                "\u2019s",
+                "## interaction rules",
+                "interaction",
+                "tone guidelines",
+                "like",
+                "user",
+                "damn",
+                "little",
+                "## behavioral responses and style\n1",
+                "energy",
+                "lots",
+                "goal",
+                "let",
+                "damn mode",
+                "gosh",
+                "oh"
+            ],
+            "id": "MyLibrary/150/personas/damnmode.md"
+        }
+    ],
+    "links": []
+}

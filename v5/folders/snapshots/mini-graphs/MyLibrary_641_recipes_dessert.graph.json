@@ -1,0 +1,77 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 8,
+            "path": "MyLibrary/641/recipes/dessert/README.md",
+            "keywords": [
+                "desserts"
+            ],
+            "id": "MyLibrary/641/recipes/dessert/README.md"
+        },
+        {
+            "type": "file",
+            "size": 886,
+            "path": "MyLibrary/641/recipes/dessert/lemon_berry_parfait.md",
+            "keywords": [
+                "parfait",
+                "lemon berry parfait",
+                "fresh",
+                "berries",
+                "dessert",
+                "layer",
+                "yogurt",
+                "greek"
+            ],
+            "id": "MyLibrary/641/recipes/dessert/lemon_berry_parfait.md"
+        },
+        {
+            "type": "file",
+            "size": 776,
+            "path": "MyLibrary/641/recipes/dessert/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/dessert/index.json"
+        },
+        {
+            "type": "file",
+            "size": 508,
+            "path": "MyLibrary/641/recipes/dessert/no_bake_chocolate_peanut_butter_bars.md",
+            "keywords": [
+                "chips",
+                "rich",
+                "bars",
+                "melt",
+                "peanut",
+                "oats",
+                "honey"
+            ],
+            "id": "MyLibrary/641/recipes/dessert/no_bake_chocolate_peanut_butter_bars.md"
+        },
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/dessert",
+            "id": "MyLibrary/641/recipes/dessert"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/641/recipes/dessert",
+            "target": "MyLibrary/641/recipes/dessert/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dessert",
+            "target": "MyLibrary/641/recipes/dessert/README.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dessert",
+            "target": "MyLibrary/641/recipes/dessert/lemon_berry_parfait.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/dessert",
+            "target": "MyLibrary/641/recipes/dessert/no_bake_chocolate_peanut_butter_bars.md"
+        }
+    ]
+}

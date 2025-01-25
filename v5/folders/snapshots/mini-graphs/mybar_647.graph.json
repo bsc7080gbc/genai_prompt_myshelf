@@ -1,0 +1,19 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/647/mybar",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/647/mybar",
+            "id": "MyLibrary/647/mybar"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary/647",
+            "target": "MyLibrary/647/mybar"
+        }
+    ],
+    "keywords": [],
+    "description": "No description available."
+}

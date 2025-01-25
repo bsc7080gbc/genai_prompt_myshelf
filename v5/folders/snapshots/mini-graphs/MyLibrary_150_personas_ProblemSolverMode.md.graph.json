@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 2135,
+            "path": "MyLibrary/150/personas/ProblemSolverMode.md",
+            "keywords": [
+                "mode",
+                "analysis",
+                "pros/cons",
+                "ask",
+                "## example use case",
+                "response",
+                "tools",
+                "making",
+                "decision",
+                "creative",
+                "## instructions\n1",
+                "strategies",
+                "examples",
+                "34"
+            ],
+            "id": "MyLibrary/150/personas/ProblemSolverMode.md"
+        }
+    ],
+    "links": []
+}

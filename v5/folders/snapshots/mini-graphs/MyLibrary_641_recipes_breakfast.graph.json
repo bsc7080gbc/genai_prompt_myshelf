@@ -1,0 +1,80 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 17,
+            "path": "MyLibrary/641/recipes/breakfast/README.md",
+            "keywords": [
+                "breakfast",
+                "reciped"
+            ],
+            "id": "MyLibrary/641/recipes/breakfast/README.md"
+        },
+        {
+            "type": "file",
+            "size": 1156,
+            "path": "MyLibrary/641/recipes/breakfast/gluten_free_pancakes.md",
+            "keywords": [
+                "fresh",
+                "baking",
+                "flour",
+                "gluten-free pancakes",
+                "free",
+                "oil",
+                "egg",
+                "gluten",
+                "about 2-3 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/breakfast/gluten_free_pancakes.md"
+        },
+        {
+            "type": "file",
+            "size": 761,
+            "path": "MyLibrary/641/recipes/breakfast/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/breakfast/index.json"
+        },
+        {
+            "type": "file",
+            "size": 969,
+            "path": "MyLibrary/641/recipes/breakfast/fluffy_pancakes.md",
+            "keywords": [
+                "fluffy pancakes",
+                "baking",
+                "flour",
+                "pour \u00bc cup",
+                "fluffy",
+                "oil",
+                "egg",
+                "about 2-3 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/breakfast/fluffy_pancakes.md"
+        },
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/breakfast",
+            "id": "MyLibrary/641/recipes/breakfast"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/641/recipes/breakfast",
+            "target": "MyLibrary/641/recipes/breakfast/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/breakfast",
+            "target": "MyLibrary/641/recipes/breakfast/README.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/breakfast",
+            "target": "MyLibrary/641/recipes/breakfast/gluten_free_pancakes.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/breakfast",
+            "target": "MyLibrary/641/recipes/breakfast/fluffy_pancakes.md"
+        }
+    ]
+}

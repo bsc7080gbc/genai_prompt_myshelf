@@ -1,0 +1,31 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1078,
+            "path": "MyLibrary/150/personas/minimalmode.md",
+            "keywords": [
+                "quick",
+                "focus mode",
+                "mode",
+                "dialogue",
+                "john",
+                "ask",
+                "information",
+                "answers",
+                "provides",
+                "4 pm",
+                "fast",
+                "minimal",
+                "tokyo",
+                "minimal mode",
+                "34"
+            ],
+            "id": "MyLibrary/150/personas/minimalmode.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,49 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-04T00:00:00": "Put holiday decorations"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "milk",
+                    "bread",
+                    "paper towels",
+                    "eggs"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil",
+                    "rum"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        },
+        "JournalBox": {
+            "2025-01-01": {
+                "Title": "New Year Reflections",
+                "Content": "Spent time reflecting on this year's challenges and successes, feeling hopeful for 2025.",
+                "Tags": [
+                    "Reflection",
+                    "Goals"
+                ]
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-10T16:42:56.000Z",
+        "Description": "Resolved conflict, added eggs to groceries, and updated Metadata description."
+    }
+}

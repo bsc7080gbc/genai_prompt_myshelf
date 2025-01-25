@@ -17,6 +17,24 @@
                 "cognitive graph map",
                 "user graph"
             ]
-        }
+        },
+        {
+            "name": "mini-graph-themes",
+            "index": "mini-graph-themes/index.json",
+            "keywords": [
+                "context.session",
+                "cognitive graph map"
+            ]
+        },        
+        {
+            "name": "mini-graphs",
+            "index": "mini-graphs/index.json",
+            "keywords": [
+                "core mini graphs",
+                "mini graphs"
+                "cognitive graph map",
+                "user graph"
+            ]
+        }        
     ]
 }

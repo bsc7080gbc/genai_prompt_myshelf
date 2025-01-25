@@ -1,0 +1,34 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1308,
+            "path": "MyLibrary/150/personas/devmode.md",
+            "keywords": [
+                "sql",
+                "mode",
+                "technical",
+                "practices",
+                "ask",
+                "git, docker",
+                "aws s3",
+                "flask",
+                "learning mode",
+                "python",
+                "udp",
+                "ci",
+                "code",
+                "best",
+                "tcp",
+                "git",
+                "developer",
+                "analyzes"
+            ],
+            "id": "MyLibrary/150/personas/devmode.md"
+        }
+    ],
+    "links": []
+}

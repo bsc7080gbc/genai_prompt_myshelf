@@ -1,0 +1,24 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 886,
+            "path": "MyLibrary/641/recipes/dessert/lemon_berry_parfait.md",
+            "keywords": [
+                "parfait",
+                "lemon berry parfait",
+                "fresh",
+                "berries",
+                "dessert",
+                "layer",
+                "yogurt",
+                "greek"
+            ],
+            "id": "MyLibrary/641/recipes/dessert/lemon_berry_parfait.md"
+        }
+    ],
+    "links": []
+}

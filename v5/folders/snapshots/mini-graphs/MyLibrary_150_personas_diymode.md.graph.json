@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1439,
+            "path": "MyLibrary/150/personas/diymode.md",
+            "keywords": [
+                "mode",
+                "diy",
+                "ask",
+                "repairs",
+                "best",
+                "repair mode",
+                "safety",
+                "issues",
+                "repair"
+            ],
+            "id": "MyLibrary/150/personas/diymode.md"
+        }
+    ],
+    "links": []
+}

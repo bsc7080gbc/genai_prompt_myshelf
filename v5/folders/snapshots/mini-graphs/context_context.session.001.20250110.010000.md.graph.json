@@ -1,0 +1,22 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 311,
+            "path": "context/context.session.001.20250110.010000.md",
+            "keywords": [
+                "2025-01-10",
+                "session",
+                "enriched",
+                "context",
+                "001",
+                "conflicts"
+            ],
+            "id": "context/context.session.001.20250110.010000.md"
+        }
+    ],
+    "links": []
+}

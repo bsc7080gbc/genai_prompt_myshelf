@@ -1,0 +1,23 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 508,
+            "path": "MyLibrary/641/recipes/dessert/no_bake_chocolate_peanut_butter_bars.md",
+            "keywords": [
+                "chips",
+                "rich",
+                "bars",
+                "melt",
+                "peanut",
+                "oats",
+                "honey"
+            ],
+            "id": "MyLibrary/641/recipes/dessert/no_bake_chocolate_peanut_butter_bars.md"
+        }
+    ],
+    "links": []
+}

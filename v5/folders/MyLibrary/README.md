@@ -7,7 +7,7 @@ Starter areas of your library
 * personas
   - contains all the different persona modes you have available to choose from
   ```
-  switchmode remote carlsaganmode
+  switchmode carlsaganmode
   ```
   
 * recipes

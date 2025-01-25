@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 376,
+            "path": "context/context.session.001.20241216.053129.md",
+            "keywords": [
+                "chronological breakdown",
+                "ziggyprompt.md",
+                "files",
+                "examined",
+                "session",
+                "configuration",
+                "myshelf",
+                "actions",
+                "breakdown",
+                "archiving",
+                "deleting"
+            ],
+            "id": "context/context.session.001.20241216.053129.md"
+        }
+    ],
+    "links": []
+}

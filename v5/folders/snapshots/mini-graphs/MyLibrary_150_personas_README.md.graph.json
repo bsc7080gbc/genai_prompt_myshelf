@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 415,
+            "path": "MyLibrary/150/personas/README.md",
+            "keywords": [
+                "modes",
+                "persona",
+                "customizing",
+                "assistant",
+                "user",
+                "genai_prompt_myshelf",
+                "configurations",
+                "bsc7080gbc",
+                "github"
+            ],
+            "id": "MyLibrary/150/personas/README.md"
+        }
+    ],
+    "links": []
+}

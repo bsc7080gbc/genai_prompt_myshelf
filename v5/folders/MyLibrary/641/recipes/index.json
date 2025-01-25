@@ -8,7 +8,7 @@
                 "cocktail mixers",
                 "liquor"
             ]
-        },        
+        },
         {
             "name": "Breakfast",
             "index": "breakfast/index.json",
@@ -52,6 +52,16 @@
                 "quick food",
                 "munchies",
                 "food"
+            ]
+        },
+        {
+            "name": "Vanilla Bourbon Sour",
+            "index": "cocktails/vanilla_bourbon_sour.md",
+            "keywords": [
+                "bourbon",
+                "vanilla",
+                "cocktails",
+                "whiskey sour"
             ]
         }
     ]

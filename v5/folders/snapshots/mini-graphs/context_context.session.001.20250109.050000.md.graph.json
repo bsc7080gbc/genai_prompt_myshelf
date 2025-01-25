@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 256,
+            "path": "context/context.session.001.20250109.050000.md",
+            "keywords": [
+                "recompilation",
+                "prompt",
+                "zero",
+                "includes",
+                "methods",
+                "techniques",
+                "reflection",
+                "decomposition",
+                "context",
+                "entire",
+                "differenworkpflows"
+            ],
+            "id": "context/context.session.001.20250109.050000.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,54 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/647",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/647",
+            "id": "MyLibrary/647"
+        },
+        {
+            "type": "file",
+            "size": 227,
+            "path": "MyLibrary/647/index.json",
+            "keywords": [],
+            "id": "MyLibrary/647/index.json"
+        },
+        {
+            "type": "file",
+            "size": 8,
+            "path": "MyLibrary/647/README.md",
+            "keywords": [
+                "bar"
+            ],
+            "id": "MyLibrary/647/README.md"
+        },
+        {
+            "type": "directory",
+            "path": "MyLibrary/647/mybar",
+            "id": "MyLibrary/647/mybar"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary",
+            "target": "MyLibrary/647"
+        },
+        {
+            "source": "MyLibrary/647",
+            "target": "MyLibrary/647/index.json"
+        },
+        {
+            "source": "MyLibrary/647",
+            "target": "MyLibrary/647/README.md"
+        },
+        {
+            "source": "MyLibrary/647",
+            "target": "MyLibrary/647/mybar"
+        }
+    ],
+    "keywords": [
+        "bar"
+    ],
+    "description": "No description available."
+}

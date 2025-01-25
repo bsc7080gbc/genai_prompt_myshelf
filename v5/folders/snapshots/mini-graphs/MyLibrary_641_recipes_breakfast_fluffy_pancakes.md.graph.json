@@ -1,0 +1,24 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 969,
+            "path": "MyLibrary/641/recipes/breakfast/fluffy_pancakes.md",
+            "keywords": [
+                "fluffy pancakes",
+                "baking",
+                "flour",
+                "pour \u00bc cup",
+                "fluffy",
+                "oil",
+                "egg",
+                "about 2-3 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/breakfast/fluffy_pancakes.md"
+        }
+    ],
+    "links": []
+}

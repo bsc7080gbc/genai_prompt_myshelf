@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 911,
+            "path": "context/context.session.001.20250119.193002.md",
+            "keywords": [
+                "efficient",
+                "connections",
+                "commons",
+                "links",
+                "semantic",
+                "mini",
+                "aligned",
+                "enable",
+                "module",
+                "project myshelf",
+                "github"
+            ],
+            "id": "context/context.session.001.20250119.193002.md"
+        }
+    ],
+    "links": []
+}

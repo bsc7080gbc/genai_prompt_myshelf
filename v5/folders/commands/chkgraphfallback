@@ -1,0 +1,6 @@
+Validate Fallback Strategy for Graphs
+
+1. **Primary**: Verify mini-graphs (e.g., `/snapshots/mini-graphs/personas_150.graph.json`) are accessible and prioritized for specific operations.
+2. **Secondary**: Validate `/snapshots/mini-graphs/registry.json` as the sum total of all mini-graphs for fallback connections.
+3. **Tertiary**: Confirm `/snapshots/mini-graphs/core.graph.json` is used as a last resort for large-scale queries.
+4. **Theme Registry**: Ensure `/snapshots/mini-graph-themes/theme.registry.json` is **only** used for context session lookups, not as a fallback. Explain or error [PASS|FAIL]

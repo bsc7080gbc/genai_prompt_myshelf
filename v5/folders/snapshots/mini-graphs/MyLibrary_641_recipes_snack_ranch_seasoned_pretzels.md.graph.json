@@ -1,0 +1,28 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 804,
+            "path": "MyLibrary/641/recipes/snack/ranch_seasoned_pretzels.md",
+            "keywords": [
+                "baking",
+                "oven to 250",
+                "15-20 minutes",
+                "ranch",
+                "teaspoon",
+                "120",
+                "ranch seasoned",
+                "cool",
+                "oil",
+                "sheet",
+                "pretzels",
+                "optional"
+            ],
+            "id": "MyLibrary/641/recipes/snack/ranch_seasoned_pretzels.md"
+        }
+    ],
+    "links": []
+}

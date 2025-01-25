@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 282,
+            "path": "context/context.session.005.20250115.150000.md",
+            "keywords": [
+                "dependency",
+                "smarttraversal",
+                "frequentlearning",
+                "graphstate",
+                "enriched",
+                "graphpath",
+                "enriched traversal proofs policy follow",
+                "follow",
+                "currentsession",
+                "gpinfos"
+            ],
+            "id": "context/context.session.005.20250115.150000.md"
+        }
+    ],
+    "links": []
+}

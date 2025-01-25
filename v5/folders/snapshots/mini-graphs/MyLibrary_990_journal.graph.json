@@ -1,0 +1,70 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/990/journal",
+            "id": "MyLibrary/990/journal"
+        },
+        {
+            "type": "file",
+            "size": 182,
+            "path": "MyLibrary/990/journal/index.json",
+            "keywords": [],
+            "id": "MyLibrary/990/journal/index.json"
+        },
+        {
+            "type": "file",
+            "size": 143,
+            "path": "MyLibrary/990/journal/20250101.md",
+            "keywords": [
+                "feeling",
+                "reflection",
+                "challenges",
+                "reflecting",
+                "# new year",
+                "hopeful",
+                "reflections"
+            ],
+            "id": "MyLibrary/990/journal/20250101.md"
+        },
+        {
+            "type": "file",
+            "size": 781,
+            "path": "MyLibrary/990/journal/20250116.md",
+            "keywords": [
+                "louisville",
+                "accomplished",
+                "like",
+                "## reflections\n- feeling",
+                "january 16, 2025",
+                "journal",
+                "the ohio river",
+                "working",
+                "breaking",
+                "beautiful",
+                "myshelf",
+                "two days",
+                "project myshelf",
+                "## goals"
+            ],
+            "id": "MyLibrary/990/journal/20250116.md"
+        }
+    ],
+    "links": [
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/index.json"
+        },
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/20250101.md"
+        },
+        {
+            "source": "MyLibrary/990/journal",
+            "target": "MyLibrary/990/journal/20250116.md"
+        }
+    ]
+}

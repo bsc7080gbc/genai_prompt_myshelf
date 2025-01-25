@@ -1,0 +1,15 @@
+# Command: verifypersonamode
+
+## Steps:
+1. Load `personamode.json`.
+2. Verify default graph and fallback strategy.
+3. Confirm available persona modes for problem-solving and storytelling.
+
+## Example Output:
+PersonaMode Verification:
+- Default Graph: `personas_150.graph.json` [PASS]
+- Fallback Strategy: Validated [PASS]
+- Problem-Solving Modes: `defaultmode`, `MixologistMode` [PASS]
+- Storytelling Modes: `defaultmode` [PASS]
+
+Errors: None

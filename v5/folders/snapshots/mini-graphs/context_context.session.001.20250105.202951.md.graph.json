@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1086,
+            "path": "context/context.session.001.20250105.202951.md",
+            "keywords": [
+                "updates",
+                "request",
+                "query",
+                "data.json",
+                "response",
+                "2025-01-05t20:51:00z",
+                "## nxt",
+                "user",
+                "## user query",
+                "successfully"
+            ],
+            "id": "context/context.session.001.20250105.202951.md"
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,29 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 993,
+            "path": "context/context.session.002.20250105.233703.md",
+            "keywords": [
+                "37",
+                "2025-01-05t23:37:03",
+                "mode",
+                "query",
+                "ask",
+                "response",
+                "2025-01-05t23:37:03z",
+                "user",
+                "05t23",
+                "kavin hart",
+                "context",
+                "## user query",
+                "playfulmode"
+            ],
+            "id": "context/context.session.002.20250105.233703.md"
+        }
+    ],
+    "links": []
+}

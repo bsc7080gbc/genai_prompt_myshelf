@@ -1,0 +1,36 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-17T00:00:00": "Bring curved monitor to work"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "onion",
+                    "paper towels"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-14T22:28:18.180283Z",
+        "Description": "Updated reminder date to January 17, 2025: Bring curved monitor to work; refreshed metadata timestamp."
+    }
+}

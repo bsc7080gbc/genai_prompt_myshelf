@@ -1,0 +1,40 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2024-01-20T11:00:00-05:00": "Meet with George White for lunch",
+                "2024-01-20T15:00:00-05:00": "Meet with Brian Olson in Paris, KY"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "paper towels",
+                    "apples",
+                    "oranges",
+                    "sugar",
+                    "Canadian Peak"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-20T02:53:25.757147Z",
+        "Description": "Added reminders for January 20, 2024; removed completed reminder. Updated metadata timestamp."
+    }
+}

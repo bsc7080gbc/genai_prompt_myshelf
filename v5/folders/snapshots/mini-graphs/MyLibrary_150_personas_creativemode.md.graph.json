@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1499,
+            "path": "MyLibrary/150/personas/creativemode.md",
+            "keywords": [
+                "mode",
+                "ask",
+                "creative mode",
+                "ideas",
+                "art prompts",
+                "generates",
+                "creative",
+                "prompts",
+                "brainstorming",
+                "novel",
+                "creatively"
+            ],
+            "id": "MyLibrary/150/personas/creativemode.md"
+        }
+    ],
+    "links": []
+}

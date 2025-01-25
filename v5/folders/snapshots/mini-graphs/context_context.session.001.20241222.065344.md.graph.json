@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 317,
+            "path": "context/context.session.001.20241222.065344.md",
+            "keywords": [
+                "44",
+                "53",
+                "conversation",
+                "audit",
+                "session",
+                "saved",
+                "2024-12-22",
+                "context",
+                "associated"
+            ],
+            "id": "context/context.session.001.20241222.065344.md"
+        }
+    ],
+    "links": []
+}

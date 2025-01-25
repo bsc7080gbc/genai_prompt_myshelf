@@ -24,15 +24,21 @@ jobs:
       - name: Set up Python environment
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
       # Step 4: Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install chardet
+          pip install --no-cache-dir chardet==5.1.0
 
-      # Step 5: Get list of changed files with fallback
+      # Step 5: Verify installed dependencies
+      - name: Verify Installed Dependencies
+        run: |
+          echo "Verifying installed dependencies..."
+          pip freeze
+
+      # Step 6: Get list of changed files with fallback
       - name: Get list of changed files
         id: changed-files
         run: |
@@ -52,7 +58,7 @@ jobs:
           fi
           cat changed_files.txt
 
-      # Step 6: Run enforce_utf8.py on changed files
+      # Step 7: Run enforce_utf8.py on changed files
       - name: Run enforce_utf8.py on changed files
         run: |
           python scripts/enforce_utf8.py --filelist changed_files.txt | tee utf8-validation.log
@@ -61,7 +67,7 @@ jobs:
             exit 1
           fi
 
-      # Step 7: Save log to notification-log.txt
+      # Step 8: Save log to notification-log.txt
       - name: Generate Notification Log
         if: failure()  # Only generate log if the job fails
         run: |
@@ -75,7 +81,7 @@ jobs:
           echo "Validation Log:" >> notification-log.txt
           cat utf8-validation.log >> notification-log.txt
 
-      # Step 8: Notify via GitHub Issues
+      # Step 9: Notify via GitHub Issues
       - name: Notify via GitHub Issues
         if: failure()  # Only notify on failure
         uses: peter-evans/create-issue-from-file@v5

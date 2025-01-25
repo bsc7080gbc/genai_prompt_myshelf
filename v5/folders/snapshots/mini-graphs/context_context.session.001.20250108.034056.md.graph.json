@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 432,
+            "path": "context/context.session.001.20250108.034056.md",
+            "keywords": [
+                "conversations",
+                "0.1 \n\n##",
+                "greenland",
+                "session",
+                "considered",
+                "saved",
+                "2025-01-08 - 03:40:56",
+                "the united states",
+                "context"
+            ],
+            "id": "context/context.session.001.20250108.034056.md"
+        }
+    ],
+    "links": []
+}

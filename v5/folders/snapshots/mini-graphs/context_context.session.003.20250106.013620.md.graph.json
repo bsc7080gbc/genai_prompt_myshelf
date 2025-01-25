@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 448,
+            "path": "context/context.session.003.20250106.013620.md",
+            "keywords": [
+                "adjusted",
+                "ask",
+                "user",
+                "06t01",
+                "2025-01-06t01:36:20z",
+                "36",
+                "characters",
+                "4,427",
+                "## user query",
+                "427"
+            ],
+            "id": "context/context.session.003.20250106.013620.md"
+        }
+    ],
+    "links": []
+}

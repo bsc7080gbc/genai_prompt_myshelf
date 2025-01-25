@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1547,
+            "path": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md",
+            "keywords": [
+                "200",
+                "5 minutes",
+                "steaks",
+                "## instructions:",
+                "potatoes",
+                "pepper",
+                "25-30 minutes",
+                "garlic powder",
+                "weeknight",
+                "400",
+                "salt",
+                "garlic butter",
+                "olive",
+                "oil"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/garlic_butter_steak.md"
+        }
+    ],
+    "links": []
+}

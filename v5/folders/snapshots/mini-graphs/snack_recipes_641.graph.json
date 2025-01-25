@@ -1,0 +1,90 @@
+{
+    "type": "mini-graph",
+    "id": "MyLibrary/641/recipes/snack",
+    "nodes": [
+        {
+            "type": "directory",
+            "path": "MyLibrary/641/recipes/snack",
+            "id": "MyLibrary/641/recipes/snack"
+        },
+        {
+            "type": "file",
+            "size": 804,
+            "path": "MyLibrary/641/recipes/snack/ranch_seasoned_pretzels.md",
+            "keywords": [
+                "Ranch Seasoned",
+                "## Instructions",
+                "oven to 250",
+                "120",
+                "Spread"
+            ],
+            "id": "MyLibrary/641/recipes/snack/ranch_seasoned_pretzels.md"
+        },
+        {
+            "type": "file",
+            "size": 690,
+            "path": "MyLibrary/641/recipes/snack/index.json",
+            "keywords": [],
+            "id": "MyLibrary/641/recipes/snack/index.json"
+        },
+        {
+            "type": "file",
+            "size": 1254,
+            "path": "MyLibrary/641/recipes/snack/garlic_parmesan_popcorn.md",
+            "keywords": [
+                "Garlic",
+                "Parmesan",
+                "Italian",
+                "## Instructions",
+                "the Garlic Butter*"
+            ],
+            "id": "MyLibrary/641/recipes/snack/garlic_parmesan_popcorn.md"
+        },
+        {
+            "type": "file",
+            "size": 13,
+            "path": "MyLibrary/641/recipes/snack/README.md",
+            "keywords": [
+                "snack",
+                "recipes"
+            ],
+            "id": "MyLibrary/641/recipes/snack/README.md"
+        }
+    ],
+    "edges": [
+        {
+            "source": "MyLibrary/641/recipes",
+            "target": "MyLibrary/641/recipes/snack"
+        },
+        {
+            "source": "MyLibrary/641/recipes/snack",
+            "target": "MyLibrary/641/recipes/snack/ranch_seasoned_pretzels.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/snack",
+            "target": "MyLibrary/641/recipes/snack/index.json"
+        },
+        {
+            "source": "MyLibrary/641/recipes/snack",
+            "target": "MyLibrary/641/recipes/snack/garlic_parmesan_popcorn.md"
+        },
+        {
+            "source": "MyLibrary/641/recipes/snack",
+            "target": "MyLibrary/641/recipes/snack/README.md"
+        }
+    ],
+    "keywords": [
+        "snack",
+        "oven to 250",
+        "Ranch Seasoned",
+        "Parmesan",
+        "recipes",
+        "## Instructions",
+        "Garlic",
+        "Spread",
+        "120",
+        "Italian",
+        "the Garlic Butter*"
+    ],
+    "description": "No description available."
+}

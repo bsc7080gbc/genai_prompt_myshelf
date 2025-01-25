@@ -1,0 +1,30 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1810,
+            "path": "context/context.session.001.20250112.232459.md",
+            "keywords": [
+                "updates",
+                "fixes",
+                "persona",
+                "2025-01-12",
+                "mybar",
+                "ensured",
+                "personas",
+                "library management & updates",
+                "session",
+                "cocktail",
+                "mylibrary",
+                "enriched context",
+                "recipe",
+                "github"
+            ],
+            "id": "context/context.session.001.20250112.232459.md"
+        }
+    ],
+    "links": []
+}

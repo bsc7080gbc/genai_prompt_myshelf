@@ -1,0 +1,28 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 687,
+            "path": "MyLibrary/641/recipes/lunch/caprese_sandwich.md",
+            "keywords": [
+                "glaze",
+                "balsamic",
+                "mozzarella",
+                "fresh",
+                "leaves",
+                "1 tablespoon balsamic",
+                "caprese sandwich",
+                "pepper",
+                "slices",
+                "basil",
+                "olive",
+                "oil"
+            ],
+            "id": "MyLibrary/641/recipes/lunch/caprese_sandwich.md"
+        }
+    ],
+    "links": []
+}

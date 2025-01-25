@@ -1,0 +1,26 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 231,
+            "path": "context/context.session.004.20250109.071000.md",
+            "keywords": [
+                "complicated",
+                "applicable",
+                "easier",
+                "complex",
+                "break",
+                "concepts",
+                "clear",
+                "generation",
+                "help",
+                "chunking"
+            ],
+            "id": "context/context.session.004.20250109.071000.md"
+        }
+    ],
+    "links": []
+}

@@ -4,10 +4,13 @@
             "name": "Best Grilled Cheese Sandwich",
             "path": "best_grilled_cheese.md",
             "keywords": [
-                "grated",
-                "cheese",
-                "sraw",
-                "buttered"
+                "grilled cheese",
+                "sandwich",
+                "cheddar",
+                "Gruy\u00e8re",
+                "brioche",
+                "comfort food",
+                "quick lunch"
             ],
             "prep_time": "5 minutes",
             "cooking_time": "10 minutes",
@@ -17,7 +20,7 @@
             "name": "Caprese Sandwich",
             "path": "caprese_sandwich.md",
             "keywords": [
-                "mozarella",
+                "mozzarella",
                 "basil",
                 "fresh"
             ],
@@ -33,7 +36,7 @@
                 "bisque",
                 "herb",
                 "croutons",
-                "difficult"
+                "gourmet"
             ],
             "prep_time": "30 minutes",
             "cooking_time": "1 hour",

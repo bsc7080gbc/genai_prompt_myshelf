@@ -1,0 +1,25 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1648,
+            "path": "MyLibrary/README.md",
+            "keywords": [
+                "items",
+                "contains",
+                "areas",
+                "data.json",
+                "assistant",
+                "library",
+                "dinner",
+                "mylibrary",
+                "github"
+            ],
+            "id": "MyLibrary/README.md"
+        }
+    ],
+    "links": []
+}

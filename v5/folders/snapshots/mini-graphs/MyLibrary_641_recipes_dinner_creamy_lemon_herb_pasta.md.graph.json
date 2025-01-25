@@ -1,0 +1,27 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 1020,
+            "path": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md",
+            "keywords": [
+                "pasta",
+                "chicken",
+                "teaspoon",
+                "## instructions:",
+                "pepper",
+                "creamy lemon",
+                "juice",
+                "dried",
+                "salt",
+                "herb pasta",
+                "4-5 minutes"
+            ],
+            "id": "MyLibrary/641/recipes/dinner/creamy_lemon_herb_pasta.md"
+        }
+    ],
+    "links": []
+}

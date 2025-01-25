@@ -1,0 +1,23 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "file",
+            "size": 92,
+            "path": "MyLibrary/641/README.md",
+            "keywords": [
+                "great",
+                "recipes",
+                "dinner",
+                "641",
+                "lunch",
+                "series",
+                "place"
+            ],
+            "id": "MyLibrary/641/README.md"
+        }
+    ],
+    "links": []
+}

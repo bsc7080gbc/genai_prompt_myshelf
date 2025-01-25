@@ -2,18 +2,19 @@
     "Favorites": [
         {
             "name": "My Bar",
-            "type": "index",
-            "index": "MyLibrary/647/mybar/index.json",
-            "path": null,
+            "type": "file",
+            "index": null,
+            "path": "MyLibrary/647/mybar/mybar.json",
             "keywords": [
                 "cocktails",
                 "bar",
                 "alcohol",
                 "liquor"
             ],
-            "description": "Index contains our bar inventory",
+            "description": "Contains our bar inventory",
             "related_mini_graphs": [
-                "snapshots/mini-graphs/mybar_647.graph.json"
+                "snapshots/mini-graphs/MyLibrary_647.graph.json",
+                "snapshots/mini-graphs/MyLibrary_641_recipes_cocktails.graph.json"
             ]
         },
         {
