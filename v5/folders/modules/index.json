@@ -135,7 +135,8 @@
                 "metadata"
             ]
         },
-           "name": "diagnostics",
+        {
+            "name": "diagnostics",
             "path": "diagnostics.json",
             "keywords": [
                 "diagnostics"
