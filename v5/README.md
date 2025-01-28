@@ -1,5 +1,3 @@
-THIS IS NOT READY FOR USE YET. STILL WORKING ON ITEMS. V5 IS SUBJECT TO CHANGE FREQUENTLY AS I WORK OUT ISSUES>
-
 v5 brings several changes to MyShelf
 
 * Introduction of using the raw files from GitHub when peforming the GET operations, e.g. retrieving the data.json file as opposed to using the normal APIs. This increased stability and accuracy of the file retrieval from the GitHub repository.
@@ -27,4 +25,4 @@ curl -X POST -H "Content-Type: application/json" -d '{"this":[{"is":{"some":["te
 
 ** IMPORTANT **
 
-The folders: 'persona' and 'recipies' are important additions  and evolutions of the MyShelf. Previously we would store these items in the data.json and watch it expand. This would evetually cause our data.json file to become too large and performance would be impacted among other things. Now for data needs changes, but not very often, we can ceate a folder on our private repository. that repository would contain a README, possibly an index.json file showing what is the structure of the folder. This approach allows for a wealth of opportunties.
+The folders: 'persona' and 'recipies' are important additions and evolutions of the MyShelf. Previously we would store these items in the data.json and watch it expand. This would eventually cause our data.json file to become too large and performance would be impacted among other things. Now for data needs changes, but not very often, we can ceate a folder on our private repository. that repository would contain a README, possibly an index.json file showing what is the structure of the folder. This approach allows for a wealth of opportunties. 
