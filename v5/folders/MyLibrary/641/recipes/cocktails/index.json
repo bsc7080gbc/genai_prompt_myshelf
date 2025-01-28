@@ -1,0 +1,119 @@
+{
+    "cocktails": [
+        {
+            "name": "Fiery Apple Smash",
+            "path": "FieryAppleSmash.md",
+            "keywords": [
+                "apple",
+                "spiced",
+                "autumn",
+                "cocktail"
+            ],
+            "flavor_profile": "Warm and spiced",
+            "prep_time": "5 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Cranberry Gin Fizz",
+            "path": "cranberry_gin_fizz.md",
+            "keywords": [
+                "cranberry",
+                "gin",
+                "fizz",
+                "bubbly"
+            ],
+            "flavor_profile": "Fruity and refreshing",
+            "prep_time": "6 minutes",
+            "difficulty": "Medium"
+        },
+        {
+            "name": "Green Fairy Old Fashioned",
+            "path": "green_fairy_old_fashioned.md",
+            "keywords": [
+                "absinthe",
+                "old fashioned",
+                "herbal",
+                "cocktail"
+            ],
+            "flavor_profile": "Herbal and bittersweet",
+            "prep_time": "7 minutes",
+            "difficulty": "Hard"
+        },
+        {
+            "name": "Green Hunter Fizz",
+            "path": "green_hunter_fizz.md",
+            "keywords": [
+                "herbal",
+                "fizz",
+                "refreshing",
+                "hunter"
+            ],
+            "flavor_profile": "Herbal and citrusy",
+            "prep_time": "5 minutes",
+            "difficulty": "Medium"
+        },
+        {
+            "name": "Vanilla Jamaican Mudslide",
+            "path": "vanilla_jamaican_mudslide.md",
+            "keywords": [
+                "vanilla",
+                "Jamaican rum",
+                "Kahl\u00faa",
+                "creamy"
+            ],
+            "flavor_profile": "Rich and indulgent",
+            "prep_time": "5 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Lime Jager Twist",
+            "path": "lime_jager_twist.md",
+            "keywords": [
+                "custom"
+            ],
+            "flavor_profile": "Custom",
+            "prep_time": "Unknown",
+            "difficulty": "Unknown"
+        },
+        {
+            "name": "Rusty Rail",
+            "path": "rusty_rail.md",
+            "keywords": [
+                "custom"
+            ],
+            "flavor_profile": "Custom",
+            "prep_time": "Unknown",
+            "difficulty": "Unknown"
+        },
+        {
+            "name": "Vanilla Bourbon Sour",
+            "path": "vanilla_bourbon_sour.md",
+            "keywords": [
+                "custom"
+            ],
+            "flavor_profile": "Custom",
+            "prep_time": "Unknown",
+            "difficulty": "Unknown"
+        },
+        {
+            "name": "Vanilla Whiskey Sour",
+            "path": "vanilla_whiskey_sour.md",
+            "keywords": [
+                "custom"
+            ],
+            "flavor_profil": "Custom",
+            "prep_time": "Unknown",
+            "difficulty": "Unknown"
+        },
+        {
+            "name": "Whiskey Rum Smash",
+            "path": "whiskey_rum_smash.md",
+              "keywords": [
+                "custom"
+            ],
+            "flavor_profil": "Custom",
+            "prep_time": "Unknown",
+            "difficulty": "Unknown"
+        }
+    ]
+}

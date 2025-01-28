@@ -1,0 +1,45 @@
+{
+    "MyLibrary": [
+        {
+            "name": "150",
+            "index": "150/index.json",
+            "keywords": [
+                "personas",
+                "psychology"
+            ]
+        },
+        {
+            "name": "641",
+            "index": "641/index.json",
+            "keywords": [
+                "food",
+                "drinks",
+                "mybar",
+                "my bar",
+                "alcohol",
+                "cocktails",
+                "beverages",
+                "recipes"
+            ]
+        },
+        {
+            "name": "647",
+            "index": "647/index.json",
+            "keywords": [
+                "mybar",
+                "my bar",
+                "alcohol",
+                "cocktails",
+                "beverages"
+            ]
+        },        
+        {
+            "name": "990",
+            "index": "990/index.json",
+            "keywords": [
+                "others",
+                "journal"
+            ]
+        }
+    ]
+}

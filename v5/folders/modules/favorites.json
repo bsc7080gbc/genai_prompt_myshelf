@@ -1,0 +1,70 @@
+{
+    "Favorites": [
+        {
+            "name": "My Bar",
+            "type": "file",
+            "index": null,
+            "path": "MyLibrary/647/mybar/mybar.json",
+            "keywords": [
+                "cocktails",
+                "bar",
+                "alcohol",
+                "liquor"
+            ],
+            "description": "Contains our bar inventory",
+            "related_mini_graphs": [
+                "snapshots/mini-graphs/MyLibrary_647.graph.json",
+                "snapshots/mini-graphs/MyLibrary_641_recipes_cocktails.graph.json"
+            ]
+        },
+        {
+            "name": "Recipe Collection",
+            "type": "index",
+            "index": "MyLibrary/641/recipes/index.json",
+            "path": null,
+            "keywords": [
+                "food",
+                "meals"
+            ],
+            "description": "Index contains pointers to recipes",
+            "related_mini_graphs": [
+                "snapshots/mini-graphs/recipes_641.graph.json",
+                "snapshots/mini-graphs/snack_recipes_641.graph.json",
+                "snapshots/mini-graphs/dessert_recipes_641.graph.json",
+                "snapshots/mini-graphs/dinner_recipes_641.graph.json",                                
+                "snapshots/mini-graphs/lunch_recipes_641.graph.json",                
+                "snapshots/mini-graphs/breakfast_recipes_641.graph.json",  
+                "snapshots/mini-graphs/cocktails_recipes_641.graph.json"                             
+            ]
+        },
+        {
+            "name": "Persona Modes",
+            "type": "index",
+            "index": "MyLibrary/150/personas/index.json",
+            "path": null,
+            "keywords": [
+                "personas",
+                "switchmode"
+            ],
+            "description": "Index contains paths and keywords to personas.",
+            "related_mini_graphs": [
+                "snapshots/mini-graphs/personas_150.graph.json"                            
+            ]
+        },                  
+        {
+            "name": "20250116-Journal Entry",
+            "type": "file",
+            "index": null,
+            "path": "MyLibrary/990/journal/20250116.md",
+            "keywords": [
+                "diary",
+                "journal",
+                "20250116"
+            ],
+            "description": "A journal entry noting cognitive graph mapping success.",
+            "related_mini_graphs": [
+                "snapshots/mini-graphs/journal_990.graph.json"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "Recipes": [
+        {
+            "name": "Cocktails",
+            "index": "cocktails/index.json",
+            "keywords": [
+                "alcohol",
+                "cocktail mixers",
+                "liquor"
+            ]
+        },
+        {
+            "name": "Breakfast",
+            "index": "breakfast/index.json",
+            "keywords": [
+                "morning",
+                "food"
+            ]
+        },
+        {
+            "name": "Lunch",
+            "index": "lunch/index.json",
+            "keywords": [
+                "lunch",
+                "brunch",
+                "food"
+            ]
+        },
+        {
+            "name": "Dinner",
+            "index": "dinner/index.json",
+            "keywords": [
+                "dinner",
+                "supper",
+                "food"
+            ]
+        },
+        {
+            "name": "Dessert",
+            "index": "dessert/index.json",
+            "keywords": [
+                "dessert",
+                "after dinner",
+                "food"
+            ]
+        },
+        {
+            "name": "Snack",
+            "index": "snack/index.json",
+            "keywords": [
+                "snack",
+                "quick food",
+                "munchies",
+                "food"
+            ]
+        },
+        {
+            "name": "Vanilla Bourbon Sour",
+            "index": "cocktails/vanilla_bourbon_sour.md",
+            "keywords": [
+                "bourbon",
+                "vanilla",
+                "cocktails",
+                "whiskey sour"
+            ]
+        }
+    ]
+}

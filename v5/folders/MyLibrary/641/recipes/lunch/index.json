@@ -1,0 +1,46 @@
+{
+    "lunch": [
+        {
+            "name": "Best Grilled Cheese Sandwich",
+            "path": "best_grilled_cheese.md",
+            "keywords": [
+                "grilled cheese",
+                "sandwich",
+                "cheddar",
+                "Gruy\u00e8re",
+                "brioche",
+                "comfort food",
+                "quick lunch"
+            ],
+            "prep_time": "5 minutes",
+            "cooking_time": "10 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Caprese Sandwich",
+            "path": "caprese_sandwich.md",
+            "keywords": [
+                "mozzarella",
+                "basil",
+                "fresh"
+            ],
+            "prep_time": "10 minutes",
+            "cooking_time": "15 minutes",
+            "difficulty": "Easy"
+        },
+        {
+            "name": "Gourmet Lobster Bisque with Herb Croutons",
+            "path": "gourmet_lobster_bisque.md",
+            "keywords": [
+                "lobster",
+                "bisque",
+                "herb",
+                "croutons",
+                "gourmet"
+            ],
+            "prep_time": "30 minutes",
+            "cooking_time": "1 hour",
+            "difficulty": "Hard"
+        }
+    ]
+}

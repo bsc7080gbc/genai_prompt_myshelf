@@ -1,0 +1,12 @@
+{
+    "archive": [
+        {
+            "name": "archives",
+            "path_wildcard": "data.json.*",
+            "keywords": [
+                "archive",
+                "data.json"
+            ]
+        }
+    ]
+}

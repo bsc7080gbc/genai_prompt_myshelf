@@ -1,0 +1,1 @@
+This is a very important folder. It contains all the logic referenced by the core.json. It is effectively the emutable set of information. These are broken down into modules so that you can edit one without disrupting the others.

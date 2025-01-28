@@ -1,0 +1,82 @@
+openapi: 3.1.0
+info:
+  title: World Time API with Default Fallback
+  description: Retrieve the current time for specific or default IANA timezones.
+  version: 1.3.0
+servers:
+  - url: https://worldtimeapi.org/api/timezone
+    description: World Time API
+
+paths:
+  /{IANA}:
+    get:
+      operationId: getTimeByTimezone
+      summary: Retrieve the current time for a specific timezone.
+      description: Fetches the current time for a specific IANA timezone using the World Time API.
+      parameters:
+        - name: IANA
+          in: path
+          required: true
+          description: The IANA timezone identifier (e.g., `America/Argentina/Salta`).
+          schema:
+            type: string
+      responses:
+        "200":
+          description: The current time for the specified IANA timezone.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TimeResponse'
+        "400":
+          description: Bad request due to invalid or malformed IANA timezone.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        "404":
+          description: Timezone not found.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /default:
+    get:
+      operationId: getTimeByDefaultTimezone
+      summary: Retrieve the current time for the default timezone.
+      description: Fetches the current time for the default IANA timezone specified in `core.json`.
+      responses:
+        "200":
+          description: The current time for the default IANA timezone.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TimeResponse'
+        "500":
+          description: Error reading default timezone from `core.json`.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    TimeResponse:
+      type: object
+      properties:
+        timezone:
+          type: string
+          description: The IANA timezone used for the request.
+        datetime:
+          type: string
+          format: date-time
+          description: The current datetime in ISO 8601 format.
+        utc_offset:
+          type: string
+          description: The UTC offset for the timezone.
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          description: A description of the error.

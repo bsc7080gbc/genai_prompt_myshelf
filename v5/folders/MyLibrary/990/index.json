@@ -1,0 +1,14 @@
+{
+    "900": [
+        {
+            "name": "Journal",
+            "index": "journal/index.json",
+            "keywords": [
+                "personal",
+                "notes",
+                "goals",
+                "diary"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+# Command: validatelibrary
+
+## Steps:
+1. Load `dewey_decimal.json`.
+2. Check active categories and their mappings.
+3. Validate if all mapped files exist.
+
+## Example Output:
+Library Validation:
+- Active Categories: 3
+  - 150: Psychology and Personas [PASS]
+  - 641: Food and Drink [PASS]
+  - 990: Miscellaneous [PASS]
+- Missing Files: None
+
+Errors: None

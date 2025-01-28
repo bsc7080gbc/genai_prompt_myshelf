@@ -1,0 +1,37 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {
+                "2025-01-21T09:00:00-05:00": "Check company Stock"
+            }
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": [
+                    "paper towels",
+                    "Canadian Peak",
+                    "coffee"
+                ]
+            },
+            "Gifts": {
+                "Items": [
+                    "rock",
+                    "pencil"
+                ]
+            }
+        },
+        "BlueSky": {
+            "Autocross": {
+                "SkyNotes": "Find a car"
+            }
+        }
+    },
+    "Metadata": {
+        "Version": "1.0.1",
+        "Last Updated": "2025-01-24T10:45:00-05:00",
+        "Description": "Removed apples and oranges from the groceries list."
+    }
+}

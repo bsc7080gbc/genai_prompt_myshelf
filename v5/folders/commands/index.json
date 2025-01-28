@@ -1,0 +1,67 @@
+{
+    "commands": [
+        {
+            "name": "commands",
+            "path": "checkfavorites",
+            "keywords": [
+                "checkfavorites"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "chkgraphfallback",
+            "keywords": [
+                "chkgraphfallback"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "cognitivegraphchk",
+            "keywords": [
+                "cognitivegraphchk"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "testgraph",
+            "keywords": [
+                "testgraph"
+            ]
+        },       
+        {
+            "name": "commands",
+            "path": "validatelibrary",
+            "keywords": [
+                "validatelibrary"
+            ]
+        },       
+        {
+            "name": "commands",
+            "path": "validateschema",
+            "keywords": [
+                "validateschema"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "verifymodules",
+            "keywords": [
+                "verifymodules"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "verifypersonamode",
+            "keywords": [
+                "verifypersonamode"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "calibrate",
+            "keywords": [
+                "calibrate"
+            ]
+        }
+    ]
+}

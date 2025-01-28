@@ -1,0 +1,7 @@
+{
+    "data.json Handling": {
+        "Path Validation": {
+            "PUT": "Must target updates/data.json. Validate paths pre-upload."
+        }
+    }
+}

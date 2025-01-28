@@ -1,0 +1,31 @@
+{
+    "Snapshots": [
+        {
+            "name": "core.graph.json",
+            "path": "core.graph.json",
+            "keywords": [
+                "core.graph.json",
+                "cognitive graph map",
+                "system graph"
+            ]
+        },
+        {
+            "name": "mini-graph-themes",
+            "index": "mini-graph-themes/index.json",
+            "keywords": [
+                "context.session",
+                "cognitive graph map"
+            ]
+        },        
+        {
+            "name": "mini-graphs",
+            "index": "mini-graphs/index.json",
+            "keywords": [
+                "core mini graphs",
+                "mini graphs"
+                "cognitive graph map",
+                "user graph"
+            ]
+        }        
+    ]
+}

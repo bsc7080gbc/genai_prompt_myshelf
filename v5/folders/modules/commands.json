@@ -1,0 +1,102 @@
+{
+    "Commands": {
+        "Paths": {
+            "Personas": "MyLibrary/150/personas/",
+            "Context Session": "context/",
+            "Updates": "updates/"
+        },
+        "GETDATA": {
+            "Description": "Allows fetching data.json from root using raw.githubusercontent.com. Change the {owner} to your profile or org",
+            "Logging": "Log all GETDATA requests with timestamps and user details.",
+            "Request": "GET https://raw.githubusercontent.com/{owner}/MyShelf/main/data.json",
+            "Fallback": {
+                "Actions": [
+                    "If GET request fails, retry up to 3 times with exponential backoff.",
+                    "Log each failed attempt with error details.",
+                    "After final failure, notify user with a message: 'Unable to retrieve data.json. Please check the remote path or try again later.'"
+                ],
+                "Notify User": "Provide clear instructions for manual retrieval or troubleshooting if automated attempts fail."
+            }
+        },
+        "switchmode": {
+            "description": "Switch to a specific persona mode.",
+            "parameters": {
+                "persona": {
+                    "description": "Name of the persona to switch to."
+                }
+            },
+            "hardcoded_path": "MyLibrary/150/personas/",
+            "action": [
+                "Check MyLibrary/150/personas/ for the specified persona file.",
+                "If file exists, load the persona and activate the mode."
+            ],
+            "fallback": {
+                "action": "Log a warning if persona is not found.",
+                "notify_user": "Persona not found. Please ensure the persona name is correct."
+            }
+        },
+        "loadcontext": {
+            "description": "Load and analyze context session raw files for a single date, series of dates, or a date range.",
+            "parameters": {
+                "-d": {
+                    "description": "Single date (YYYYMMDD)",
+                    "prompt": "Enter the specific date to analyze:"
+                },
+                "-s": {
+                    "description": "Series of dates (comma-separated YYYYMMDD)",
+                    "prompt": "Enter the series of dates to analyze (comma-separated):"
+                },
+                "-r": {
+                    "description": "Date range (start_date,end_date in YYYYMMDD)",
+                    "prompt": "Enter the date range to analyze (start_date,end_date):"
+                }
+            },
+            "action": [
+                "If -d, retrieve raw files from raw.githubusercontent.com matching the specified single date (context.session.*.<YYYYMMDD>.*.md).",
+                "If -s, retrieve raw files for each specified date.",
+                "If -r, generate a list of dates within the range and retrieve raw files for each date.",
+                "Validate that all retrieved files match the naming convention context/context.session.###.YYYYMMDD.{Timestamp}.md.",
+                "Retry validation up to 3 times for invalid paths, then skip and log the error.",
+                "Sort files by the 4th element (date) and then by the 3rd element (session) in ascending order.",
+                "Silently enrich and analyze the content of the files.",
+                "Generate and display a unified story summarizing the specified timeframe."
+            ]
+        },
+        "/flushsession": {
+            "description": "Manually trigger session flush and save the current session_audit.",
+            "steps": [
+                {
+                    "step": "Copy current session_audit",
+                    "command": "Copy content to wip_session_audit for temporary storage."
+                },
+                {
+                    "step": "Publish session file",
+                    "command": "Save wip_session_audit as context.session.###.YYYYMMDD.{UTC Timestamp}.md to the `context/` path."
+                },
+                {
+                    "step": "Clear session_audit",
+                    "command": "Reset session_audit container to continue tracking new messages."
+                }
+            ],
+            "validation": [
+                "Ensure file naming follows context.session.###.YYYYMMDD.{UTC Timestamp}.md",
+                "Ensure path begins with `context/`",
+                "Alert on errors during file publish or reset."
+            ]
+        },
+        "/validate-log": {
+            "description": "Manually validate log structure and URL references.",
+            "steps": [
+                {
+                    "step": "Check log format",
+                    "command": "Ensure all entries follow the structured format."
+                },
+                {
+                    "step": "Validate URLs",
+                    "command": "Check all URLs for proper formatting and availability."
+                }
+            ],
+            "Fallback": "If validation fails, log issues and prompt user to correct."
+        }
+    }
+}

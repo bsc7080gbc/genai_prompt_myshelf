@@ -1,0 +1,207 @@
+{
+    "modules": [
+        {
+            "name": "automation",
+            "path": "automation.json",
+            "keywords": [
+                "Automations",
+                "Automated Tasks",
+                "Workflow Optimization",
+                "Session Management",
+                "Friendly Reminder",
+                "Persona Activation",
+                "Reflection Automation",
+                "Automated Reporting",
+                "Save Context",
+                "Enriched Summaries",
+                "Session Enrichment",
+                "Timezone Loading"
+            ]
+        },
+        {
+            "name": "commons",
+            "path": "commons.json",
+            "keywords": [
+                "Graph Resources",
+                "Core Graph",
+                "Mini Graphs",
+                "Theme Graphs",
+                "Registry Metadata",
+                "Theme Weight Threshold",
+                "Match Score Threshold"
+            ]
+        },
+        {
+            "name": "graph",
+            "path": "graph.json",
+            "keywords": [
+                "Core Graph",
+                "Cache Graph",
+                "Mini Graphs",
+                "Theme Registry",
+                "Registry",
+                "Graph Path",
+                "Localized Exploration",
+                "Global Connectivity",
+                "Pre-optimized Graphs",
+                "Thematic Mini-Graphs"
+            ]
+        },
+        {
+            "name": "favorites",
+            "path": "favorite.json",
+            "keywords": [
+                "Favorites",
+                "My Bar",
+                "Recipes"
+            ]
+        },
+        {
+            "name": "commands",
+            "path": "commands.json",
+            "keywords": [
+                "Personas",
+                "Context",
+                "Updates",
+                "File Paths",
+                "Raw Data",
+                "Remote Files",
+                "Directory Traversal"
+            ]
+        },
+        {
+            "name": "data_retrieval",
+            "path": "data_retrieval.json",
+            "keywords": [
+                "Data Retrieval",
+                "Information Extraction",
+                "Metadata",
+                "Recursive Navigation",
+                "Fallback Handling",
+                "Query Processing",
+                "Index-Based Search"
+            ]
+        },
+        {
+            "name": "datajson_handling",
+            "path": "datajson_handling.json",
+            "keywords": [
+                "PUT Operations",
+                "Pre-Upload Validation",
+                "Target Paths",
+                "Updates Directory",
+                "Upload Integrity"
+            ]
+        },
+        {
+            "name": "dewey_decimal",
+            "path": "dewey_decimal.json",
+            "keywords": [
+                "Dewey Decimal System",
+                "Categorization",
+                "Library Organization",
+                "MyLibrary",
+                "Metadata Mapping"
+            ]
+        },
+        {
+            "name": "error_handling",
+            "path": "error_handling.json",
+            "keywords": [
+                "Error Handling",
+                "Error Management",
+                "Parsing Failures",
+                "JSON Parsing",
+                "Traversal Errors",
+                "Metadata Parsing"
+            ]
+        },
+        {
+            "name": "logging",
+            "path": "logging.json",
+            "keywords": [
+                "Logging",
+                "Error Tracking",
+                "Session Logging",
+                "Save Context Logs",
+                "Verbose Logs",
+                "Unstructured Log Handling"
+            ]
+        },
+        {
+            "name": "metadata",
+            "path": "metadata.json",
+            "keywords": [
+                "metadata"
+            ]
+        },
+        {
+            "name": "diagnostics",
+            "path": "diagnostics.json",
+            "keywords": [
+                "diagnostics"
+            ]
+        },
+        {
+            "name": "metadata_interpretation",
+            "path": "metadata_interpretation.json",
+            "keywords": [
+                "Metadata Interpretation",
+                "Metadata Guidelines",
+                "Query Metadata",
+                "Metadata Parsing",
+                "Metadata Navigation"
+            ]
+        },
+        {
+            "name": "navigation",
+            "path": "navigation.json",
+            "keywords": [
+                "Adaptive Navigation",
+                "Metadata Relationships",
+                "Contextual Reasoning",
+                "Prioritization",
+                "Weighting Thresholds",
+                "Dynamic Traversal Depth"
+            ]
+        },
+        {
+            "name": "persona",
+            "path": "persona.json",
+            "keywords": [
+                "User-Persona Alignment"
+            ]
+        },
+        {
+            "name": "rules",
+            "path": "rules.json",
+            "keywords": [
+                "Operational Policies",
+                "Fallback Policy",
+                "Rule Configuration",
+                "System Settings",
+                "Dynamic Adjustments"
+            ]
+        },
+        {
+            "name": "session_management",
+            "path": "session_management.json",
+            "keywords": [
+                "Session Context",
+                "Context Automation",
+                "Context Validation",
+                "Path Enforcement",
+                "Naming Convention"
+            ]
+        },
+        {
+            "name": "timezone",
+            "path": "timezone.json",
+            "keywords": [
+                "timezone",
+                "IANA",
+                "IANA_TZ"
+            ]
+        }
+    ]
+}

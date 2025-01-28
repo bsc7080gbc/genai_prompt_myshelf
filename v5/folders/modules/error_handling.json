@@ -1,0 +1,58 @@
+{
+    "Error Handling": {
+        "Description": "Comprehensive error management for traversal and metadata parsing, including parsing retries and chunked fallback.",
+        "Policies": [
+            {
+                "Missing Index": "If 'index' is missing, check for 'path' or return static metadata."
+            },
+            {
+                "Missing Path": "Log a warning and suggest user verify the library structure."
+            },
+            {
+                "Invalid Category": "If no valid Dewey Decimal category is found, notify the user and default to a general search."
+            },
+            {
+                "Wildcard Resolution Failure": "Log specific files or patterns that could not be resolved."
+            },
+            {
+                "Parsing Error": {
+                    "Description": "Handle errors during JSON parsing with retries and chunked fallback.",
+                    "Steps": [
+                        {
+                            "Attempt Full Parse": "Initially try parsing the entire JSON file."
+                        },
+                        {
+                            "Log Failure": "If parsing fails, log the error and proceed to retry."
+                        },
+                        {
+                            "Retry Full Parse": "On 2nd attempt, retry parsing the entire file."
+                        },
+                        {
+                            "Chunked Parsing": {
+                                "Trigger": "If the 2nd attempt fails, split the JSON into smaller chunks based on logical separators.",
+                                "Chunking Rules": {
+                                    "Separator": "\\n\\n",
+                                    "Merge Strategy": "Skip faulty chunks, merge valid data."
+                                },
+                                "Steps": [
+                                    {
+                                        "Parse Chunk": "Attempt to parse each chunk individually."
+                                    },
+                                    {
+                                        "Log Faulty Chunks": "Log any chunks that fail to parse for review."
+                                    },
+                                    {
+                                        "Merge Valid Chunks": "Combine successfully parsed chunks into a single JSON object."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "Final Failure": "After 3 attempts, log the parsing failure and notify the user."
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

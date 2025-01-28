@@ -1,0 +1,12 @@
+{
+  "Timezone": {
+    "Settings": {
+      "IANA": "America/Kentucky/Louisville",
+      "DST": "Automatic, based on IANA",
+      "DST_Override": {
+        "Enabled": false,
+        "Fixed_Offset": "-05:00"
+      }
+    }
+  }
+}

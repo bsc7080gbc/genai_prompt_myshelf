@@ -1,0 +1,13 @@
+# Command: validateschema
+
+## Steps:
+1. Verify `schema.json` for structural integrity.
+2. Check `template.json` compliance with UTF-8 encoding.
+3. Report errors, if any.
+
+## Example Output:
+Schema Validation:
+- `schema.json`: Valid [PASS]
+- `template.json`: Valid [PASS]
+
+Errors: None

@@ -1,0 +1,74 @@
+{
+    "Modules": {
+        "personamode": {
+            "Description": "Configuration for navigation and querying of persona modes.",
+            "DefaultGraph": {
+                "Path": "snapshots/mini-graphs/personas_150.graph.json",
+                "Enabled": true,
+                "Fallback": {
+                    "UseGraphRegistry": true,
+                    "RegistryPath": "snapshots/mini-graphs/registry.json",
+                    "ThemeRegistryPath": "snapshots/mini-graph-themes/theme.registry.json",
+                    "ExpandToFallback": true
+                }
+            },
+            "PathMaskRules": {
+                "PathMask": "MyLibrary/150/personas/*mode.md",
+                "Description": "Restrict queries to persona mode files under MyLibrary/150/personas."
+            },
+            "SearchRules": {
+                "Attributes": ["keywords", "metadata", "path"],
+                "DynamicExtraction": {
+                    "Enabled": true, "Threshold": 0.05
+                },
+                "Weighting": {
+                    "Enabled": true, "Threshold": 0.05
+                }
+            },
+            "TraversalRules": {
+                "Steps": [{
+                    "Step": "LoadDefaultGraph", "Description": "Start with the default graph for personamode queries."
+                },
+                    {
+                        "Step": "MatchPathMask", "Description": "Filter paths explicitly matching 'MyLibrary/150/personas/*mode.md'."
+                    },
+                    {
+                        "Step": "FallbackToRegistry", "Description": "Traverse the mini-graph registry for related entries."
+                    },
+                    {
+                        "Step": "ExpandThemeRegistry", "Description": "Expand queries using keywords from the ThemeRegistry."
+                    },
+                    {
+                        "Step": "UseCacheGraph", "Description": "Fallback to the cache graph for frequently accessed queries."
+                    },
+                    {
+                        "Step": "FallbackToCoreGraph", "Description": "As a last resort, traverse the core graph for unresolved patterns."
+                    }]
+            },
+            "ActivationCommands": {
+                "SingleMode": {
+                    "Command": "switchmode {mode name}",
+                    "Description": "Activate a single persona mode using its mode name."
+                },
+                "RemoteMode": {
+                    "Command": "switchmode remote {mode name}",
+                    "Description": "Activate a single persona mode remotely using its mode name."
+                },
+                "MultiMode": {
+                    "Command": "switchmode remote {mode name} {mode name} {mode name}",
+                    "Description": "Activate multiple persona modes simultaneously, blending their characteristics."
+                }
+            },
+            "Caching": {
+                "Enabled": true,
+                "Description": "Cache frequently accessed persona mode paths to optimize query performance.",
+                "CacheTTL": 86400
+            },
+            "ErrorHandling": {
+                "LogUnmatchedPatterns": true,
+                "NotifyOnError": true,
+                "FallbackToDefaultGraph": true
+            }
+        }
+    }
+}

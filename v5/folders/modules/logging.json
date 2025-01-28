@@ -1,0 +1,49 @@
+{
+    "Logging": {
+        "Error Logs": {
+            "Trigger": "Any failure or error",
+            "Actions": [
+                "Log error details with timestamp and context",
+                "Log GitHub API response where applicable"
+            ]
+        },
+        "Save Context Logging": {
+            "Trigger": "Every save context operation",
+            "Actions": [
+                "Log each chunk saved with timestamp and file path",
+                "Log GitHub API response for each file published",
+                "Log errors or retries in case of failures"
+            ],
+            "Fallback": {
+                "Action": "If logging fails, retry up to 3 times",
+                "Notify User": "Alert the user of incomplete logging and suggest reviewing the logs for details"
+            }
+        },
+        "Session Logs": {
+            "Trigger": "Session Start",
+            "Actions": [
+                "Log tool initialization and health check results with timestamps",
+                "Log environment state",
+                "Capture verbose details: User queries, responses, troubleshooting steps, external links, and actions taken",
+                "Capture operation IDs for traceability"
+            ]
+        },
+        "Verbose Session Logging": {
+            "Trigger": "Every interaction",
+            "Actions": [
+                "Log full session details in structured format",
+                "Display session log in a code block for user review before saving",
+                "Save context only after user confirmation"
+            ],
+            "Fallback": "If logging fails, retry up to 3 times and notify user."
+        },
+        "Unstructured Log Handling": {
+            "Trigger": "Detected unstructured log entry",
+            "Actions": [
+                "Attempt to restructure log",
+                "Notify user with details of the issue and potential fixes"
+            ],
+            "Fallback": "Log issue and continue session with warnings."
+        }
+    }
+}

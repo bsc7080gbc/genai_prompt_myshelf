@@ -1,0 +1,120 @@
+{
+    "Modules": {
+        "GraphModule": {
+            "Description": "The graph module is the neural network of Project MyShelf, interlinking paths, nodes, and themes for seamless exploration and understanding.",
+            "GraphStructure": {
+                "CoreGraph": {
+                    "Description": "The comprehensive representation of all nodes and relationships in MyLibrary, forming the backbone of navigation.",
+                    "Path": "snapshots/core.graph.json",
+                    "Purpose": "Provides global context and deep connectivity for all MyLibrary content."
+                },
+                "CacheGraph": {
+                    "Description": "A pre-optimized subset of the core graph, designed for frequent queries and rapid response times.",
+                    "Path": "snapshots/cache.graph.json",
+                    "Purpose": "Speeds up traversal by caching frequently accessed nodes and their relationships."
+                },
+                "MiniGraphs": {
+                    "Description": "Compact graphs that focus on specific domains or directories for efficient localized exploration.",
+                    "Path": "snapshots/mini-graphs/",
+                    "Registry": "snapshots/mini-graphs/registry.json",
+                    "Purpose": "Facilitates targeted searches and reduces processing overhead by isolating relevant sections of the core graph."
+                },
+                "ThemeRegistry": {
+                    "Description": "A registry linking themes to mini-graphs based on shared keywords and contextual relationships.",
+                    "Path": "snapshots/mini-graph-themes/theme.registry.json",
+                    "Purpose": "Enables thematic exploration and cross-domain traversal based on high-relevance themes."
+                }
+            },
+            "TraversalStrategy": {
+                "Narrative": "The graph module leverages a dynamic, theme-driven traversal strategy to navigate MyShelf. Each query is an entry point into a web of interconnected nodes and themes, dynamically expanding pathways to uncover related content.",
+                "Hierarchy": [
+                    "Favorites: Prioritize frequently accessed nodes.",
+                    "ThemeRegistry: Explore graphs linked by thematic relevance.",
+                    "MiniGraphs: Isolate and traverse focused domains.",
+                    "CoreGraph: Fallback for global context and complex queries."
+                ],
+                "Fallbacks": {
+                    "CacheGraph": "Use cache.graph.json for frequent queries to improve performance.",
+                    "ExpandDepth": "Incrementally expand traversal depth when initial results are insufficient."
+                },
+                "Steps": [
+                    {
+                        "Step": "InitializeQuery",
+                        "Description": "Interpret the query and extract key themes, keywords, or context."
+                    },
+                    {
+                        "Step": "CheckFavorites",
+                        "Description": "Search Favorites for direct matches or shortcuts to relevant nodes."
+                    },
+                    {
+                        "Step": "SearchThemeRegistry",
+                        "Description": "Identify related themes and their associated mini-graphs using the theme.registry.json."
+                    },
+                    {
+                        "Step": "LoadMiniGraphs",
+                        "Description": "Traverse mini-graphs identified from the registry or ThemeRegistry for localized exploration."
+                    },
+                    {
+                        "Step": "FallbackToCoreGraph",
+                        "Description": "If specific traversal fails, use core.graph.json to map global connections and resolve the query."
+                    },
+                    {
+                        "Step": "RefineResults",
+                        "Description": "Filter and prioritize results based on theme relevance, metadata matches, and query context."
+                    }
+                ]
+            },
+            "ThematicIntegration": {
+                "Enabled": true,
+                "Description": "Themes unify traversal by connecting nodes with shared contextual relevance.",
+                "KeyFeatures": [
+                    "Keyword Matching: Match queries to thematic keywords from theme.registry.json.",
+                    "Theme Weighting: Use weights to prioritize the most relevant themes.",
+                    "Dynamic Expansion: Infer new connections between themes based on shared relationships in the cognitive graph."
+                ],
+                "Examples": {
+                    "Personamode Queries": {
+                        "Description": "For a query about personas, prioritize mini-graphs under the '150' Dewey category.",
+                        "Process": [
+                            "Search theme.registry.json for keywords like 'psychology' or 'personas'.",
+                            "Load related mini-graphs from snapshots/mini-graphs/personas_150.graph.json.",
+                            "Fallback to core.graph.json for broader exploration if needed."
+                        ]
+                    },
+                    "Recipe Queries": {
+                        "Description": "For a query about recipes, navigate '641' content using localized mini-graphs.",
+                        "Process": [
+                            "Match keywords like 'recipes' or 'cooking' in theme.registry.json.",
+                            "Explore snapshots/mini-graphs/recipes_641.graph.json for specific entries.",
+                            "Utilize cache.graph.json for frequently searched recipes."
+                        ]
+                    }
+                }
+            },
+            "AccessRules": {
+                "Priority": [
+                    "Favorites",
+                    "ThemeRegistry",
+                    "MiniGraphs",
+                    "CacheGraph",
+                    "CoreGraph"
+                ],
+                "Fallback": "Start with localized graphs and expand to broader contexts as needed."
+            },
+            "PerformanceOptimization": {
+                "Caching": {
+                    "Description": "Optimize frequently accessed queries using cache.graph.json.",
+                    "Enabled": true
+                },
+                "Weighting": {
+                    "Description": "Apply weights to prioritize themes, nodes, and paths.",
+                    "Threshold": 0.05
+                },
+                "SessionContext": {
+                    "Description": "Incorporate session context to refine traversal paths dynamically.",
+                    "Enabled": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+# Command: testgraph
+
+## Steps:
+1. Verify the availability of key graph files:
+   - `registry.json`
+   - `theme.registry.json`
+   - `personas_150.graph.json`
+2. Perform basic traversal and output a sample node.
+
+## Example Output:
+Graph Test:
+- `registry.json`: Accessible [PASS]
+- `theme.registry.json`: Accessible [PASS]
+- `personas_150.graph.json`: Accessible [PASS]
+- Traversal Test: Successful
+  - Sample Node: "ProblemSolverMode" -> Related Nodes: ["CreativeMode", "AnalystMode"]
+
+Errors: None

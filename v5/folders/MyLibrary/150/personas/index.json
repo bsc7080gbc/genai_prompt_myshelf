@@ -1,0 +1,344 @@
+{
+    "personas": [
+        {
+            "name": "aiwhisperermode",
+            "description": "A persona that excels in communicating with and extracting insights from AI systems.",
+            "path": "aiwhisperermode.md",
+            "keywords": [
+                "AI",
+                "communication",
+                "insights"
+            ]
+        },
+        {
+            "name": "alexjonesmode",
+            "description": "A persona embodying the controversial and outspoken character of Alex Jones.",
+            "path": "alexjonesmode.md",
+            "keywords": [
+                "controversial",
+                "outspoken",
+                "conspiracy"
+            ]
+        },
+        {
+            "name": "automechanicmode",
+            "description": "A practical persona focused on automotive repairs and troubleshooting.",
+            "path": "automechanicmode.md",
+            "keywords": [
+                "automotive",
+                "repairs",
+                "troubleshooting"
+            ]
+        },
+        {
+            "name": "carlsaganmode",
+            "description": "A persona inspired by Carl Sagan, exploring the cosmos and scientific wonders.",
+            "path": "carlsaganmode.md",
+            "keywords": [
+                "cosmos",
+                "science",
+                "curiosity"
+            ]
+        },
+        {
+            "name": "cookingmode",
+            "description": "A persona focused on culinary creativity and providing step-by-step recipes.",
+            "path": "cookingmode.md",
+            "keywords": [
+                "cooking",
+                "recipes",
+                "culinary"
+            ]
+        },
+        {
+            "name": "cornholiomode",
+            "description": "A quirky and humorous persona with an eccentric flair.",
+            "path": "cornholiomode.md",
+            "keywords": [
+                "humor",
+                "quirky",
+                "eccentric"
+            ]
+        },
+        {
+            "name": "creativemode",
+            "description": "A persona designed to spark imagination and foster creative thinking.",
+            "path": "creativemode.md",
+            "keywords": [
+                "creativity",
+                "imagination",
+                "ideas"
+            ]
+        },
+        {
+            "name": "cunkmode",
+            "description": "A persona inspired by mockumentary humor and deadpan comedy.",
+            "path": "cunkmode.md",
+            "keywords": [
+                "humor",
+                "comedy",
+                "mockumentary"
+            ]
+        },
+        {
+            "name": "damnmode",
+            "description": "A bold and unfiltered persona, perfect for no-nonsense advice and commentary.",
+            "path": "damnmode.md",
+            "keywords": [
+                "bold",
+                "unfiltered",
+                "direct"
+            ]
+        },
+        {
+            "name": "defaultmode",
+            "description": "The balanced and general-purpose assistant mode for all users.",
+            "path": "defaultmode.md",
+            "keywords": [
+                "general",
+                "balanced",
+                "versatile"
+            ]
+        },
+        {
+            "name": "devmode",
+            "description": "A persona tailored for developers, offering coding help and technical insights.",
+            "path": "devmode.md",
+            "keywords": [
+                "developer",
+                "coding",
+                "technical"
+            ]
+        },
+        {
+            "name": "devopsmode",
+            "description": "A persona specialized in DevOps practices and automation.",
+            "path": "devopsmode.md",
+            "keywords": [
+                "DevOps",
+                "automation",
+                "infrastructure"
+            ]
+        },
+        {
+            "name": "diymode",
+            "description": "A hands-on persona offering guidance for do-it-yourself projects.",
+            "path": "diymode.md",
+            "keywords": [
+                "DIY",
+                "crafts",
+                "projects"
+            ]
+        },
+        {
+            "name": "eli5mode",
+            "description": "A persona that explains complex topics in simple, easy-to-understand terms.",
+            "path": "eli5mode.md",
+            "keywords": [
+                "simplification",
+                "clarity",
+                "education"
+            ]
+        },
+        {
+            "name": "empathymode",
+            "description": "A persona that emphasizes compassion, understanding, and support.",
+            "path": "empathymode.md",
+            "keywords": [
+                "compassion",
+                "support",
+                "understanding"
+            ]
+        },
+        {
+            "name": "eventplannermode",
+            "description": "A persona designed to help organize and plan events with ease.",
+            "path": "eventplannermode.md",
+            "keywords": [
+                "organization",
+                "planning",
+                "events"
+            ]
+        },
+        {
+            "name": "explorermode",
+            "description": "A curious and adventurous persona eager to explore and discover new topics.",
+            "path": "explorermode.md",
+            "keywords": [
+                "adventure",
+                "discovery",
+                "curiosity"
+            ]
+        },
+        {
+            "name": "focusmode",
+            "description": "A persona designed to help users stay on track and achieve their goals.",
+            "path": "focusmode.md",
+            "keywords": [
+                "productivity",
+                "goals",
+                "focus"
+            ]
+        },
+        {
+            "name": "interviewmode",
+            "description": "A persona tailored to simulate and prepare users for professional interviews.",
+            "path": "interviewmode.md",
+            "keywords": [
+                "interviews",
+                "professional",
+                "preparation"
+            ]
+        },
+        {
+            "name": "learnmode",
+            "description": "A dedicated persona for learning new skills and concepts.",
+            "path": "learnmode.md",
+            "keywords": [
+                "learning",
+                "education",
+                "skills"
+            ]
+        },
+        {
+            "name": "michenermode",
+            "description": "A persona inspired by James Michener, weaving deep, immersive narratives.",
+            "path": "michenermode.md",
+            "keywords": [
+                "narrative",
+                "immersive",
+                "storytelling"
+            ]
+        },
+        {
+            "name": "minimalmode",
+            "description": "A persona for users who prefer concise and to-the-point responses.",
+            "path": "minimalmode.md",
+            "keywords": [
+                "concise",
+                "minimal",
+                "focused"
+            ]
+        },
+        {
+            "name": "mixologistmode",
+            "description": "A master mixologist who combines cocktail crafting with engaging stories.",
+            "path": "mixologistmode.md",
+            "keywords": [
+                "cocktails",
+                "mixology",
+                "storytelling"
+            ]
+        },
+        {
+            "name": "openaiexpertmode",
+            "description": "A persona offering deep insights into OpenAI technologies and best practices.",
+            "path": "openaiexpertmode.md",
+            "keywords": [
+                "OpenAI",
+                "expertise",
+                "best practices"
+            ]
+        },
+        {
+            "name": "playfulmode",
+            "description": "A lighthearted persona bringing fun and whimsy to every interaction.",
+            "path": "playfulmode.md",
+            "keywords": [
+                "fun",
+                "whimsy",
+                "lighthearted"
+            ]
+        },
+        {
+            "name": "precisemode",
+            "description": "A persona focused on delivering accurate, detail-oriented responses.",
+            "path": "precisemode.md",
+            "keywords": [
+                "accuracy",
+                "detail",
+                "precision"
+            ]
+        },
+        {
+            "name": "reflectionmode",
+            "description": "A persona designed for deep introspection and thoughtful analysis.",
+            "path": "reflectionmode.md",
+            "keywords": [
+                "introspection",
+                "analysis",
+                "thoughtful"
+            ]
+        },
+        {
+            "name": "studymode",
+            "description": "A persona designed to assist with studying and mastering complex topics.",
+            "path": "studymode.md",
+            "keywords": [
+                "studying",
+                "learning",
+                "mastery"
+            ]
+        },
+        {
+            "name": "teslamusemode",
+            "description": "A persona inspired by Nikola Tesla, combining genius, innovation, and creativity.",
+            "path": "teslamusemode.md",
+            "keywords": [
+                "innovation",
+                "creativity",
+                "genius"
+            ]
+        },
+        {
+            "name": "thorfinnmode",
+            "description": "A persona inspired by the legendary Norse explorer, blending courage and adventure.",
+            "path": "thorfinnmode.md",
+            "keywords": [
+                "Norse",
+                "explorer",
+                "adventure"
+            ]
+        },
+        {
+            "name": "tradwifemode",
+            "description": "A persona embodying traditional homemaking skills and nurturing advice.",
+            "path": "tradwifemode.md",
+            "keywords": [
+                "traditional",
+                "homemaking",
+                "nurturing"
+            ]
+        },
+        {
+            "name": "travelmode",
+            "description": "A wanderlust-filled persona offering travel tips, destination guides, and cultural insights.",
+            "path": "travelmode.md",
+            "keywords": [
+                "travel",
+                "culture",
+                "guides"
+            ]
+        },
+        {
+            "name": "wellnessmode",
+            "description": "A persona focused on promoting mental and physical well-being through practical advice.",
+            "path": "wellnessmode.md",
+            "keywords": [
+                "wellness",
+                "health",
+                "balance"
+            ]
+        },
+        {
+            "name": "ProblemSolverMode",
+            "description": "A mode designed to assist with structured problem-solving, decision-making, and collaboration.",
+            "path": "ProblemSolverMode.md",
+            "keywords": [
+                "problem-solving",
+                "decision-making",
+                "collaboration"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+  "Automations": {
+    "Paths": {
+      "Personas": "MyLibrary/150/personas/",
+      "Context Session": "context/",
+      "Updates": "updates/"
+    },
+    "dynamic_reasoning": {
+      "enabled": true,
+      "rules": {
+        "keyword_inference": {
+          "context_based": true,
+          "sources": [
+            "node descriptions",
+            "graph relationships",
+            "external knowledge"
+          ]
+        },
+        "path_priority": [
+          "files with metadata",
+          "directories with high connectivity"
+        ]
+      }
+    },
+    "adaptive_exploration": {
+      "enabled": true,
+      "depth": "auto",
+      "exploration_logic": {
+        "prioritize": [
+          "linked nodes",
+          "relevant metadata"
+        ],
+        "exclude": [
+          "irrelevant paths or nodes"
+        ]
+      }
+    },
+    "Core Automations": {
+      "Friendly Morning Reminder": {
+        "Trigger": "Good morning",
+        "Action": "Scan 'Reminders' for past due and due-today tasks.",
+        "Response Format": {
+          "Past Due": "You have [X] past due tasks:",
+          "Due Today": "Here is what is on your plate for today:"
+        },
+        "Fallback": "If no tasks are due, respond: 'All clear! Enjoy your day'"
+      }
+    },
+    "Persona Mode Activation": {
+      "Trigger": "switchmode {persona}",
+      "Actions": [
+        "Locate the file in MyLibrary/150/personas/ matching the persona name.",
+        "If the file exists, load its content.",
+        "Activate the persona mode using the loaded settings."
+      ],
+      "Fallback": {
+        "Action": "If no file is found, log an error and notify the user.",
+        "Message": "The requested persona could not be located in MyLibrary/150/personas/."
+      }
+    },
+    "Automated Reflection": {
+      "Trigger": "End of Session",
+      "Actions": [
+        "Generate enriched narrative with detailed session highlights and key takeaways."
+      ]
+    },
+    "Automated Reporting": {
+      "Trigger": "Load context {date or date range}",
+      "Actions": [
+        "Fetch all relevant session context files based on date range.",
+        "Analyze files to extract key themes, actions, challenges, and outcomes.",
+        "Generate a unified report summarizing the day's events.",
+        "Provide detailed per-file summaries if user prefers."
+      ],
+      "Settings": {
+        "Report Type": [
+          "Unified",
+          "Per-File",
+          "Enriched"
+        ],
+        "Default Report Type": "Enriched"
+      },
+      "Save Context Automation": {
+        "Trigger": [
+          "save context",
+          "save enriched context"
+        ],
+        "Actions": [
+          "Enrich session data",
+          "Split data into small chunks",
+          "Apply naming convention: context/context.session.###.YYYYMMDD.{Timestamp}.md",
+          "Publish each chunk to GitHub remote path"
+        ],
+        "Settings": {
+          "Chunk Size": "small",
+          "Default Path": "context/",
+          "Publish Target": "github_remote"
+        },
+        "Fallback": {
+          "Action": "Log any errors and retry up to 3 times",
+          "Notify User": "If retries fail, alert user to check logs for details"
+        }
+      },
+      "Fallback": "If no files are found, notify user: 'No context files found for the specified date(s).'"
+    },
+    "Automated Session Enrichment": {
+      "Trigger": "End of session or user request for report",
+      "Actions": [
+        "Analyze session logs for recurring themes, challenges, and outcomes",
+        "Generate enriched session summaries with actionable insights",
+        "Update context files with enriched data"
+      ],
+      "Fallback": "Notify user if enrichment fails: 'Unable to generate enriched session report. Please review session logs.'"
+    },
+    "Retry Logic": {
+      "Trigger": "API Call Failure",
+      "Actions": [
+        "Check if the error is recoverable (e.g., missing `sha` for PUT operation)",
+        "Retry up to 3 times with exponential backoff",
+        "Log each attempt and its response"
+      ],
+      "Test Mode": {
+        "Enabled": true,
+        "Force Failure": 2
+      },
+      "Error Handling": {
+        "Handle Missing `sha`": {
+          "Action": "If `sha` is missing for a PUT operation, fetch the correct `sha` and retry",
+          "Fallback": "Log: 'Missing `sha` could not be resolved. Operation halted.'"
+        }
+      },
+      "Fallback": {
+        "Action": "Log failure and notify user: 'The operation failed after multiple attempts. Please check the logs.'"
+      }
+    },
+    "Load_Timezone": {
+      "Trigger": [
+        "Query involves 'time' or 'elapsed time'"
+      ],
+      "Action": {
+        "Determine Timezone": "Use provided IANA timezone, or query for default.",
+        "Convert Time": "Fetch current UTC and convert using timezone offset.",
+        "Annotate Session Logs": "Add localized timestamps for historical context."
+      },
+      "Fallback": "If no timezone is resolvable, default to UTC."
+    },
+    "Session Timeout Handling": {
+      "Trigger": "Inactivity > 3600 seconds",
+      "Actions": [
+        "Save current session log to prevent data loss",
+        "Display reconnection prompt: 'Welcome back! Resuming your session...'"
+      ],
+      "Fallback": "If user does not respond, suspend session tracking until reactivation."
+    },
+    "Path Validation for PUT Operations": {
+      "Trigger": "Before PUT operation on `data.json`",
+      "Validation": [
+        {
+          "Check": "Target path must match `updates/data.json`",
+          "Action": {
+            "If True": "Proceed with the operation.",
+            "If False": {
+              "Halt Operation": true,
+              "Log Message": "Path validation failed: Unauthorized target path for `data.json`. Operation aborted."
+            }
+          }
+        }
+      ]
+    },
+    "User Confirmation for Sensitive Operations": {
+      "Trigger": "Sensitive operation (e.g., root PUT attempt for `data.json`)",
+      "Actions": [
+        "Display warning: 'You are about to modify the root path. Confirm or cancel.'",
+        {
+          "If Confirmed": "Log user approval and proceed.",
+          "If Cancelled": "Abort operation and log: 'User canceled the operation.'"
+        }
+      ],
+      "Enhanced Risk Analysis": {
+        "Action": "Provide risk analysis for user review before proceeding."
+      }
+    }
+  }
+}

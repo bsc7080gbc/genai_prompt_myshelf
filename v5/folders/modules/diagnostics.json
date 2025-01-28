@@ -1,0 +1,38 @@
+{
+  "Diagnostics": {
+    "Commands": {
+      "verifymodules": {
+        "Description": "Checks if all modules specified in core.json are accessible.",
+        "Instruction": "Run `execute verify-modules` to test module accessibility.",
+        "Path": "commands/verifymodules"
+      },
+      "validateschema": {
+        "Description": "Validates schema.json and template.json for compliance and integrity.",
+        "Instruction": "Run `execute validateschema` to validate schemas.",
+        "Path": "commands/validateschema"
+      },
+      "checkfavorites": {
+        "Description": "Verifies the integrity and availability of entries in favorites.json.",
+        "Instruction": "Run `execute checkfavorites` to test favorite entries.",
+        "Path": "commands/checkfavorites"
+      },
+      "testgraph": {
+        "Description": "Tests accessibility and basic traversal of key graph files.",
+        "Instruction": "Run `execute testgraph` to validate graph functionality.",
+        "Path": "commands/testgraph"
+      },
+      "validatelibrary": {
+        "Description": "Checks dewey_decimal.json for active categories and file mappings.",
+        "Instruction": "Run `execute validatelibrary` to test library configuration.",
+        "Path": "commands/validatelibrary"
+      },
+      "verifypersonamode": {
+        "Description": "Validates the configuration and functionality of persona modes.",
+        "Instruction": "Run `execute verifypersonamode` to test persona modes.",
+        "Path": "commands/verifypersonamode"
+      }
+    },
+    "CoreDiagnosticsCommand": "/diagnostics",
+    "Purpose": "Centralized module to manage and execute diagnostic commands efficiently."
+  }
+}

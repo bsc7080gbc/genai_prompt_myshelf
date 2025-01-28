@@ -1,0 +1,82 @@
+{
+    "Scripts": [
+        {
+            "name": "generate_core_graph.py",
+            "path": "generate_core_graph.py",
+            "keywords": [
+                "generate_core_graph.py",
+                "cognitive graph map",
+                "core mapping",
+                "comprehensive"
+            ]
+        },    
+        {
+            "name": "generate_cache_graph.py",
+            "path": "generate_cache_graph.py",
+            "keywords": [
+                "generate_cache_graph.py",
+                "cognitive graph map",
+                "cache mapping",
+                "context session"
+            ]
+        },  
+        {
+            "name": "generate_mini_graphs.py",
+            "path": "generate_mini_graphs.py",
+            "keywords": [
+                "generate_mini_graphs.py",
+                "cognitive mini-graph map",
+                "graph mapping"
+            ]
+        },          
+        {
+            "name": "apply_root_template.py",
+            "path": "apply_root_template.py",
+            "keywords": [
+                "apply_root_template.py",
+                "template validation"
+            ]
+        },
+        {
+            "name": "apply_template.py",
+            "path": "apply_template.py",
+            "keywords": [
+                "apply_template.py",
+                "template modeling"
+            ]
+        },
+        {
+            "name": "cleanup_purge.py",
+            "path": "cleanup_purge.py",
+            "keywords": [
+                "cleanup_purge.py",
+                "cleanup"
+            ]
+        },
+        {
+            "name": "enforce_utf8.py",
+            "path": "enforce_utf8.py",
+            "keywords": [
+                "enforce_utf8.py",
+                "utf8",
+                "characterset"
+            ]
+        },
+        {
+            "name": "validate_json.py",
+            "path": "validate_json.py",
+            "keywords": [
+                "validate_json.py",
+                "validate json structure"
+            ]
+        },
+        {
+            "name": "validate_root_json.py",
+            "path": "validate_root_json.py",
+            "keywords": [
+                "validate_root_json.py",
+                "validate json root structure"
+            ]
+        }          
+    ]
+}

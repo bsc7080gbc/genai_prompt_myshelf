@@ -1,0 +1,125 @@
+---
+name: Generate Cache Graph
+on:
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      reason:
+        description: "Reason for triggering the workflow"
+        required: false
+        default: "Manual trigger"
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  cache_graph_workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Set up Git configuration
+      - name: Set up Git
+        run: |
+          git config user.name "Ziggy[bot]"
+          git config user.email "ziggy@myshelf.ai"
+          git remote set-url origin https://x-access-token:${{ secrets.MYSHELF }}@github.com/${{ github.repository }}.git
+
+      # Step 3: Debug Directory Structure
+      - name: Debug Directory Structure
+        run: |
+          echo "Listing directory structure:"
+          find . -type f -name "*.json" -o -name "*.py" -o -name "*.md"
+
+      # Step 4: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # Step 5: Install Python dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir networkx==3.0 spacy==3.5 scikit-learn==1.3.1
+          python -m spacy download en_core_web_sm
+
+      # Step 6: Verify Installed Dependencies
+      - name: Verify Installed Dependencies
+        run: |
+          echo "Verifying installed dependencies..."
+          pip freeze
+
+      # Step 7: Validate spaCy Model Installation
+      - name: Validate spaCy Model Installation
+        run: |
+          python -m spacy validate
+
+      # Step 8: Validate Context Path
+      - name: Validate Context Path
+        run: |
+          if [ ! -d context ]; then
+            echo "Context directory not found. Exiting." > notification-log.txt
+            exit 1
+          fi
+          echo "Context directory found at $(pwd)."
+
+
+      # Step 9: Run Cache Graph Generation Script
+      - name: Prepare Directories
+        run: |
+          mkdir -p snapshots/mini-graph-themes
+          echo "Ensured mini-graph-themes directory exists."
+
+      - name: Run Cache Graph Generation Script
+        working-directory: /home/runner/work/MyShelf/MyShelf
+        run: |
+          set -e  # Stop workflow on script error
+          python scripts/generate_cache_graph.py || {
+            echo "Cache graph generation failed. Check logs for details." > notification-log.txt
+            exit 1
+          }
+          echo "Cache graph generation completed successfully." >> notification-log.txt
+
+
+
+      # Step 10: Commit and Push Changes
+      - name: Commit and Push Changes
+        if: success() # Ensure the script ran successfully
+        run: |
+          echo "Staging new and updated files, including theme registry..."
+          
+          git add snapshots/mini-graph-themes/theme.registry.json  || echo "No files to add."
+          git add snapshots/mini-graph-themes/context.session.*.theme.graph.json || echo "No files to add."
+          git add snapshots/mini-graph-themes/index.json || echo "No files to add."
+          
+          echo "Committing changes..."
+          git commit -m "Updated theme registry, index.json, *.theme.graph.json, and cache.graph.json on $(date -u +'%Y-%m-%dT%H:%M:%SZ')" || echo "No changes to commit."
+          
+          echo "Pushing changes to remote repository..."
+          git push origin main || echo "No changes to push."
+
+        
+      # Step 11: Notify via GitHub Issues (Failure Notifications)
+      - name: Notify via GitHub Issues
+        if: failure() # Notify only on failure
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Generate Cache Graph - Workflow Failed"
+          content-filepath: ./notification-log.txt
+          labels: failure
+        env:
+          GITHUB_TOKEN: ${{ secrets.MYSHELF }}
+
+      # Step 12: Debug Workflow State
+      - name: Debug Workflow State
+        run: |
+          echo "Git status:"
+          git status
+          echo ".gitignore contents (if exists):"
+          [ -f .gitignore ] && cat .gitignore || echo "No .gitignore found."

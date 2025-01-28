@@ -1,0 +1,5 @@
+# Ignore log files
+*.log
+
+# Ignore specific file
+notification-log.txt

@@ -1,0 +1,156 @@
+{
+    "Dewey Decimal Context": {
+        "Description": "Map Dewey Decimal categories to their corresponding MyLibrary content. Active categories are enriched with detailed metadata.",
+        "Paths": {
+            "MyLibrary": "MyLibrary/"
+        },
+        "Categories": {
+            "000": { "name": "General Knowledge", "used": false },
+            "010": { "name": "Bibliographies", "used": false },
+            "020": { "name": "Library and Information Sciences", "used": false },
+            "030": { "name": "Encyclopedias and General Knowledge", "used": false },
+            "040": { "name": "(Unused)", "used": false },
+            "050": { "name": "Magazines, Journals, and Serial Publications", "used": false },
+            "060": { "name": "Organizations and Museums", "used": false },
+            "070": { "name": "News Media, Journalism, and Publishing", "used": false },
+            "080": { "name": "General Collections", "used": false },
+            "090": { "name": "Rare Books and Manuscripts", "used": false },
+            "100": { "name": "Philosophy and Psychology", "used": false },
+            "110": { "name": "Metaphysics", "used": false },
+            "120": { "name": "Epistemology", "used": false },
+            "130": { "name": "Paranormal Phenomena", "used": false },
+            "140": { "name": "Philosophical Schools of Thought", "used": false },
+            "150": {
+                "name": "Psychology and Personas",
+                "used": true,
+                "description": "Contains personas and psychological insights stored in MyLibrary. Each persona is detailed in its own graph.",
+                "keywords": [
+                    "personas",
+                    "psychology",
+                    "behavior",
+                    "interaction",
+                    "reflection"
+                ],
+                "graphs": [
+                    "snapshots/mini-graphs/personas_150.graph.json"
+                ],
+                "theme_relation": [
+                    "self-awareness",
+                    "communication",
+                    "reflection"
+                ]
+            },
+            "160": { "name": "Logic", "used": false },
+            "170": { "name": "Ethics", "used": false },
+            "180": { "name": "Ancient, Medieval, and Eastern Philosophy", "used": false },
+            "190": { "name": "Modern Western Philosophy", "used": false },
+            "200": { "name": "Religion", "used": false },
+            "210": { "name": "Philosophy and Theory of Religion", "used": false },
+            "220": { "name": "The Bible", "used": false },
+            "230": { "name": "Christianity", "used": false },
+            "240": { "name": "Christian Practice and Worship", "used": false },
+            "250": { "name": "Christian Pastoral Practice", "used": false },
+            "260": { "name": "Christian Social Theology", "used": false },
+            "270": { "name": "History of Christianity", "used": false },
+            "280": { "name": "Christian Denominations", "used": false },
+            "290": { "name": "Other Religions", "used": false },
+            "300": { "name": "Social Sciences", "used": false },
+            "310": { "name": "Statistics", "used": false },
+            "320": { "name": "Political Science", "used": false },
+            "330": { "name": "Economics", "used": false },
+            "340": { "name": "Law", "used": false },
+            "350": { "name": "Public Administration and Military Science", "used": false },
+            "360": { "name": "Social Problems and Services", "used": false },
+            "370": { "name": "Education", "used": false },
+            "380": { "name": "Commerce, Communications, and Transportation", "used": false },
+            "390": { "name": "Customs, Etiquette, and Folklore", "used": false },
+            "400": { "name": "Language", "used": false },
+            "410": { "name": "Linguistics", "used": false },
+            "420": { "name": "English and Old English", "used": false },
+            "430": { "name": "Germanic Languages", "used": false },
+            "440": { "name": "Romance Languages", "used": false },
+            "450": { "name": "Italian, Romanian, and Related Languages", "used": false },
+            "460": { "name": "Spanish and Portuguese", "used": false },
+            "470": { "name": "Latin and Italic Languages", "used": false },
+            "480": { "name": "Classical and Modern Greek Languages", "used": false },
+            "490": { "name": "Other Languages", "used": false },
+            "500": { "name": "Natural Sciences and Mathematics", "used": false },
+            "510": { "name": "Mathematics", "used": false },
+            "520": { "name": "Astronomy", "used": false },
+            "530": { "name": "Physics", "used": false },
+            "540": { "name": "Chemistry", "used": false },
+            "550": { "name": "Earth Sciences", "used": false },
+            "560": { "name": "Fossils and Paleontology", "used": false },
+            "570": { "name": "Life Sciences (Biology)", "used": false },
+            "580": { "name": "Plants (Botany)", "used": false },
+            "590": { "name": "Animals (Zoology)", "used": false },
+            "600": { "name": "Technology (Applied Sciences)", "used": false },
+            "610": { "name": "Medicine and Health", "used": false },
+            "620": { "name": "Engineering", "used": false },
+            "630": { "name": "Agriculture", "used": false },
+            "640": { "name": "Home Economics and Recipes", "used": false },
+            "641": {
+                "name": "Food and Drink",
+                "used": true,
+                "description": "Organized recipes and culinary techniques from MyLibrary. Includes meal types and cocktails.",
+                "keywords": [
+                    "recipes",
+                    "food",
+                    "cooking",
+                    "drinks",
+                    "cocktails",
+                    "ingredients"
+                ],
+                "graphs": [
+                    "snapshots/mini-graphs/recipes_641.graph.json"
+                ],
+                "theme_relation": [
+                    "hospitality",
+                    "flavor",
+                    "craftsmanship"
+                ]
+            },
+            "647": {
+                "name": "Bars and Restaurants",
+                "used": true,
+                "description": "Details My Bar inventory, restaurants, and establishments under MyLibrary. Links to cocktail and bar graphs.",
+                "keywords": [
+                    "bars",
+                    "restaurants",
+                    "mybar",
+                    "inventory",
+                    "cocktails"
+                ],
+                "graphs": [
+                    "snapshots/mini-graphs/MyLibrary_647.graph.json"
+                ],
+                "theme_relation": [
+                    "hospitality",
+                    "craftsmanship",
+                    "entertainment"
+                ]
+            },
+            "650": { "name": "Business and Management", "used": false },
+            "990": {
+                "name": "Other Areas, Journals, Diary",
+                "used": true,
+                "description": "Miscellaneous collections including personal journals and non-specific entries.",
+                "keywords": [
+                    "journals",
+                    "miscellaneous",
+                    "reflections",
+                    "entries"
+                ],
+                "graphs": [
+                    "snapshots/mini-graphs/journal_990.graph.json"
+                ],
+                "theme_relation": [
+                    "introspection",
+                    "memory",
+                    "creativity"
+                ]
+            }
+        },
+        "Fallback": "If no category matches, log an error and notify the user."
+    }
+}

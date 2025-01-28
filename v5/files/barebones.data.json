@@ -1,0 +1,21 @@
+{
+    "MyBoxes": {
+        "Reminders": {
+            "Date Bound": {}
+        },
+        "Generic": {
+            "Notes": []
+        },
+        "Shopping": {
+            "Groceries": {
+                "Items": []
+            }
+        },
+        "BlueSky": {}
+    },
+    "Metadata": {
+        "Version": "1.0.0",
+        "Last Updated": "2025-01-04T00:00:00Z",
+        "Description": "Bare-bones setup for a new user"
+    }
+}

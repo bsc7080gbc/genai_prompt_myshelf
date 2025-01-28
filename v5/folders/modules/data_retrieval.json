@@ -1,0 +1,14 @@
+{
+    "Data Retrieval": {
+        "Description": "Rules for retrieving specific information from MyLibrary.",
+        "Steps": [
+            "1. Identify the target area based on the query (e.g., keywords or category).",
+            "2. Locate the relevant top-level entry in MyLibrary/index.json.",
+            "3. Follow 'index' labels recursively to reach the desired area.",
+            "4. If 'path' is found, fetch the corresponding file.",
+            "5. Extract relevant metadata (e.g., keywords, prep_time, difficulty).",
+            "6. Leverage modules/navigation.json"
+        ],
+        "Fallback": "If no data is found, log the missing path and suggest user verification."
+    }
+}
